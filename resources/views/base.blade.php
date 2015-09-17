@@ -15,7 +15,7 @@
 	
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
 	{!! HTML::style('css/fonts.css'); !!}
-	{!! HTML::style('css/appstyles.css'); !!}
+	{!! HTML::style('css/styles.css'); !!}
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css' />
 
@@ -25,15 +25,49 @@
 	
 </head>
 <body>
-	<header class="Header">
-		<div class="Header-menu">
-			menu
+	<header class="container-fluid navbar-fixed-top">
+		<div class="row">
+			<div class="col-xs-2 lesspadding">
+				<div class="menu-bg">
+					<span class="icon-menu-mobile"></span>
+				</div>
+			</div>
+			<div class="col-xs-8 lesspadding">
+				<figure class="Image">
+					<img class="Image-logo" src="{{ URL::to('/') }}/images/logo_3wv_mobile.png" alt="3wv">
+				</figure>
+			</div>
+			<div class="col-xs-2 lesspadding">
+				<ul class="Social">
+					<li class="Social-lan Social-bg">
+						<figure>
+							<img src="{{ URL::to('/') }}/images/lang-logo.png" alt="language">
+						</figure>
+					</li>
+					<li class="Social-face Social-bg">
+						<figure>
+							<img src="{{ URL::to('/') }}/images/facebook-mobile-logo.png" alt="facebook">
+						</figure>
+					</li>
+					<li class="Social-twit Social-bg">
+						<figure>
+							<img src="{{ URL::to('/') }}/images/twitter-mobile-logo.png" alt="twitter">
+						</figure>
+					</li>
+					<li class="Social-youtube Social-bg">
+						<figure>
+							<img src="{{ URL::to('/') }}/images/youtube-mobile-logo.png" alt="youtube">
+						</figure>
+					</li>
+					<li class="Social-insta Social-bg">
+						<figure>
+							<img src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram">
+						</figure>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div class="Header-logo">
-			<figure>
-				<img src="{{ URL::to('/') }}/images/logo_3wv_mobile.png" alt="3wv">
-			</figure>
-		</div>
+		
 	</header>
 	
 	

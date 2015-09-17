@@ -1,0 +1,45 @@
+.lesspadding{
+	padding: 0;
+}
+.menu-bg{
+	background: rgba(255,255,255,0.5);
+	border-radius: 0 20px 20px 0;
+	text-align: center;
+	width: 50px;
+	padding: 2px 8px 2px 0;
+}
+.Background{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background: url('../images/bg_home.png');
+	height: 662px;
+	z-index: 99999;
+}
+
+.Image{
+	padding: 0 0.5em 0 0.5em;
+}
+
+.Image-logo{
+	width: 100%;
+}
+
+.Social{
+	list-style: none;
+}
+
+.Social li{
+	margin: 0.5em 0 0.5em -2em;
+}
+
+
+.Social-bg{
+	background: rgba(255,255,255,0.5);
+	border-radius: 20px 0 0 20px;
+	text-align: center;
+	width: 50px;
+	padding: 8px 0 8px 0px;
+}
+
