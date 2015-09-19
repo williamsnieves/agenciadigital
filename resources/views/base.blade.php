@@ -16,6 +16,8 @@
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
 	{!! HTML::style('css/fonts.css'); !!}
 	{!! HTML::style('css/styles.css'); !!}
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css' />
 
@@ -67,8 +69,20 @@
 				</ul>
 			</div>
 		</div>
-		
 	</header>
+
+	<nav class="Navigation">
+		<ul>
+			<li><a href="#home">home</a></li>
+			<li><a href="#about">about</a></li>
+			<li><a href="#choose">choose</a></li>
+			<li><a href="#services">services</a></li>
+			<li><a href="#alliances">alliances</a></li>
+			<li><a href="#clients">clients</a></li>
+			<li><a href="#portfolio">portfolio</a></li>
+			<li><a href="#contact">contact</a></li>
+		</ul>
+	</nav>
 	
 	
   	
@@ -78,7 +92,19 @@
 	<footer>
 		@include('footer')
 	</footer>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	@yield('footerscript')
+
+
+	<script>
+		wow = new WOW({
+          boxClass:     'wow',      // default
+          animateClass: 'animated', // default
+          offset:       0,          // default
+          mobile:       true,       // default
+          live:         true        // default
+        })
+        wow.init();
+	</script>
 </body>
 </html>

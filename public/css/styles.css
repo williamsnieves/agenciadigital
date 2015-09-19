@@ -12,10 +12,80 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
+	background: url('../images/bg_home.png') no-repeat;
 	background-size: cover;
-	background: url('../images/bg_home.png');
-	height: 662px;
+	height: 710px;
 	z-index: 99999;
+}
+
+.Background-about{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background: url('../images/bg_about.png') no-repeat;
+	background-size: cover;
+	z-index: 99999;
+	background-color: #4b4b4b;
+}
+
+.Background-choose{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background: url('../images/bg_choose.png') repeat-y;
+	background-size: cover;
+	z-index: 99999;
+	background-color: #4b4b4b;
+}
+
+.Background-service{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background: url('../images/bg_service.png') repeat-y;
+	background-size: cover;
+	z-index: 99999;
+	background-color: #4b4b4b;
+}
+
+.Background-alliance{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background: url('../images/bg_alliance.png') repeat-y;
+	background-size: cover;
+	z-index: 99999;
+	background-color: #4b4b4b;
+}
+
+.Background-clients{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background: url('../images/bg_clients.png') repeat-y;
+	background-size: cover;
+	z-index: 99999;
+	background-color: #4b4b4b;
+}
+
+.Background-portfolio{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background: url('../images/bg_portfolio.png') repeat-y;
+	background-size: cover;
+	z-index: 99999;
+	background-color: #4b4b4b;
+}
+
+.Background-contact{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background: url('../images/bg_contact.png') repeat-y;
+	background-size: cover;
+	z-index: 99999;
+	background-color: #4b4b4b;
 }
 
 .Image{
@@ -42,4 +112,207 @@
 	width: 50px;
 	padding: 8px 0 8px 0px;
 }
+
+.MainTitle{
+	margin: 11em 0 0 0;
+}
+
+.MainAbout{
+	margin: 15em 0 0 0;
+	padding: 0.5em;
+}
+
+.MainTitle-sub{
+	text-align: center;
+	color: #a4a9b2;
+	text-transform: uppercase;
+	margin:0;
+}
+
+.MainTitle-main{
+	text-align: center;
+	color: #f7941e;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.Footer{
+	bottom: 0;
+	right: 0;
+	position: fixed;
+}
+
+.Footer-text{
+	background: rgba(255,255,255,0.8);
+	border-radius: 20px 0 0 20px;
+	text-align: center;
+	padding: 1em;
+    width: 275px;
+    color: #232323;
+    font-size: 0.8em;
+    margin-bottom: 0;
+}
+
+.MainAbout-content{
+	text-align: center;
+	color: white;
+}
+
+.MainAbout-sub{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	margin: 1em 0 1em 0;
+}
+
+.MainAbout-main{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.MainChoose{
+	margin: 15em 0 0 0;
+	padding: 0.5em;
+}
+
+.MainChoose-sub{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	margin: 1em 0 1em 0;
+}
+
+.MainChoose-main{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 2.2em;
+}
+
+.MainChoose-objectives{
+	text-align: center;
+}
+
+.MainChoose-objectives-title{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.MainChoose-objectives-list{
+	color: white;
+}
+
+.MainChoose-objectives-subtitle{
+	text-align: center;
+	color: white;
+}
+
+.MainService{
+	margin: 15em 0 15em 0;
+	padding: 0.5em;
+}
+
+.MainService-sub{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	margin: 1em 0 1em 0;
+}
+
+.MainService-main{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 2.2em;
+}
+
+.MainService-list{
+	color: white;
+}
+
+.MainAlliance{
+	margin: 15em 0 5em 0;
+	padding: 0.5em;
+}
+
+.MainAlliance-main{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 2.2em;
+}
+
+.MainAlliance-partner{
+	text-align: center;
+	margin: 2em 0 0 0;
+}
+
+.MainClients{
+	margin: 15em 0 0 0;
+	padding: 0.5em;
+}
+
+.MainClients-main{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	height: 710px;
+	font-size: 2.2em;
+}
+
+.MainClients-partner{
+	text-align: center;
+	margin: 2em 0 0 0;
+}
+
+
+.MainPortfolio{
+	margin: 15em 0 0 0;
+	padding: 0.5em;
+}
+
+.MainPortfolio-main{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	height: 710px;
+	font-size: 2.2em;
+}
+
+.MainContact{
+	margin: 15em 0 0 0;
+	padding: 0.5em;
+}
+
+.MainContact-main{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	height: 710px;
+	font-size: 2.2em;
+}
+
+.Navigation{
+	position: fixed;
+	z-index: 99999;
+}
+
 
