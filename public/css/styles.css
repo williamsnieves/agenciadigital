@@ -395,20 +395,95 @@
 	padding: 0 0 0 0.5em;
 }
 
-.banner { position: relative; overflow: auto; }
+.banner { position: relative; height: 500px; }
 .banner li { list-style: none; }
 .banner ul li { float: left; }
 
 .grid-clients{
 	padding: 0;
+	margin-left: -1em;
 }
 
 .client-wrapper{
 	padding: 0;
-	margin: 2em 0 10em 0;
+	text-align: center;
 }
 
 .lessright{
 	margin-right: 0;
 }
 
+div.content-clients:first-child{
+	margin-top: 7em;
+	margin-bottom: 4em;
+}
+
+div.content-clients:last-child{
+	margin-bottom: 7em;
+}
+.content-clients{
+	margin: 2em 0 4em 0;
+	padding: 0;
+}
+
+.prev{
+	position: absolute;
+    top: 15em;
+	z-index: 999999;
+}
+
+.next{
+	position: absolute;
+    top: 15em;
+    right: 0;
+    z-index: 999999;
+}
+
+
+@media screen and (min-width: 360px){
+  	
+  	.Background{
+  		height:801px;
+  	}
+
+  	.Background-about{
+  		padding-bottom: 5em;
+  	}
+
+  	.Background-choose{
+  		padding-bottom: 5em;
+  	}
+
+  	.Background-service{
+  		padding-bottom: 5em;
+  	}
+}
+
+@media screen and (min-width: 375px){
+	.Social li {
+    	margin: 0.5em 0 0.5em -1.5em;
+    }
+  	
+  	.Background{
+  		height:801px;
+  	}
+
+  	.Background-about{
+  		padding-bottom: 5em;
+  	}
+
+  	.Background-choose{
+  		padding-bottom: 5em;
+  	}
+
+  	.Background-service{
+  		padding-bottom: 5em;
+  	}
+}
+
+
+@media screen and (min-width: 412px){
+    .Background{
+  		height:853px;
+  	}
+}

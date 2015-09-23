@@ -224,40 +224,26 @@
 					<div class="col-xs-12 MainClients">
 						<h1 class="MainClients-main">clients</h1>					
 						<div class="banner">
+							<a href="#" class="unslider-arrow prev"><img src="{{ URL::to('/') }}/images/prev.png" alt=""></a>
+							<a href="#" class="unslider-arrow next"><img src="{{ URL::to('/') }}/images/next.png" alt=""></a>
 						    <ul>
 						        <li>
 						        	<div class="container-fluid grid-clients">
 						        		<div class="row lessright">
-						        				        				
-						        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client1_mov.png" alt=""></figure>
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>
+						        				<div class="col-xs-12 content-clients">						        					
+						        					<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client1_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>
+						        				</div>        				
 						        			
-						        							        						
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client3_mov.png" alt=""></figure>
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client4_mov.png" alt=""></figure>
-						        			
-						        								        				
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client5_mov.png" alt=""></figure>
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client6_mov.png" alt=""></figure>	
-						        			
-						        		</div>
-						        		
-						        	</div>
-						        </li>
-						        <li>
-						        	<div class="container-fluid grid-clients">
-						        		<div class="row lessright">
-						        				        				
-						        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client1_mov.png" alt=""></figure>
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>
-						        			
-						        							        						
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client3_mov.png" alt=""></figure>
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client4_mov.png" alt=""></figure>
-						        			
-						        								        				
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client5_mov.png" alt=""></figure>
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client6_mov.png" alt=""></figure>	
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client3_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client4_mov.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client5_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client6_mov.png" alt=""></figure>	
+						        				</div>				        				
 						        			
 						        		</div>
 						        		
@@ -266,22 +252,26 @@
 						        <li>
 						        	<div class="container-fluid grid-clients">
 						        		<div class="row lessright">
-						        				        				
-						        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client1_mov.png" alt=""></figure>
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>
+						        				<div class="col-xs-12 content-clients">						        					
+						        					<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client7_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client8_mov.png" alt=""></figure>
+						        				</div>        				
 						        			
-						        							        						
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client3_mov.png" alt=""></figure>
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client4_mov.png" alt=""></figure>
-						        			
-						        								        				
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client5_mov.png" alt=""></figure>
-							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client6_mov.png" alt=""></figure>	
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client9_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client10_mov.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client11_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client12_mov.png" alt=""></figure>	
+						        				</div>				        				
 						        			
 						        		</div>
 						        		
 						        	</div>
 						        </li>
+						        
 						        
 						    </ul>
 						</div>

@@ -202,7 +202,24 @@
 
 
           $(function() {
-    			$('.banner').unslider();
+    		 /*$('.banner').unslider({
+    		 	keys: true,    		 	
+    		 });*/
+
+    		  var unslider = $('.banner').unslider({
+    		  	speed:1000,
+    		  	delay: 30000
+    		  });
+
+    		  $('.banner').height("600");
+    
+			    $('.unslider-arrow').on("click", function(e) {
+			    	e.preventDefault();
+			        var fn = this.className.split(' ')[1];
+			        
+			        //  Either do unslider.data('unslider').next() or .prev() depending on the className
+			        unslider.data('unslider')[fn]();
+			    });
 		  });
 	</script>
 </body>
