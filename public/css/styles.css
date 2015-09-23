@@ -1,3 +1,6 @@
+#slider{
+	display: none;
+}
 .lesspadding{
 	padding: 0;
 }
@@ -270,7 +273,7 @@
 	color: white;
 	text-transform: uppercase;
 	margin: 0;
-	height: 710px;
+	/*height: 710px;*/
 	font-size: 2.2em;
 }
 
@@ -300,19 +303,112 @@
 	padding: 0.5em;
 }
 
+.MainContact-form{
+	margin: 3em 0 6em 0;
+}
+
 .MainContact-main{
 	text-align: center;
 	font-weight: bold;
 	color: white;
 	text-transform: uppercase;
 	margin: 0;
-	height: 710px;
+	/*height: 710px;*/
 	font-size: 2.2em;
 }
 
 .Navigation{
 	position: fixed;
 	z-index: 99999;
+	width: 50%;
+	text-align: center;
+	top: 0;
+	max-width: 100%;
+	
 }
 
+.Navigation ul{
+	list-style: none;
+	padding: 0;
+	
+}
+
+.Navigation ul li{
+	border: 1px solid #f47f21;
+	width: 100%;
+	margin: 0.1em 0 0.1em 0;
+	padding: 1.5em 0 1.5em 0;
+	background: rgba(255,255,255,0.9);
+}
+
+
+.MainContact-button-send{
+	text-align: center;
+}
+
+.MainContact-button-send button{
+	width: 30% !important;
+  	margin: 1em 0 2em 0 !important;
+  	border-radius: 0 !important;
+  	outline: 0 none !important;
+  	background-color: #b74f5c;
+   	background: #b74f5c;
+  	color: #fff;
+  	text-transform: uppercase;
+  	outline: 0 none !important;
+  	border: 0 !important;
+  	font-weight: bold;
+  	padding: 0.5em;
+}
+
+.MainContact-button-send button:hover{
+	
+  	background-color: #b74f5c;
+   	background: #b74f5c;
+  	color: #fff;
+}
+
+.MainContact-form input, textarea{
+  border-radius: 0 !important;
+  outline: 0 none !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.MainContact-form input:focus{
+  outline: 0 none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.MainContact-form textarea:focus{
+  outline: 0 none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.MainContact-form .form-group{
+	margin-right: 0 !important;
+}
+
+
+.margin-input{
+	padding: 0 0 0 0.5em;
+}
+
+.banner { position: relative; overflow: auto; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+
+.grid-clients{
+	padding: 0;
+}
+
+.client-wrapper{
+	padding: 0;
+	margin: 2em 0 10em 0;
+}
+
+.lessright{
+	margin-right: 0;
+}
 

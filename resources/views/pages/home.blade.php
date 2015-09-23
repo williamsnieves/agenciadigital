@@ -223,7 +223,68 @@
 				<div class="row">
 					<div class="col-xs-12 MainClients">
 						<h1 class="MainClients-main">clients</h1>					
-
+						<div class="banner">
+						    <ul>
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				        				
+						        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client1_mov.png" alt=""></figure>
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>
+						        			
+						        							        						
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client3_mov.png" alt=""></figure>
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client4_mov.png" alt=""></figure>
+						        			
+						        								        				
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client5_mov.png" alt=""></figure>
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client6_mov.png" alt=""></figure>	
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				        				
+						        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client1_mov.png" alt=""></figure>
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>
+						        			
+						        							        						
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client3_mov.png" alt=""></figure>
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client4_mov.png" alt=""></figure>
+						        			
+						        								        				
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client5_mov.png" alt=""></figure>
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client6_mov.png" alt=""></figure>	
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				        				
+						        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client1_mov.png" alt=""></figure>
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>
+						        			
+						        							        						
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client3_mov.png" alt=""></figure>
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client4_mov.png" alt=""></figure>
+						        			
+						        								        				
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client5_mov.png" alt=""></figure>
+							        			<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client6_mov.png" alt=""></figure>	
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+						        
+						    </ul>
+						</div>
 						
 
 					</div> 
@@ -258,9 +319,34 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainContact">
-						<h1 class="MainContact-main">contact</h1>					
+						<h1 class="MainContact-main">contacts</h1>					
 
-						
+						<form class="form-horizontal MainContact-form">
+						  <div class="form-group ">
+						    <label for="inputName" class="col-xs-3 control-label">Name</label>
+						    <div class="col-xs-9 margin-input">
+						      <input type="text" class="form-control" id="inputName">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputEmail" class="col-xs-3 control-label">Email</label>
+						    <div class="col-xs-9 margin-input">
+						      <input type="email" class="form-control" id="inputEmail">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputMessage" class="col-xs-3 control-label">Message</label>
+						    <div class="col-xs-9 margin-input">
+						       <textarea class="form-control" rows="3" id="inputMessage"></textarea>
+						    </div>
+						  </div>						
+						 
+						  <div class="form-group">
+						    <div class="col-xs-12 MainContact-button-send">
+						      <button type="submit" class="btn btn-default">Send</button>
+						    </div>
+						  </div>
+						</form>
 
 					</div> 
 				</div>

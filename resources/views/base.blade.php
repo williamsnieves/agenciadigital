@@ -31,7 +31,7 @@
 		<div class="row">
 			<div class="col-xs-2 lesspadding">
 				<div class="menu-bg">
-					<span class="icon-menu-mobile"></span>
+					<span id="trigger" class="icon-menu-mobile"></span>
 				</div>
 			</div>
 			<div class="col-xs-8 lesspadding">
@@ -71,16 +71,64 @@
 		</div>
 	</header>
 
-	<nav class="Navigation">
+	<nav class="Navigation" id="slider">
 		<ul>
-			<li><a href="#home">home</a></li>
-			<li><a href="#about">about</a></li>
-			<li><a href="#choose">choose</a></li>
-			<li><a href="#services">services</a></li>
-			<li><a href="#alliances">alliances</a></li>
-			<li><a href="#clients">clients</a></li>
-			<li><a href="#portfolio">portfolio</a></li>
-			<li><a href="#contact">contact</a></li>
+			<li>
+				<a href="#home">
+					<figure>
+						<img src="{{ URL::to('/') }}/images/icon_home.png" alt="">	
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#about">
+					<figure>
+						<img src="{{ URL::to('/') }}/images/icon_about.png" alt="">	
+					</figure>	
+				</a>
+			</li>
+			<li>
+				<a href="#choose">
+					<figure>
+						<img src="{{ URL::to('/') }}/images/icon_choose.png" alt="">	
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#services">
+					<figure>
+						<img src="{{ URL::to('/') }}/images/icon_gears.png" alt="">	
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#alliances">
+					<figure>
+						<img src="{{ URL::to('/') }}/images/icon_alliance.png" alt="">	
+					</figure>	
+				</a>
+			</li>
+			<li>
+				<a href="#clients">
+					<figure>
+						<img src="{{ URL::to('/') }}/images/icon_clients.png" alt="">	
+					</figure>	
+				</a>
+			</li>
+			<li>
+				<a href="#portfolio">
+					<figure>
+						<img src="{{ URL::to('/') }}/images/icon_portfolio.png" alt="">	
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#contact">
+					<figure>
+						<img src="{{ URL::to('/') }}/images/icon_contact.png" alt="">	
+					</figure>
+				</a>
+			</li>
 		</ul>
 	</nav>
 	
@@ -92,11 +140,15 @@
 	<footer>
 		@include('footer')
 	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	{!! HTML::script('libs/jquery.slidereveal.min.js'); !!}
+	{!! HTML::script('libs/unslider.min.js'); !!}
 	@yield('footerscript')
 
-
+	
 	<script>
+		var isDown = false;
 		wow = new WOW({
           boxClass:     'wow',      // default
           animateClass: 'animated', // default
@@ -105,6 +157,53 @@
           live:         true        // default
         })
         wow.init();
+
+        $("#slider").show();
+
+        var slider =  $('#slider').slideReveal({
+	          trigger: $("#trigger"),   
+	          push:false,
+	          width: 180,           
+	          position: "left",
+	          show: function(slider, trigger){
+	             $('#slider').css("height", "25.2em");
+	          },
+	       });
+
+          $("#slider").on("mousedown", function(){
+            //alert("aquiii");
+            isDown = true;
+            return;           
+            
+          })
+
+          $(document).on("mousedown", function(){
+            if(isDown){
+              isDown = false;
+              return;
+            }else{
+              slider.slideReveal("hide");
+            }
+          })
+
+
+          $(".MainService-list").on("click", function(e){          	
+          	$(e.target).find("ul").toggle("slow");
+          })
+
+          $("#slider a").on("click", function(ev){
+          	ev.preventDefault();
+          	var link = $(ev.target).parent().parent().attr("href");
+          	//console.log($(ev.target).parent().parent().attr("href"));
+          	$("html, body").animate({
+		        scrollTop: $(link).offset().top 
+		    }, 1000);
+          })
+
+
+          $(function() {
+    			$('.banner').unslider();
+		  });
 	</script>
 </body>
 </html>
