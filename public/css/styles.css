@@ -4,6 +4,23 @@
 .lesspadding{
 	padding: 0;
 }
+
+.img-lang-tablet{
+	display: none;
+}
+.img-fb-tablet{
+	display: none;
+}
+.img-twit-tablet{
+	display: none;
+}
+.img-tube-tablet{
+	display: none;
+}
+.img-insta-tablet{
+	display: none;
+}   
+
 .menu-bg{
 	background: rgba(255,255,255,0.5);
 	border-radius: 0 20px 20px 0;
@@ -11,6 +28,7 @@
 	width: 50px;
 	padding: 2px 8px 2px 0;
 }
+
 .Background{
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -337,7 +355,7 @@
 	border: 1px solid #f47f21;
 	width: 100%;
 	margin: 0.1em 0 0.1em 0;
-	padding: 1.5em 0 1.5em 0;
+	padding: 1em 0 1em 0;
 	background: rgba(255,255,255,0.9);
 }
 
@@ -487,3 +505,180 @@ div.content-clients:last-child{
   		height:853px;
   	}
 }
+
+@media screen and (min-width: 480px){
+    .Social li {
+    	margin: 0.5em 0 0.5em -0.5em;
+    }
+    .Background{
+  		height:994px;
+  	}
+}
+
+@media screen and (min-width: 567px){
+    .Social li {
+    	margin: 0.5em 0 0.5em 0.5em;
+    }
+    .Background{
+  		height:1175px;
+  	}
+
+  	.MainTitle {
+    	margin: 18em 0 0 0;
+    }
+}
+
+
+@media screen and (min-width: 598px){
+    .Social li {
+    	margin: 0.5em 0 0.5em 1em;
+    }
+    .Background{
+  		height:1238px;
+  	}
+
+  	.MainTitle {
+    	margin: 18em 0 0 0;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .MainAbout-content{
+    	font-size: 1.2em;
+    }
+
+    .MainChoose-objectives-list{
+    	font-size: 1.2em;
+    }
+
+    .MainChoose-objectives-list{
+    	font-size: 1.2em;
+    }
+
+    .MainChoose-objectives-subtitle{
+		font-size: 1.2em;
+    }
+
+    .MainService-list{
+    	font-size: 1.2em;
+    }
+
+    .MainTitle {
+    	margin: 20em 0 0 0;
+    }
+
+    .MainTitle-sub {
+		font-size: 3em;
+    }
+
+    .MainTitle-main{
+		font-size: 3.5em;
+    }
+
+}
+
+@media screen and (min-width: 640px){
+    .Social li {
+    	margin: 0.5em 0 0.5em 1.5em;
+    }
+    .Background{
+  		height:1325px;
+  	}
+}
+
+@media screen and (min-width: 667px){    
+    .Background{
+  		height:1380px;
+  	}
+}
+
+@media screen and (min-width: 690px){    
+    .Social li {
+    	margin: 0.5em 0 0.5em 2em;
+    }
+
+    .Background{
+  		height:1427px;
+  	}
+}
+
+/**** Tablets ***/
+
+
+@media screen and (min-width: 768px){ 
+	.img-lang{
+		display: none;
+	}
+	.img-fb{
+		display: none;
+	}
+	.img-twit{
+		display: none;
+	}
+	.img-tube{
+		display: none;
+	}
+	.img-insta{
+		display: none;
+	}
+
+	.img-lang-tablet{
+		display: block;
+	}
+	.img-fb-tablet{
+		display: block;
+	}
+	.img-twit-tablet{
+		display: block;
+	}
+	.img-tube-tablet{
+		display: block;
+	}
+	.img-insta-tablet{
+		display: block;
+	}   
+    .Social li {
+    	margin: 0.5em 0 0.5em -0.5em;
+    	padding-left: 1.5em;
+    }
+
+    .Background{
+    	background: url('../images/bg_hometablet.png') no-repeat;
+  		height:1247px;
+  		background-size: cover;
+  		margin-top: -1em;
+  	}
+
+  	.menu-bg {	    
+	    width: 70px;
+	    padding: 11px 8px 11px 0;
+	}
+
+  	.Image {
+	    padding: 0 3.5em 0 3.5em;
+	}
+
+	.MainTitle {
+    	margin: 25em 0 0 0;
+    }
+
+    .MainTitle-sub {
+		font-size: 4em;
+    }
+
+    .MainTitle-main{
+		font-size: 4.5em;
+    }
+
+	/*.Social{
+		position: fixed;
+    	right: 0;
+	}*/
+
+    .Social-bg {
+    	text-align: center;
+	    width: 95px;
+	    padding: 11px 0 11px 0px;
+    }
+}
+

@@ -35,35 +35,40 @@
 				</div>
 			</div>
 			<div class="col-xs-8 lesspadding">
-				<figure class="Image">
-					<img class="Image-logo" src="{{ URL::to('/') }}/images/logo_3wv_mobile.png" alt="3wv">
+				<figure class="Image">					
+					<img class="Image-logo" src="{{ URL::to('/') }}/images/bg_logotablet.png" alt="3wv">
 				</figure>
 			</div>
 			<div class="col-xs-2 lesspadding">
 				<ul class="Social">
 					<li class="Social-lan Social-bg">
 						<figure>
-							<img src="{{ URL::to('/') }}/images/lang-logo.png" alt="language">
+							<img class="img-lang" src="{{ URL::to('/') }}/images/lang-logo.png" alt="language">
+							<img class="img-lang-tablet" src="{{ URL::to('/') }}/images/flag_tablet.png" alt="language">
 						</figure>
 					</li>
 					<li class="Social-face Social-bg">
 						<figure>
-							<img src="{{ URL::to('/') }}/images/facebook-mobile-logo.png" alt="facebook">
+							<img class="img-fb" src="{{ URL::to('/') }}/images/facebook-mobile-logo.png" alt="facebook">
+							<img class="img-fb-tablet" src="{{ URL::to('/') }}/images/fb_tablet.png" alt="facebook">
 						</figure>
 					</li>
 					<li class="Social-twit Social-bg">
 						<figure>
-							<img src="{{ URL::to('/') }}/images/twitter-mobile-logo.png" alt="twitter">
+							<img class="img-twit" src="{{ URL::to('/') }}/images/twitter-mobile-logo.png" alt="twitter">
+							<img class="img-twit-tablet" src="{{ URL::to('/') }}/images/twit_tablet.png" alt="twitter">
 						</figure>
 					</li>
 					<li class="Social-youtube Social-bg">
 						<figure>
-							<img src="{{ URL::to('/') }}/images/youtube-mobile-logo.png" alt="youtube">
+							<img class="img-tube" src="{{ URL::to('/') }}/images/youtube-mobile-logo.png" alt="youtube">
+							<img class="img-tube-tablet" src="{{ URL::to('/') }}/images/tube_tablet.png" alt="youtube">
 						</figure>
 					</li>
 					<li class="Social-insta Social-bg">
 						<figure>
-							<img src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram">
+							<img class="img-insta" src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram">
+							<img class="img-insta-tablet" src="{{ URL::to('/') }}/images/ins_tablet.png" alt="youtube">
 						</figure>
 					</li>
 				</ul>
