@@ -23,7 +23,7 @@
 
 .menu-bg{
 	background: rgba(255,255,255,0.5);
-	border-radius: 0 20px 20px 0;
+	border-radius: 0 30px 30px 0;
 	text-align: center;
 	width: 50px;
 	padding: 2px 8px 2px 0;
@@ -109,6 +109,10 @@
 	background-color: #4b4b4b;
 }
 
+.grid-clients-tablet{
+ 	display: none;
+ }
+
 .Image{
 	padding: 0 0.5em 0 0.5em;
 }
@@ -128,7 +132,7 @@
 
 .Social-bg{
 	background: rgba(255,255,255,0.5);
-	border-radius: 20px 0 0 20px;
+	border-radius: 30px 0 0 30px;
 	text-align: center;
 	width: 50px;
 	padding: 8px 0 8px 0px;
@@ -165,7 +169,7 @@
 
 .Footer-text{
 	background: rgba(255,255,255,0.8);
-	border-radius: 20px 0 0 20px;
+	border-radius: 30px 0 0 30px;
 	text-align: center;
 	padding: 1em;
     width: 275px;
@@ -335,6 +339,10 @@
 	font-size: 2.2em;
 }
 
+.control-label{
+	color: #fff;
+}
+
 .Navigation{
 	position: fixed;
 	z-index: 99999;
@@ -413,7 +421,7 @@
 	padding: 0 0 0 0.5em;
 }
 
-.banner { position: relative; height: 500px; }
+.banner { position: relative; height: 500px; width: auto !important; }
 .banner li { list-style: none; }
 .banner ul li { float: left; }
 
@@ -649,6 +657,128 @@ div.content-clients:last-child{
   		margin-top: -1em;
   	}
 
+  	.Background-about{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background: url('../images/bg-abouttablet.jpg') no-repeat;
+		background-size: cover;
+		z-index: 99999;
+		height:1170px;
+		background-color: #4b4b4b;
+	}
+
+	.Background-choose{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background: url('../images/bg-choosetablet.png') repeat-y;
+		background-size: cover;
+		z-index: 99999;
+		background-color: #4b4b4b;
+	}
+
+	.Background-service{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background: url('../images/bg-servicestablet.png') repeat-y;
+		background-size: cover;
+		z-index: 99999;
+		/*height:1262px;*/
+		background-color: #4b4b4b;
+	}
+
+	.Background-alliance{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background: url('../images/bg-alliancetablet.png') repeat-y;
+		background-size: cover;
+		z-index: 99999;
+		background-color: #4b4b4b;
+	}
+
+	.Background-clients{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background: url('../images/bg-clientstablet.png') repeat-y;
+		background-size: cover;
+		z-index: 99999;
+		background-color: #4b4b4b;
+		padding-bottom: 5em;
+	}
+
+	.Background-contact{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background: url('../images/bg-contactablet.png') repeat-y;
+		background-size: cover;
+		z-index: 99999;
+		background-color: #4b4b4b;
+		padding-bottom: 15em;
+	}
+
+	.MainAbout{
+		margin: 25em 0 0 0;
+    	padding: 1em 3em 0 3em;
+	}
+	.MainAbout-main{
+		font-size: 3em;
+	}
+
+	.MainAbout-sub{
+		font-size: 2em;
+	}
+	.MainAbout-content{
+		font-size: 1.6em;
+	}
+
+	.MainChoose{
+		margin: 22em 0 0 0;
+	}
+
+	.MainChoose-main{
+		font-size: 3em;
+	}
+
+	.MainChoose-sub{
+		font-size: 2em;
+	}
+	.MainChoose-objectives-title{
+		font-size: 2em;
+	}
+	.MainChoose-objectives-list{
+		font-size: 1.5em;
+	}
+	.MainChoose-objectives-subtitle{
+		font-size: 1.5em;
+	}
+
+	.MainService{
+		margin: 22em 0 22em 0;
+	}
+
+	.MainService-main{
+		font-size: 3.2em;
+	}
+	.MainService-sub{
+		font-size: 2em;
+	}
+	.MainService-list{
+		font-size: 2em;
+	}
+
+	.MainClients{
+		margin: 25em 0 0 0;
+	}
+
+	.MainContact{
+		margin: 25em 0 0 0;
+	}
+
   	.menu-bg {	    
 	    width: 70px;
 	    padding: 11px 8px 11px 0;
@@ -670,6 +800,11 @@ div.content-clients:last-child{
 		font-size: 4.5em;
     }
 
+    .MainContact-form{
+    	margin: 3em 0 0 0;
+    	padding-right: 6em;
+    }
+
 	/*.Social{
 		position: fixed;
     	right: 0;
@@ -679,6 +814,29 @@ div.content-clients:last-child{
     	text-align: center;
 	    width: 95px;
 	    padding: 11px 0 11px 0px;
+    }
+
+    .Footer-text{
+    	width: 493px;
+    	font-size: 1.3em;
+    }
+
+    .grid-clients-tablet{
+    	display: block;
+    }
+
+    .grid-clients{
+    	display: none;
+    }
+
+    .clients-img-tablet{
+    	width: 60%;
+    }
+    .input-areatablet{
+    	height: 200px !important;
+    }
+    .input-tablet{
+    	height: 50px;
     }
 }
 

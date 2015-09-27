@@ -232,7 +232,7 @@
 						        		<div class="row lessright">
 						        				<div class="col-xs-12 content-clients">						        					
 						        					<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client1_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>						        					
 						        				</div>        				
 						        			
 						        				<div class="col-xs-12 content-clients">						        					
@@ -243,6 +243,30 @@
 						        				<div class="col-xs-12 content-clients">						        					
 							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client5_mov.png" alt=""></figure>
 							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client6_mov.png" alt=""></figure>	
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+
+						        	<div class="container-fluid grid-clients-tablet">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">						        					
+						        					<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client1tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client2tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client3tablet.png" alt=""></figure>						        											        					
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client4tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client5tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client6tablet.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client7tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client8tablet.png" alt=""></figure>	
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client9tablet.png" alt=""></figure>	
 						        				</div>				        				
 						        			
 						        		</div>
@@ -265,6 +289,77 @@
 						        				<div class="col-xs-12 content-clients">						        					
 							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client11_mov.png" alt=""></figure>
 							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client12_mov.png" alt=""></figure>	
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+
+						        	<div class="container-fluid grid-clients-tablet">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">						        					
+						        					<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client10tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client11tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client12tablet.png" alt=""></figure>						        											        					
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client13tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client14tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client15tablet.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client16tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client17tablet.png" alt=""></figure>	
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client18tablet.png" alt=""></figure>	
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">						        					
+						        					<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client13_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client14_mov.png" alt=""></figure>
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client15_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client16_mov.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client17_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client18_mov.png" alt=""></figure>	
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+
+						        	<div class="container-fluid grid-clients-tablet">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">						        					
+						        					<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client19tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client20tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client21tablet.png" alt=""></figure>						        											        					
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client22tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client23tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client24tablet.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client25tablet.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client26tablet.png" alt=""></figure>	
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients/client27tablet.png" alt=""></figure>	
 						        				</div>				        				
 						        			
 						        		</div>
@@ -308,35 +403,36 @@
 		<div class="Background-contact">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 MainContact">
+					<div class="col-xs-12 col-md-12 MainContact">
 						<h1 class="MainContact-main">contacts</h1>					
 
 						<form class="form-horizontal MainContact-form">
 						  <div class="form-group ">
 						    <label for="inputName" class="col-xs-3 control-label">Name</label>
 						    <div class="col-xs-9 margin-input">
-						      <input type="text" class="form-control" id="inputName">
+						      <input type="text" class="form-control input-tablet" id="inputName">
 						    </div>
 						  </div>
 						  <div class="form-group">
 						    <label for="inputEmail" class="col-xs-3 control-label">Email</label>
 						    <div class="col-xs-9 margin-input">
-						      <input type="email" class="form-control" id="inputEmail">
+						      <input type="email" class="form-control input-tablet" id="inputEmail">
 						    </div>
 						  </div>
 						  <div class="form-group">
 						    <label for="inputMessage" class="col-xs-3 control-label">Message</label>
 						    <div class="col-xs-9 margin-input">
-						       <textarea class="form-control" rows="3" id="inputMessage"></textarea>
+						       <textarea class="form-control input-areatablet" rows="3" id="inputMessage"></textarea>
 						    </div>
 						  </div>						
 						 
-						  <div class="form-group">
+						  
+						</form>
+						<div class="form-group">
 						    <div class="col-xs-12 MainContact-button-send">
 						      <button type="submit" class="btn btn-default">Send</button>
 						    </div>
-						  </div>
-						</form>
+						</div>
 
 					</div> 
 				</div>
