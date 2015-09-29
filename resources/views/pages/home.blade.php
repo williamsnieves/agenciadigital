@@ -434,6 +434,40 @@
 						    </div>
 						</div>
 
+						<div class="col-xs-12 col-md-12 content-address lesspadding">
+							<div class="col-xs-4">
+								<h4 class="address-title center">caracas - venezuela</h4>
+								
+								<address class="address-content">
+								    Master; (+58212) 991.3376 / 716.5890<br>
+								    Address: Av. Río de Janeiro, Edif. Arizano.<br>
+								    Caracas 1061<br>
+								    Email: info@3wv.net
+								 </address>
+							</div>
+							<div class="col-xs-4">
+								<h4 class="address-title center">miami - usa</h4>
+								
+								<address class="address-content">
+								    Master: (+1) 786.347.6274 / 786.863.8094<br>
+								    Address: 7715 NW 48th street, Suite 390 Miami, Fl <br>
+								    33166<br>
+								    Email: info@3wv.net
+								 </address>
+							</div>
+							<div class="col-xs-4">
+								<h4 class="address-title center">san jose - costa rica</h4>
+								
+								<address class="address-content">
+								    Master: (+506) 2248.34.85<br>
+								    Address: Av. Paseo Colón, Torre Mercedes,  <br>
+								    Piso 7,<br>
+								    San José<br>
+								    Email: ventas@3wv.net
+								 </address>
+							</div>
+						</div>
+
 					</div> 
 				</div>
 			</div>

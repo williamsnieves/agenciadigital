@@ -4,6 +4,13 @@
 .lesspadding{
 	padding: 0;
 }
+.lessbottom{
+	margin-bottom: 0;
+}
+
+.center{
+	text-align: center;
+}
 
 .img-lang-tablet{
 	display: none;
@@ -465,6 +472,25 @@ div.content-clients:last-child{
     z-index: 999999;
 }
 
+.address-content{
+	font-size: 0.8em;
+	color: white;
+}
+
+.address-content a{
+	color: white;
+}
+
+.address-title{
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+.content-address{
+	margin-top: 4em;
+}
+
 
 @media screen and (min-width: 360px){
   	
@@ -838,5 +864,106 @@ div.content-clients:last-child{
     .input-tablet{
     	height: 50px;
     }
+
+    .address-content{
+    	font-size: 0.8em;
+    	color: white;
+    }
+
+    .address-content a{
+    	color: white;
+    }
+
+    .address-title{
+    	color: white;
+    	text-transform: uppercase;
+    }
+
+    .content-address{
+    	margin-top: 4em;
+    }
+}
+
+
+@media screen and (min-width: 768px){ 
+	
+    .Social li {
+    	margin: 0.5em 0 0.5em 0;
+    	padding-left: 1.5em;
+    }
+
+    .Background{
+    	background: url('../images/bg_hometablet.png') no-repeat;
+  		height:1270px;
+  		background-size: cover;
+  		margin-top: -1em;
+  	}
+}
+
+@media screen and (min-width: 960px){ 
+	
+    .Social li {
+    	margin: 0.5em 0 0.5em 2em;
+    	padding-left: 1.5em;
+    }
+
+    .Background{
+    	background: url('../images/bg_hometablet.png') no-repeat;
+  		height:1557px;
+  		background-size: cover;
+  		margin-top: -1em;
+  	}
+}
+
+/*** web ***/
+
+@media screen and (min-width: 1024px){ 
+	
+   .header-mobile{
+   	 display: none;
+   }
+
+   .header-web{
+   	 display: block;
+   }
+
+   .Image{
+   	 text-align: center;
+   }
+
+   .Image-logo{
+   	width: 231px;
+   }
+
+   
+	.menu-bg-web{
+		position: fixed;
+		top: 9em;
+	}
+
+	.menu-bg-web ul{
+		list-style: none;
+		padding: 0;
+		
+	}
+
+	.menu-bg-web ul li{
+		background: rgba(255,255,255,0.5);
+		border-radius: 0 30px 30px 0;
+		text-align: center;
+		width: 80px;		
+		padding: 1em 8px 1em 0;
+		margin: 0.2em 0 0 0; 
+	}
+	
+	.Social{
+		width: 600px;
+		margin-right: -22em;
+	}
+
+	.Social li{
+		display: inline-block;
+		margin: 0.2em;
+	}
 }
 

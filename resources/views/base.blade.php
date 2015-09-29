@@ -27,7 +27,7 @@
 	
 </head>
 <body>
-	<header class="container-fluid navbar-fixed-top">
+	<header class="container-fluid navbar-fixed-top header-mobile">
 		<div class="row">
 			<div class="col-xs-2 lesspadding">
 				<div class="menu-bg">
@@ -71,6 +71,87 @@
 							<img class="img-insta-tablet" src="{{ URL::to('/') }}/images/ins_tablet.png" alt="youtube">
 						</figure>
 					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<header class="container-fluid navbar-fixed-top header-web">
+		<div class="row">
+			<div class="col-xs-2 lesspadding">
+				<div class="menu-bg-web">
+					<ul>
+						<li>
+							<a href="#home">
+								<figure>
+									<img src="{{ URL::to('/') }}/images/icon_home.png" alt="">	
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="#about">
+								<figure>
+									<img src="{{ URL::to('/') }}/images/icon_about.png" alt="">	
+								</figure>	
+							</a>
+						</li>
+						<li>
+							<a href="#choose">
+								<figure>
+									<img src="{{ URL::to('/') }}/images/icon_choose.png" alt="">	
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="#services">
+								<figure>
+									<img src="{{ URL::to('/') }}/images/icon_gears.png" alt="">	
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="#alliances">
+								<figure>
+									<img src="{{ URL::to('/') }}/images/icon_alliance.png" alt="">	
+								</figure>	
+							</a>
+						</li>
+						<li>
+							<a href="#clients">
+								<figure>
+									<img src="{{ URL::to('/') }}/images/icon_clients.png" alt="">	
+								</figure>	
+							</a>
+						</li>
+						<li>
+							<a href="#portfolio">
+								<figure>
+									<img src="{{ URL::to('/') }}/images/icon_portfolio.png" alt="">	
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="#contact">
+								<figure>
+									<img src="{{ URL::to('/') }}/images/icon_contact.png" alt="">	
+								</figure>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-8 lesspadding">
+				<figure class="Image">					
+					<img class="Image-logo" src="{{ URL::to('/') }}/images/bg_logoweb.png" alt="3wv">
+				</figure>
+			</div>
+			<div class="col-xs-2 lesspadding">
+				<ul class="Social">
+					<li>language</li>
+					<li>facebook</li>
+					<li>twitter</li>
+					<li>youtube</li>
+					<li>instagram</li>
 				</ul>
 			</div>
 		</div>
@@ -213,7 +294,7 @@
 
     		  var unslider = $('.banner').unslider({
     		  	speed:1000,
-    		  	delay: 30000
+    		  	delay: false
     		  });
 
     		  $('.banner').height("600");
