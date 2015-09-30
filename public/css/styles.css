@@ -941,6 +941,19 @@ div.content-clients:last-child{
 		top: 9em;
 	}
 
+	.web-logo{
+		position: fixed;
+		top: 0;
+		width: 100%;
+    	z-index: 99999999;
+	}
+
+	.web-social{
+		position: fixed;
+		top: 0;
+		right: 6em;
+	}
+
 	.menu-bg-web ul{
 		list-style: none;
 		padding: 0;
@@ -963,7 +976,17 @@ div.content-clients:last-child{
 
 	.Social li{
 		display: inline-block;
-		margin: 0.2em;
+		margin: 0 0.2em 0.2em 0.2em;
+		padding-left : 0;
+	}
+
+	.Social-bg{
+		background: rgba(255,255,255,0.5);
+		border-radius: 0 0 30px 30px;
+		text-align: center;
+		width: 50px;
+		height: 50px;
+		padding: 8px 0 8px 0px;
 	}
 }
 

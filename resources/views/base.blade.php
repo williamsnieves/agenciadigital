@@ -76,9 +76,9 @@
 		</div>
 	</header>
 
-	<header class="container-fluid navbar-fixed-top header-web">
+	<header class="header-web">
 		<div class="row">
-			<div class="col-xs-2 lesspadding">
+			<div class="lesspadding">
 				<div class="menu-bg-web">
 					<ul>
 						<li>
@@ -140,18 +140,38 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-xs-8 lesspadding">
-				<figure class="Image">					
+			<div class="lesspadding">
+				<figure class="Image web-logo">					
 					<img class="Image-logo" src="{{ URL::to('/') }}/images/bg_logoweb.png" alt="3wv">
 				</figure>
 			</div>
-			<div class="col-xs-2 lesspadding">
-				<ul class="Social">
-					<li>language</li>
-					<li>facebook</li>
-					<li>twitter</li>
-					<li>youtube</li>
-					<li>instagram</li>
+			<div class="lesspadding">
+				<ul class="Social web-social">
+					<li class="Social-lan Social-bg">
+						<figure>
+							<img class="img-lang-web" src="{{ URL::to('/') }}/images/lang-logo.png" alt="language">							
+						</figure>
+					</li>
+					<li class="Social-face Social-bg">
+						<figure>
+							<img class="img-fb-web" src="{{ URL::to('/') }}/images/facebook-mobile-logo.png" alt="facebook">							
+						</figure>
+					</li>
+					<li class="Social-twit Social-bg">
+						<figure>
+							<img class="img-twit-web" src="{{ URL::to('/') }}/images/twitter-mobile-logo.png" alt="twitter">							
+						</figure>
+					</li>
+					<li class="Social-youtube Social-bg">
+						<figure>
+							<img class="img-tube-web" src="{{ URL::to('/') }}/images/youtube-mobile-logo.png" alt="youtube">							
+						</figure>
+					</li>
+					<li class="Social-insta Social-bg">
+						<figure>
+							<img class="img-insta-web" src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram">							
+						</figure>
+					</li>
 				</ul>
 			</div>
 		</div>
