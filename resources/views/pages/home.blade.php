@@ -13,7 +13,9 @@
 						<h2 class="MainTitle-sub">and passion</h2>
 						<h2 class="MainTitle-sub">We are more than a</h2>
 						<h1 class="MainTitle-main">digital media</h1>
-						<h1 class="MainTitle-main">agency</h1>			
+						<h1 class="MainTitle-main">agency</h1>
+						<h2 class="MainTitle-sub-web">Unique ideas and passion</h2>
+						<h2 class="MainTitle-sub-web">We are more than a <span class="MainTitle-main-web">digital media agency</span></h2>			
 					</div> 
 				</div>
 			</div>
@@ -37,7 +39,7 @@
 						<p class="MainAbout-content">
 							Our team has the best system engineers and the most creative designers, advertisers, marketing specialists and writters who work together in order to conceptualize, plan, execute and deliver winning and endearing digital and web marketing campaigns. 
 						</p>
-						<p class="MainAbout-content">
+						<p class="MainAbout-content special-title">
 							We believe that technology is the greatest tool to reach the global audience.
 						</p>
 					</div> 
@@ -56,46 +58,64 @@
 					<div class="col-xs-12 MainChoose">
 						<h1 class="MainChoose-main">how we think</h1>			
 						<h4 class="MainChoose-sub">3WV Group philosophy</h4>
-
-						<figure class="MainChoose-objectives wow slideInLeft">
-							<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
-						</figure>
-
-						<h2 class="MainChoose-objectives-title">objectives</h2>
-
-						<ul class="MainChoose-objectives-list">
-							<li>To offer our customers the most engaging and innovative marketing strategies, specifically designed based on the company's budget, style and purpose.</li>
-							<li>To provide our clients with a complete range of IT services.</li>
-							<li>To maintain the highest quality standards.</li>
-							<li>To strengthen our team of highly trained professionals.</li>
-						</ul>
-
-						<p class="MainChoose-objectives-subtitle">
-							We want to maximize the potential of our customer's company and integrate it into the market place in a modern way.
-						</p>
-
-						<figure class="MainChoose-objectives wow slideInLeft">
-							<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
-						</figure>
-
-						<h2 class="MainChoose-objectives-title">vision</h2>
-
-						<p class="MainChoose-objectives-subtitle">At 3WV, we want to become the first resource for small, medium and large size companies/businesses that are looking to expand themselves by means of pioneering digital marketing campaigns for Latin-American and US markets. As well, for those clients demanding excellence in services related to consulting, e-business and IT integrated solutions.</p>
-
 						
-						<figure class="MainChoose-objectives wow slideInLeft">
-							<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
-						</figure>
+						<div class="col-md-4 wrapper-objectives">
+							<figure class="MainChoose-objectives wow slideInLeft">
+								<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
+							</figure>
+							<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="300">
+								<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
+							</figure>
 
-						<h2 class="MainChoose-objectives-title">mission</h2>						
+							<h2 class="MainChoose-objectives-title">objectives</h2>
 
-						<p class="MainChoose-objectives-subtitle">
-							At 3WV, we develop, execute and provide our clients with thriving digital marketing strategies and IT solutions, by means of the most innovative and engaging designs and sophisticated engineering techniques that are entirely friendly to the user and very helpful to our clients. These are customized to your needs in order to assist you efficiently in achieving your business goals.
-						</p>
+							<ul class="MainChoose-objectives-list">
+								<li>To offer our customers the most engaging and innovative marketing strategies, specifically designed based on the company's budget, style and purpose.</li>
+								<li>To provide our clients with a complete range of IT services.</li>
+								<li>To maintain the highest quality standards.</li>
+								<li>To strengthen our team of highly trained professionals.</li>
+							</ul>
 
-						<p class="MainChoose-objectives-subtitle">
-							We listen. We craft. We deliver the most creative strategies and solutions for your success.
-						</p>
+							<p class="MainChoose-objectives-subtitle">
+								We want to maximize the potential of our customer's company and integrate it into the market place in a modern way.
+							</p>	
+						</div>
+						
+						<div class="col-md-4 wrapper-vision">
+							<figure class="MainChoose-objectives wow slideInLeft">
+								<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
+							</figure>
+
+							<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="400" data-wow-duration="1s">
+								<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
+							</figure>
+
+							<h2 class="MainChoose-objectives-title">vision</h2>
+
+							<p class="MainChoose-objectives-subtitle">At 3WV, we want to become the first resource for small, medium and large size companies/businesses that are looking to expand themselves by means of pioneering digital marketing campaigns for Latin-American and US markets. As well, for those clients demanding excellence in services related to consulting, e-business and IT integrated solutions.</p>
+
+						</div>
+						
+						<div class="col-md-4 wrapper-mission">
+							<figure class="MainChoose-objectives wow slideInLeft">
+								<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
+							</figure>
+
+							<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="450">
+								<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
+							</figure>
+
+							<h2 class="MainChoose-objectives-title">mission</h2>						
+
+							<p class="MainChoose-objectives-subtitle">
+								At 3WV, we develop, execute and provide our clients with thriving digital marketing strategies and IT solutions, by means of the most innovative and engaging designs and sophisticated engineering techniques that are entirely friendly to the user and very helpful to our clients. These are customized to your needs in order to assist you efficiently in achieving your business goals.
+							</p>
+
+							<p class="MainChoose-objectives-subtitle">
+								We listen. We craft. We deliver the most creative strategies and solutions for your success.
+							</p>
+						</div>
+						
 
 					</div> 
 				</div>
@@ -116,7 +136,7 @@
 
 						<ul class="MainService-list">						
 							<li>
-								Digital Marketing.
+								Digital Marketing.								
 								<ul style="display:none;">
 									<li>Planning and execution of marketing and advertising campaigns in digital media.</li>
 									<li>Mailing list.</li>
@@ -177,7 +197,91 @@
 									<li>Video.</li>
 								</ul>
 							</li>
-						</ul>						
+						</ul>
+						<ul class="MainService-list-web">						
+							<li>
+								Digital Marketing.							
+								
+							</li>
+							<li>Websites and web applications.
+								
+							</li>
+							<li>Social Media and Community Management.
+								
+							</li>
+							<li>Graphic Design.
+								
+							</li>
+							<li>Multimedia.
+								
+							</li>
+						</ul>
+						<div class="box-service-content marketing" id="marketing">
+							<h3>Digital Marketing</h3>
+							<ul>
+								<li>Planning and execution of marketing and advertising campaigns in digital media.</li>
+								<li>Mailing list.</li>
+								<li>Solutions for phones, tablets and another mobile devices.</li>
+								<li>Custom Database design, development and management.</li>
+								<li>Google, Bing, Yahoo and Facebook Ads.</li>
+								<li>Search Engine Marketing (SEM).</li>
+								<li>Managing Social Media Influencers.</li>
+								<li>Promotional Websites (Mini Sites).</li>
+								<li>Social Media and Community Management.</li>
+								<li>Graphic Design.</li>
+							</ul>
+						</div>
+						<div class="box-service-content web" id="web">
+							<h3>Websites and web applications</h3>
+							<ul>
+								<li>Development of proposals and project drafts.</li>
+								<li>System architecture and components' design.</li>
+								<li>Graphic Design.</li>
+								<li>Programming.</li>
+								<li>Prototype creation and launching.</li>
+								<li>Maintenance, support and help.</li>
+								<li>Web applications.</li>
+								<li>Search Engine Optimization (SEO).</li>
+								<li>Development and setting of Content Management System (CMS).</li>
+								<li>Development of applications for e-Commerce and e-Business.</li>
+								<li>Intranets and Extranets.</li>
+							</ul>
+						</div>
+						<div class="box-service-content community" id="community">
+							<h3>Social Media and Community Management</h3>
+							<ul>
+								<li>Development and implementation of social media strategies.</li>
+								<li>Planning, designing and posting content in social media.</li>
+								<li>Monitoring of actions and activities to measure influence in audiences.</li>
+								<li>Drafting, designing, and posting content from clients and related content in websites and/or blogs.</li>
+								<li>Organization and management of contests and drafts on social media.</li>
+								<li>Preparing reports of results.</li>
+							</ul>
+						</div>
+						<div class="box-service-content design" id="design">
+							<h3>Graphic Design</h3>
+							<ul>
+								<li>Graphic Identity.</li>
+								<li>Design and redesign of logos.</li>
+								<li>Digital Web presence.</li>
+								<li>Cards and stationery.</li>
+								<li>Brochures, triptychs, catalogs, newsletters, magazines.</li>
+								<li>Packaging and Labels.</li>
+								<li>Signs.</li>
+								<li>Illustrations.</li>
+							</ul>
+						</div>
+						<div class="box-service-content multimedia" id="multimedia">
+							<h3>Multimedia</h3>
+							<ul>
+								<li>Multimedia Applications..</li>
+								<li>Electronic cards (e-cards).</li>
+								<li>Interactive CDs.</li>
+								<li>3D Animations.</li>
+								<li>Online learning (e-learning).</li>
+								<li>Video.</li>
+							</ul>
+						</div>						
 
 					</div> 
 				</div>
@@ -195,15 +299,15 @@
 					<div class="col-xs-12 MainAlliance">
 						<h1 class="MainAlliance-main">alliances</h1>					
 
-						<figure class="MainAlliance-partner wow slideInLeft">
+						<figure class="col-md-4 MainAlliance-partner wow slideInLeft">
 							<img src="{{ URL::to('/') }}/images/partner1.png" alt="partner">
 						</figure>
 
-						<figure class="MainAlliance-partner wow slideInRight">
+						<figure class="col-md-4 MainAlliance-partner wow slideInRight">
 							<img src="{{ URL::to('/') }}/images/partner2.png" alt="partner">
 						</figure>
 
-						<figure class="MainAlliance-partner wow slideInLeft">
+						<figure class="col-md-4 MainAlliance-partner wow slideInLeft">
 							<img src="{{ URL::to('/') }}/images/partner3.png" alt="partner">
 						</figure>
 

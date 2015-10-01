@@ -297,7 +297,19 @@
           	$(e.target).find("ul").toggle("slow");
           })
 
+
+
           $("#slider a").on("click", function(ev){
+          	ev.preventDefault();
+          	var link = $(ev.target).parent().parent().attr("href");
+          	//console.log($(ev.target).parent().parent().attr("href"));
+          	$("html, body").animate({
+		        scrollTop: $(link).offset().top 
+		    }, 1000);
+          })
+
+
+          $(".menu-bg-web a").on("click", function(ev){
           	ev.preventDefault();
           	var link = $(ev.target).parent().parent().attr("href");
           	//console.log($(ev.target).parent().parent().attr("href"));
@@ -327,6 +339,72 @@
 			        unslider.data('unslider')[fn]();
 			    });
 		  });
+
+		  $(".MainService-list-web li:nth-child(1)").mouseover(function(e){
+				//alert("test");
+				$("#marketing").show();
+				$("#web").hide();
+				$("#community").hide();
+				$("#design").hide();
+				$("#multimedia").hide();
+			})
+
+		  $(".MainService-list-web li:nth-child(2)").mouseover(function(e){
+				//alert("test");
+				$("#web").show();
+				$("#marketing").hide();
+				$("#community").hide();
+				$("#design").hide();
+				$("#multimedia").hide();
+			})
+
+		  $(".MainService-list-web li:nth-child(3)").mouseover(function(e){
+				//alert("test");
+				$("#community").show();
+				$("#marketing").hide();
+				$("#web").hide();
+				$("#design").hide();
+				$("#multimedia").hide();
+			})
+
+		  $(".MainService-list-web li:nth-child(4)").mouseover(function(e){
+				//alert("test");
+				$("#design").show();
+				$("#marketing").hide();
+				$("#web").hide();
+				$("#community").hide();
+				$("#multimedia").hide();
+			})
+
+		  $(".MainService-list-web li:nth-child(5)").mouseover(function(e){
+				//alert("test");
+				$("#multimedia").show();
+				$("#marketing").hide();
+				$("#web").hide();
+				$("#community").hide();
+				$("#design").hide();
+			})
+
+		  var size = $(window).width();
+
+		
+
+			if(size >= 1024){
+				$(".MainService-list").unbind("click");
+
+				
+			}
+			
+			$(window).resize(function() {
+				var size = $(window).width();
+				if(size >= 1024){
+					$(".MainService-list").unbind("click");
+				}
+					
+			})
+
+
+
 	</script>
 </body>
 </html>
