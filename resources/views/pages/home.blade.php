@@ -16,6 +16,16 @@
 						<h1 class="MainTitle-main">agency</h1>
 						<h2 class="MainTitle-sub-web">Unique ideas and passion</h2>
 						<h2 class="MainTitle-sub-web">We are more than a <span class="MainTitle-main-web">digital media agency</span></h2>			
+					
+						<figure class="fabric-web">
+							<img src="{{ URL::to('/') }}/images/fabric.png" alt="fabric">
+							<img class="absolute gear-big rotating" src="{{ URL::to('/') }}/images/gearbig.png" alt="gear">
+							<img class="absolute gear-small rotating" src="{{ URL::to('/') }}/images/gearsmall.png" alt="gear">
+						</figure>
+						<figure class="table-web">
+							<img src="{{ URL::to('/') }}/images/webtablefabric.png" alt="table">
+						</figure>
+						
 					</div> 
 				</div>
 			</div>
