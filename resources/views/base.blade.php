@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
 	<title>@yield('title')</title>
 	
+	
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -15,13 +16,15 @@
 	
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
 	{!! HTML::style('css/fonts.css'); !!}
+	{!! HTML::style('css/menus.css'); !!}
 	{!! HTML::style('css/styles.css'); !!}
+
+
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css' />
 
-	
 
 
 	
@@ -83,58 +86,42 @@
 					<ul>
 						<li>
 							<a href="#home">
-								<figure>
-									<img src="{{ URL::to('/') }}/images/icon_home.png" alt="">	
-								</figure>
+								<span id="home-icon" style=":hover{color:lightblue;}" class="icon-home"></span>
 							</a>
 						</li>
 						<li>
 							<a href="#about">
-								<figure>
-									<img src="{{ URL::to('/') }}/images/icon_about.png" alt="">	
-								</figure>	
+								<span  id="about-icon" class="icon-users"></span>	
 							</a>
 						</li>
 						<li>
 							<a href="#choose">
-								<figure>
-									<img src="{{ URL::to('/') }}/images/icon_choose.png" alt="">	
-								</figure>
+								<span  id="choose-icon" class="icon-checkmark"></span>
 							</a>
 						</li>
 						<li>
 							<a href="#services">
-								<figure>
-									<img src="{{ URL::to('/') }}/images/icon_gears.png" alt="">	
-								</figure>
+								<span  id="services-icon" class="icon-cogs"></span>
 							</a>
 						</li>
 						<li>
 							<a href="#alliances">
-								<figure>
-									<img src="{{ URL::to('/') }}/images/icon_alliance.png" alt="">	
-								</figure>	
+								<span  id="alliances-icon" class="icon-link"></span>	
 							</a>
 						</li>
 						<li>
 							<a href="#clients">
-								<figure>
-									<img src="{{ URL::to('/') }}/images/icon_clients.png" alt="">	
-								</figure>	
+								<span  id="clients-icon" class="icon-address-book"></span>	
 							</a>
 						</li>
 						<li>
 							<a href="#portfolio">
-								<figure>
-									<img src="{{ URL::to('/') }}/images/icon_portfolio.png" alt="">	
-								</figure>
+								<span  id="portfolio-icon" class="icon-images"></span>
 							</a>
 						</li>
 						<li>
 							<a href="#contact">
-								<figure>
-									<img src="{{ URL::to('/') }}/images/icon_contact.png" alt="">	
-								</figure>
+								<span  id="contact-icon" class="icon-envelop"></span>
 							</a>
 						</li>
 					</ul>
@@ -164,7 +151,7 @@
 					</li>
 					<li class="Social-youtube Social-bg">
 						<figure>
-							<img class="img-tube-web" src="{{ URL::to('/') }}/images/youtube-mobile-logo.png" alt="youtube">							
+							<img class="img-tube-web" src="{{ URL::to('/') }}/images/linkedin_mobile_logo.png" alt="linkedin">							
 						</figure>
 					</li>
 					<li class="Social-insta Social-bg">
@@ -311,12 +298,15 @@
 
           $(".menu-bg-web a").on("click", function(ev){
           	ev.preventDefault();
-          	var link = $(ev.target).parent().parent().attr("href");
+          	var link = $(ev.target).parent().attr("href");
           	//console.log($(ev.target).parent().parent().attr("href"));
           	$("html, body").animate({
 		        scrollTop: $(link).offset().top 
 		    }, 1000);
           })
+
+
+        
 
 
           $(function() {

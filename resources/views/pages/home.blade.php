@@ -25,6 +25,12 @@
 						<figure class="table-web">
 							<img src="{{ URL::to('/') }}/images/webtablefabric.png" alt="table">
 						</figure>
+						<div  class="wrapper-anim-move">
+							<figure class="boxes-web moving">
+								<img src="{{ URL::to('/') }}/images/boxes.png" alt="boxes">
+							</figure>	
+						</div>
+						
 						
 					</div> 
 				</div>
