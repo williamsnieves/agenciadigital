@@ -372,7 +372,13 @@
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-			})
+		   })
+
+		  
+
+		  $(".portofolio-image").on("mouseover", function(e){
+		  	$(".overlay-portfolio").show("fast");
+		  })
 
 		  var size = $(window).width();
 

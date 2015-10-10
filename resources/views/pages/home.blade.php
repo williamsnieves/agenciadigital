@@ -508,8 +508,90 @@
 					<div class="col-xs-12 MainPortfolio">
 						<h1 class="MainPortfolio-main">portfolio</h1>					
 
-						
+						<div class="col-md-12 wrapper-page" data-id="block1" >
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio1.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
+								</div>
+								<div class="overlay-portfolio">
+									<img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt="">
+									<img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt="">
+								</div>
+							</figure>
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio2.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/social.png" alt="" />									
+								</div>
+							</figure>
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio3.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+								</div>
+							</figure>
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio4.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+								</div>
+							</figure>
+						</div>
+						<div class="col-md-12 wrapper-page" data-id="block2" >
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio5.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+								</div>
+							</figure>
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio6.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+								</div>
+							</figure>
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio7.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
+								</div>
+							</figure>
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio8.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+								</div>
+							</figure>
+						</div>
 
+						<div class="col-md-12 wrapper-page" data-id="block3" >
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio9.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/social.png" alt="" />
+								</div>
+							</figure>
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio10.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/social.png" alt="" />
+								</div>
+							</figure>
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio11.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+								</div>
+							</figure>
+							<figure class="col-md-3 content-img-portfolio">
+								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio12.jpg" alt="" />
+								<div class="wrapper-type-portfolio">
+									<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+								</div>
+							</figure>
+						</div>
+						
 					</div> 
 				</div>
 			</div>
