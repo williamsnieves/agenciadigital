@@ -22,7 +22,8 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 	<!-- Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css' />
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+
 
 
 
@@ -135,27 +136,27 @@
 				<ul class="Social web-social">
 					<li class="Social-lan Social-bg">
 						<figure>
-							<img class="img-lang-web" src="{{ URL::to('/') }}/images/lang-logo.png" alt="language">							
+							<a href=""><img class="img-lang-web" src="{{ URL::to('/') }}/images/lang-logo.png" alt="language"></a>							
 						</figure>
 					</li>
 					<li class="Social-face Social-bg">
 						<figure>
-							<img class="img-fb-web" src="{{ URL::to('/') }}/images/facebook-mobile-logo.png" alt="facebook">							
+							<a href="http://www.facebook.com/3wvgroup" target="blank"><img class="img-fb-web" src="{{ URL::to('/') }}/images/facebook-mobile-logo.png" alt="facebook"></a>							
 						</figure>
 					</li>
 					<li class="Social-twit Social-bg">
 						<figure>
-							<img class="img-twit-web" src="{{ URL::to('/') }}/images/twitter-mobile-logo.png" alt="twitter">							
+							<a href="http://twitter.com/3WVGroup" target="blank"><img class="img-twit-web" src="{{ URL::to('/') }}/images/twitter-mobile-logo.png" alt="twitter"></a>							
 						</figure>
 					</li>
 					<li class="Social-youtube Social-bg">
 						<figure>
-							<img class="img-tube-web" src="{{ URL::to('/') }}/images/linkedin_mobile_logo.png" alt="linkedin">							
+							<a href="http://www.linkedin.com/company/3wvgroup?trk=top_nav_home" target="blank"><img class="img-tube-web" src="{{ URL::to('/') }}/images/linkedin_mobile_logo.png" alt="linkedin"></a>							
 						</figure>
 					</li>
 					<li class="Social-insta Social-bg">
 						<figure>
-							<img class="img-insta-web" src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram">							
+							<a href="http://instagram.com/3Wvgroup/" target="blank"><img class="img-insta-web" src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram"></a>							
 						</figure>
 					</li>
 				</ul>
@@ -236,6 +237,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	{!! HTML::script('libs/jquery.slidereveal.min.js'); !!}
 	{!! HTML::script('libs/unslider.min.js'); !!}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
 	@yield('footerscript')
 
 	
@@ -336,7 +338,16 @@
 				$("#community").hide();
 				$("#design").hide();
 				$("#multimedia").hide();
-			})
+		  })
+
+		  $(".MainService-list-web li:nth-child(1)").mouseout(function(e){
+				//alert("test");
+				$("#multimedia").hide();
+				$("#marketing").hide();
+				$("#web").hide();
+				$("#community").hide();
+				$("#design").hide();
+		   })
 
 		  $(".MainService-list-web li:nth-child(2)").mouseover(function(e){
 				//alert("test");
@@ -347,6 +358,15 @@
 				$("#multimedia").hide();
 			})
 
+		  $(".MainService-list-web li:nth-child(2)").mouseout(function(e){
+				//alert("test");
+				$("#multimedia").hide();
+				$("#marketing").hide();
+				$("#web").hide();
+				$("#community").hide();
+				$("#design").hide();
+		   })
+
 		  $(".MainService-list-web li:nth-child(3)").mouseover(function(e){
 				//alert("test");
 				$("#community").show();
@@ -355,6 +375,15 @@
 				$("#design").hide();
 				$("#multimedia").hide();
 			})
+
+		  $(".MainService-list-web li:nth-child(3)").mouseout(function(e){
+				//alert("test");
+				$("#multimedia").hide();
+				$("#marketing").hide();
+				$("#web").hide();
+				$("#community").hide();
+				$("#design").hide();
+		   })
 
 		  $(".MainService-list-web li:nth-child(4)").mouseover(function(e){
 				//alert("test");
@@ -365,9 +394,28 @@
 				$("#multimedia").hide();
 			})
 
+		  $(".MainService-list-web li:nth-child(4)").mouseout(function(e){
+				//alert("test");
+				$("#multimedia").hide();
+				$("#marketing").hide();
+				$("#web").hide();
+				$("#community").hide();
+				$("#design").hide();
+		   })
+
 		  $(".MainService-list-web li:nth-child(5)").mouseover(function(e){
 				//alert("test");
 				$("#multimedia").show();
+				$("#marketing").hide();
+				$("#web").hide();
+				$("#community").hide();
+				$("#design").hide();
+		   })
+
+
+		  $(".MainService-list-web li:nth-child(5)").mouseout(function(e){
+				//alert("test");
+				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
@@ -379,6 +427,16 @@
 		  $(".portofolio-image").on("mouseover", function(e){
 		  	$(".overlay-portfolio").show("fast");
 		  })
+
+		  var s = skrollr.init({
+				edgeStrategy: 'set',
+				easing: {
+					WTF: Math.random,
+					inverted: function(p) {
+						return 1-p;
+					}
+				}
+			});
 
 		  var size = $(window).width();
 
@@ -397,6 +455,7 @@
 				}
 					
 			})
+
 
 
 
