@@ -644,6 +644,8 @@
 	</div>
 </div>
 
+
+
 <div class="container-fluid" id="portfolio">
 	<div class="row">
 		<div class="Background-portfolio">
@@ -656,56 +658,164 @@
 						<div class="col-md-12 wrapper-page" data-id="block1" >
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/davos.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal1" data-target="#myModal1"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
 								</div>
-								<div class="overlay-portfolio">
-									<img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt="">
-									<img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt="">
+								<div id="myModal1" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/20.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_11.jpg" alt="" />
+								<div class="overlay-portfolio">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal2" data-target="#myModal2"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/social.png" alt="" />									
+								</div>
+								<div id="myModal2" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/1.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_15.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal3" data-target="#myModal3"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+								</div>
+								<div id="myModal3" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/7.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_17.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal4" data-target="#myModal4"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+								</div>
+								<div id="myModal4" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/10.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 						</div>
 						<div class="col-md-12 wrapper-page" data-id="block2" >
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_29.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal5" data-target="#myModal5"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+								</div>
+								<div id="myModal5" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/2.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_31.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal6" data-target="#myModal6"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+								</div>
+								<div id="myModal6" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/5.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_33.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal7" data-target="#myModal7"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
+								</div>
+								<div id="myModal7" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/8.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_35.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal8" data-target="#myModal8"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+								</div>
+								<div id="myModal8" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/11.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 						</div>
@@ -713,26 +823,82 @@
 						<div class="col-md-12 wrapper-page" data-id="block3" >
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_47.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal9" data-target="#myModal9"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/social.png" alt="" />
+								</div>
+								<div id="myModal9" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/3.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_49.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal10" data-target="#myModal10"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/social.png" alt="" />
+								</div>
+								<div id="myModal10" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/6.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_51.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal11" data-target="#myModal11"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+								</div>
+								<div id="myModal11" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/9.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 							<figure class="col-md-3 content-img-portfolio">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_53.jpg" alt="" />
+								<div class="overlay-portfolio" id="overlay">
+									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+									<a data-toggle="modal" href="#myModal12" data-target="#myModal12"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+								</div>
 								<div class="wrapper-type-portfolio">
 									<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+								</div>
+								<div id="myModal12" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+									<div class="modal-dialog" role="document">
+									    <div class="modal-content">	      
+									      <div class="modal-body">
+									        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/12.jpg">
+									      </div>
+									    </div>
+								  </div>
 								</div>
 							</figure>
 						</div>
@@ -822,5 +988,16 @@
 		</div>		
 	</div>
 </div>
+<a data-toggle="modal" href="#myModal" data-target="#myModal"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 
+<div id="myModal" class="modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+	<div class="modal-dialog" role="document">
+	    <div class="modal-content">	      
+	      <div class="modal-body">
+	        <img src="{{ URL::to('/') }}/images/portfolio/big_images/1.jpg">
+	      </div>
+	    </div>
+  </div>
+</div>
 @endsection

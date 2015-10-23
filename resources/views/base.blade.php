@@ -234,6 +234,7 @@
 		@include('footer')
 	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	{!! HTML::script('libs/jquery.slidereveal.min.js'); !!}
 	{!! HTML::script('libs/unslider.min.js'); !!}
