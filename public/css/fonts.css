@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?yybgx4');
-	src:url('../fonts/icomoon.eot?yybgx4#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon.ttf?yybgx4') format('truetype'),
-		url('../fonts/icomoon.woff?yybgx4') format('woff'),
-		url('../fonts/icomoon.svg?yybgx4#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?5yllcf');
+	src:url('../fonts/icomoon.eot?5yllcf#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?5yllcf') format('truetype'),
+		url('../fonts/icomoon.woff?5yllcf') format('woff'),
+		url('../fonts/icomoon.svg?5yllcf#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -36,6 +36,16 @@
 	content: "\e801";
 	font-size: 1.4em;
 }
+.icon-film:before {
+	content: "\e900";
+	font-size: 1.8em;
+	color: #f47f21;
+}
+.icon-profile:before {
+	content: "\e901";
+	font-size: 1.8em;
+	color: #f47f21;
+}
 .icon-address-book:before {
 	content: "\e802";
 	font-size: 1.4em;
@@ -43,6 +53,11 @@
 .icon-envelop:before {
 	content: "\e803";
 	font-size: 1.4em;
+}
+.icon-bubbles:before {
+	content: "\e902";
+	font-size: 1.8em;
+	color: #f47f21;
 }
 .icon-users:before {
 	content: "\e804";
@@ -52,6 +67,15 @@
 	content: "\e805";
 	font-size: 1.4em;
 }
+.icon-sphere:before {
+	content: "\e903";
+	font-size: 1.8em;
+	color: #f47f21;
+}
+
+.icon-active:before{
+	color: #63b746 !important;
+}
 .icon-link:before {
 	content: "\e807";
 	font-size: 1.4em;
@@ -60,4 +84,3 @@
 	content: "\e806";
 	font-size: 1.4em;
 }
-

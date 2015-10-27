@@ -7,7 +7,7 @@
 	<div class="row">
 		<div class="Background">
 			<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
-			<div id="bg2" data-0="top:38em;" data-end="top:-100em"></div>
+			<div id="bg2" data-0="top:60em;" data-end="top:-100em"></div>
 			<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
 			<div class="container">
 				<div class="row">
@@ -310,6 +310,46 @@
 <div class="container-fluid" id="alliances">
 	<div class="row">
 		<div class="Background-alliance">
+
+			<div class="bgAllianceTransparent" style="left:0em;" data-0="top:175em;" data-end="top:-80em"></div>
+			<div class="bgAllianceSolid" style="left:2em;" data-0="top:175em;" data-end="top:-60em"></div>
+			<div class="bgAllianceTransparent" style="left:4em;" data-0="top:170em;" data-end="top:-100em"></div>
+			<div class="bgAllianceSolid" style="left:6em;" data-0="top:175em;" data-end="top:-50em"></div>
+			<div class="bgAllianceTransparent" style="left:8em;" data-0="top:160em;" data-end="top:-20em"></div>
+
+			<div class="bgAllianceTransparent" style="left:10em;" data-0="top:175em;" data-end="top:-80em"></div>
+			<div class="bgAllianceSolid" style="left:12em;" data-0="top:175em;" data-end="top:-60em"></div>
+			<div class="bgAllianceTransparent" style="left:14em;" data-0="top:170em;" data-end="top:-100em"></div>
+			<div class="bgAllianceSolid" style="left:16em;" data-0="top:175em;" data-end="top:-50em"></div>
+			<div class="bgAllianceTransparent" style="left:18em;" data-0="top:160em;" data-end="top:-20em"></div>
+			<div class="bgAllianceSolid" style="left:20em;" data-0="top:160em;" data-end="top:-12em"></div>
+			<div class="bgAllianceTransparent" style="left:22em;" data-0="top:160em;" data-end="top:-110em"></div>
+			<div class="bgAllianceSolid" style="left:24em;" data-0="top:160em;" data-end="top:-55em"></div>
+			<div class="bgAllianceTransparent" style="left:26em;" data-0="top:170em;" data-end="top:-75em"></div>
+			<div class="bgAllianceSolid" style="left:28em;" data-0="top:170em;" data-end="top:-25em"></div>
+
+			<div class="bgAllianceTransparent" style="left:30em;" data-0="top:175em;" data-end="top:-80em"></div>
+			<div class="bgAllianceSolid" style="left:32em;" data-0="top:175em;" data-end="top:-60em"></div>
+			<div class="bgAllianceTransparent" style="left:34em;" data-0="top:170em;" data-end="top:-100em"></div>
+			<div class="bgAllianceSolid" style="left:36em;" data-0="top:175em;" data-end="top:-50em"></div>
+			<div class="bgAllianceTransparent" style="left:38em;" data-0="top:160em;" data-end="top:-20em"></div>
+			<div class="bgAllianceSolid" style="left:40em;" data-0="top:160em;" data-end="top:-12em"></div>
+			<div class="bgAllianceTransparent" style="left:42em;" data-0="top:160em;" data-end="top:-110em"></div>
+			<div class="bgAllianceSolid" style="left:44em;" data-0="top:160em;" data-end="top:-55em"></div>
+			<div class="bgAllianceTransparent" style="left:46em;" data-0="top:170em;" data-end="top:-75em"></div>
+			<div class="bgAllianceSolid" style="left:48em;" data-0="top:170em;" data-end="top:-25em"></div>
+
+			<div class="bgAllianceTransparent" style="left:50em;" data-0="top:175em;" data-end="top:-80em"></div>
+			<div class="bgAllianceSolid" style="left:52em;" data-0="top:175em;" data-end="top:-60em"></div>
+			<div class="bgAllianceTransparent" style="left:54em;" data-0="top:170em;" data-end="top:-100em"></div>
+			<div class="bgAllianceSolid" style="left:56em;" data-0="top:175em;" data-end="top:-50em"></div>
+			<div class="bgAllianceTransparent" style="left:58em;" data-0="top:160em;" data-end="top:-20em"></div>
+			<div class="bgAllianceSolid" style="left:60em;" data-0="top:160em;" data-end="top:-12em"></div>
+			<div class="bgAllianceTransparent" style="left:62em;" data-0="top:160em;" data-end="top:-110em"></div>
+			<div class="bgAllianceSolid" style="left:64em;" data-0="top:160em;" data-end="top:-55em"></div>
+			<div class="bgAllianceTransparent" style="left:66em;" data-0="top:170em;" data-end="top:-75em"></div>
+			<div class="bgAllianceSolid" style="left:68em;" data-0="top:170em;" data-end="top:-25em"></div>
+
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainAlliance">
@@ -653,10 +693,17 @@
 				<div class="row">
 					<div class="col-xs-12 MainPortfolio">
 						<h1 class="MainPortfolio-main">portfolio</h1>
+
+						<ul class="wrapper-buttons-filter">
+							<li><a href="" data-category="web"><span class="icon-sphere"></span></a></li>
+							<li><a href="" data-category="social"><span class="icon-bubbles"></span></a></li>
+							<li><a href="" data-category="paper"><span class="icon-profile"></span></a></li>
+							<li><a href="" data-category="video"><span class="icon-film"></span></a></li>
+						</ul>
 										
 
 						<div class="col-md-12 wrapper-page" data-id="block1" >
-							<figure class="col-md-3 content-img-portfolio">
+							<figure class="col-md-3 content-img-portfolio web">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/davos.jpg" alt="" />
 								<div class="overlay-portfolio" id="overlay">
 									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
@@ -676,7 +723,7 @@
 								  </div>
 								</div>
 							</figure>
-							<figure class="col-md-3 content-img-portfolio">
+							<figure class="col-md-3 content-img-portfolio web">
 								<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/pic_11.jpg" alt="" />
 								<div class="overlay-portfolio">
 									<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>

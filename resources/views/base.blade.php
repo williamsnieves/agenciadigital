@@ -238,6 +238,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	{!! HTML::script('libs/jquery.slidereveal.min.js'); !!}
 	{!! HTML::script('libs/unslider.min.js'); !!}
+	{!! HTML::script('js/filters.js'); !!}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
 	@yield('footerscript')
 
