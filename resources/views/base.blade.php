@@ -331,6 +331,10 @@
 			        //  Either do unslider.data('unslider').next() or .prev() depending on the className
 			        unslider.data('unslider')[fn]();
 			    });
+
+			    $('.carousel').carousel({
+				  interval: 100000
+				})
 		  });
 
 		  $(".MainService-list-web li:nth-child(1)").mouseover(function(e){

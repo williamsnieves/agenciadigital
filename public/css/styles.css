@@ -7,6 +7,18 @@ body {
 	z-index: 999999999;
 }
 
+.carousel-control{
+	background-image: none !important;
+}
+
+.carousel-inner{
+	height: 600px;
+}
+
+.left{
+	margin-left: -1em;
+}
+
 .modal-dialog{
 	top: 9em;
 	width: 70%;
@@ -1379,11 +1391,18 @@ div.content-clients:last-child{
 		width: 80%;
 	}*/
 
+	.gallery-portfolio{
+		margin-left: 9em;
+   		width: 100%;
+	}
+
+
+
 	.content-img-portfolio{
-		 position: relative;
+		position: relative;
 	    padding: 6px;
 	    margin-bottom: -4em;
-	    margin: -18px -12px -35px -35px;
+	    margin: 34px -12px -36px -33px;
 
 	}
 
