@@ -136,7 +136,11 @@
 				<ul class="Social web-social">
 					<li class="Social-lan Social-bg">
 						<figure>
-							<a href=""><img class="img-lang-web" src="{{ URL::to('/') }}/images/lang-logo.png" alt="language"></a>							
+							@if($lang == 'en')							
+								<a href="{{ URL::to('/') }}/language/?locale=es"><img class="img-lang-web" src="{{ URL::to('/') }}/images/english.png" alt="language"><input type="hidden" value="en" name="locale"/></a>							
+							@else
+								<a href="{{ URL::to('/') }}/language/?locale=en"><img class="img-lang-web" src="{{ URL::to('/') }}/images/lang-logo.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
+							@endif
 						</figure>
 					</li>
 					<li class="Social-face Social-bg">

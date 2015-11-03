@@ -4,23 +4,27 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-use App\Http\Requests\ContactFormRequest;
-
 use Input;
 use Session;
-class PageController extends Controller {
+
+class LanguageController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-	public function index()	{
-
-		$lang = Session::get('locale');
-
-		return view('pages.home')->with(array('lang' => $lang));
+	public function index()
+	{
+		//
+		Session::set('locale', Input::get('locale'));
+		return \Redirect::back();
+		//die(Input::get('locale'));
 	}
+
+	/*public function chooseLanguage(){
+
+	}*/
 
 	/**
 	 * Show the form for creating a new resource.

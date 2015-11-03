@@ -12,13 +12,25 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainTitle">
-						<h2 class="MainTitle-sub">Unique ideas</h2>
-						<h2 class="MainTitle-sub">and passion</h2>
-						<h2 class="MainTitle-sub">We are more than a</h2>
-						<h1 class="MainTitle-main">digital media</h1>
-						<h1 class="MainTitle-main">agency</h1>
-						<h2 class="MainTitle-sub-web">Unique ideas and passion</h2>
-						<h2 class="MainTitle-sub-web">We are more than a <span class="MainTitle-main-web">digital media agency</span></h2>			
+						@if($lang == 'en')
+							<h2 class="MainTitle-sub">Unique ideas</h2>
+							<h2 class="MainTitle-sub">and passion</h2>
+							<h2 class="MainTitle-sub">We are more than a</h2>
+							<h1 class="MainTitle-main">digital media</h1>
+							<h1 class="MainTitle-main">agency</h1>
+							<h2 class="MainTitle-sub-web">Unique ideas and passion</h2>
+							<h2 class="MainTitle-sub-web">We are more than a <span class="MainTitle-main-web">digital media agency</span></h2>
+						@endif
+
+						@if($lang == 'es')
+							<h2 class="MainTitle-sub">Ideas Unicas</h2>
+							<h2 class="MainTitle-sub">y pasión</h2>
+							<h2 class="MainTitle-sub">Somos mas que una</h2>
+							<h1 class="MainTitle-main">agencia de</h1>
+							<h1 class="MainTitle-main">medios digitales</h1>
+							<h2 class="MainTitle-sub-web">Ideas Unicas y pasión</h2>
+							<h2 class="MainTitle-sub-web">Somos mas que una <span class="MainTitle-main-web">agencia de medios digitales</span></h2>
+						@endif			
 					
 						<figure class="fabric-web">
 							<img class="machine" src="{{ URL::to('/') }}/images/machine.png" alt="fabric">
@@ -46,18 +58,36 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainAbout">
-						<h1 class="MainAbout-main">who we are</h1>			
-						<h4 class="MainAbout-sub">3WV Group as a company</h4>
-						<p class="MainAbout-content">3WV is the most convenient multi-faceted and international web marketing agency for you. With more than fifteen years of experience on bringing success to our clients, we are unique because we understand that the technical value is just as important as the aesthetical one, and the message is as vital as the way you deliver it. Winner of numerous national and international awards, 3WV is known as one of the most diversified companies in its field.</p>
-						<p class="MainAbout-content">
-						We are worldwide communicators that embrace the internet and all its possibilities as the medium to achieve what our clients need, regardless of where they are located.
-						</p>
-						<p class="MainAbout-content">
-							Our team has the best system engineers and the most creative designers, advertisers, marketing specialists and writters who work together in order to conceptualize, plan, execute and deliver winning and endearing digital and web marketing campaigns. 
-						</p>
-						<p class="MainAbout-content special-title">
-							We believe that technology is the greatest tool to reach the global audience.
-						</p>
+						@if($lang == 'en')
+							<h1 class="MainAbout-main">who we are</h1>			
+							<h4 class="MainAbout-sub">3WV Group as a company</h4>
+							<p class="MainAbout-content">3WV is the most convenient multi-faceted and international web marketing agency for you. With more than fifteen years of experience on bringing success to our clients, we are unique because we understand that the technical value is just as important as the aesthetical one, and the message is as vital as the way you deliver it. Winner of numerous national and international awards, 3WV is known as one of the most diversified companies in its field.</p>
+							<p class="MainAbout-content">
+							We are worldwide communicators that embrace the internet and all its possibilities as the medium to achieve what our clients need, regardless of where they are located.
+							</p>
+							<p class="MainAbout-content">
+								Our team has the best system engineers and the most creative designers, advertisers, marketing specialists and writters who work together in order to conceptualize, plan, execute and deliver winning and endearing digital and web marketing campaigns. 
+							</p>
+							<p class="MainAbout-content special-title">
+								We believe that technology is the greatest tool to reach the global audience.
+							</p>
+						@endif
+
+						@if($lang == 'es')
+							<h1 class="MainAbout-main">Quiénes somos</h1>			
+							<h4 class="MainAbout-sub">3WV Group como empresa</h4>
+							<p class="MainAbout-content">3WV Group es la agencia de mercadeo web de presencia internacional más conveniente para impulsar tu negocio. Con más de quince años de experiencia haciendo exitosos a nuestros clientes. Ganadora de numerosos premios nacionales e internacionales, 3WV es reconocida como una de las compañías más diversificadas dentro de su área.</p>
+							<p class="MainAbout-content">
+							Somos profesionales que asumimos el Internet y todas sus posibilidades como el medio para lograr lo que nuestros clientes necesitan, sin importar dónde se encuentren.
+							</p>
+							<p class="MainAbout-content">
+								Nuestro equipo está conformado por los mejores ingenieros de sistema, los diseñadores, publicistas, especialistas en mercadeo y redactores creativos; quienes trabajan en conjunto para conceptualizar, planificar, ejecutar y lanzar campañas de mercadeo digitales altamente atractivas, diferentes e innovadoras.
+							</p>
+							<p class="MainAbout-content special-title">
+								Creemos en la tecnología como la mejor herramienta para comunicarse con el mundo.
+							</p>
+						@endif
+
 					</div> 
 				</div>
 			</div>
@@ -72,66 +102,129 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainChoose">
-						<h1 class="MainChoose-main">how we think</h1>			
-						<h4 class="MainChoose-sub">3WV Group philosophy</h4>
-						
-						<div class="col-md-4 wrapper-objectives">
-							<figure class="MainChoose-objectives wow slideInLeft">
-								<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
-							</figure>
-							<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="300">
-								<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
-							</figure>
+						@if($lang == 'en')
+							<h1 class="MainChoose-main">how we think</h1>			
+							<h4 class="MainChoose-sub">3WV Group philosophy</h4>
+							
+							<div class="col-md-4 wrapper-objectives">
+								<figure class="MainChoose-objectives wow slideInLeft">
+									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
+								</figure>
+								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="300">
+									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
+								</figure>
 
-							<h2 class="MainChoose-objectives-title">objectives</h2>
+								<h2 class="MainChoose-objectives-title">objectives</h2>
 
-							<ul class="MainChoose-objectives-list">
-								<li>To offer our customers the most engaging and innovative marketing strategies, specifically designed based on the company's budget, style and purpose.</li>
-								<li>To provide our clients with a complete range of IT services.</li>
-								<li>To maintain the highest quality standards.</li>
-								<li>To strengthen our team of highly trained professionals.</li>
-							</ul>
+								<ul class="MainChoose-objectives-list">
+									<li>To offer our customers the most engaging and innovative marketing strategies, specifically designed based on the company's budget, style and purpose.</li>
+									<li>To provide our clients with a complete range of IT services.</li>
+									<li>To maintain the highest quality standards.</li>
+									<li>To strengthen our team of highly trained professionals.</li>
+								</ul>
 
-							<p class="MainChoose-objectives-subtitle">
-								We want to maximize the potential of our customer's company and integrate it into the market place in a modern way.
-							</p>	
-						</div>
-						
-						<div class="col-md-4 wrapper-vision">
-							<figure class="MainChoose-objectives wow slideInLeft">
-								<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
-							</figure>
+								<p class="MainChoose-objectives-subtitle">
+									We want to maximize the potential of our customer's company and integrate it into the market place in a modern way.
+								</p>	
+							</div>
+							
+							<div class="col-md-4 wrapper-vision">
+								<figure class="MainChoose-objectives wow slideInLeft">
+									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
+								</figure>
 
-							<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="400" data-wow-duration="1s">
-								<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
-							</figure>
+								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="400" data-wow-duration="1s">
+									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
+								</figure>
 
-							<h2 class="MainChoose-objectives-title">vision</h2>
+								<h2 class="MainChoose-objectives-title">vision</h2>
 
-							<p class="MainChoose-objectives-subtitle">At 3WV, we want to become the first resource for small, medium and large size companies/businesses that are looking to expand themselves by means of pioneering digital marketing campaigns for Latin-American and US markets. As well, for those clients demanding excellence in services related to consulting, e-business and IT integrated solutions.</p>
+								<p class="MainChoose-objectives-subtitle">At 3WV, we want to become the first resource for small, medium and large size companies/businesses that are looking to expand themselves by means of pioneering digital marketing campaigns for Latin-American and US markets. As well, for those clients demanding excellence in services related to consulting, e-business and IT integrated solutions.</p>
 
-						</div>
-						
-						<div class="col-md-4 wrapper-mission">
-							<figure class="MainChoose-objectives wow slideInLeft">
-								<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
-							</figure>
+							</div>
+							
+							<div class="col-md-4 wrapper-mission">
+								<figure class="MainChoose-objectives wow slideInLeft">
+									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
+								</figure>
 
-							<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="450">
-								<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
-							</figure>
+								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="450">
+									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
+								</figure>
 
-							<h2 class="MainChoose-objectives-title">mission</h2>						
+								<h2 class="MainChoose-objectives-title">mission</h2>						
 
-							<p class="MainChoose-objectives-subtitle">
-								At 3WV, we develop, execute and provide our clients with thriving digital marketing strategies and IT solutions, by means of the most innovative and engaging designs and sophisticated engineering techniques that are entirely friendly to the user and very helpful to our clients. These are customized to your needs in order to assist you efficiently in achieving your business goals.
-							</p>
+								<p class="MainChoose-objectives-subtitle">
+									At 3WV, we develop, execute and provide our clients with thriving digital marketing strategies and IT solutions, by means of the most innovative and engaging designs and sophisticated engineering techniques that are entirely friendly to the user and very helpful to our clients. These are customized to your needs in order to assist you efficiently in achieving your business goals.
+								</p>
 
-							<p class="MainChoose-objectives-subtitle">
-								We listen. We craft. We deliver the most creative strategies and solutions for your success.
-							</p>
-						</div>
-						
+								<p class="MainChoose-objectives-subtitle">
+									We listen. We craft. We deliver the most creative strategies and solutions for your success.
+								</p>
+							</div>
+						@endif
+
+						@if($lang == 'es')
+							<h1 class="MainChoose-main">Cómo pensamos</h1>			
+							<h4 class="MainChoose-sub">Filosofía 3WV Group</h4>
+							
+							<div class="col-md-4 wrapper-objectives">
+								<figure class="MainChoose-objectives wow slideInLeft">
+									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
+								</figure>
+								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="300">
+									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
+								</figure>
+
+								<h2 class="MainChoose-objectives-title">Objetivos</h2>
+
+								<ul class="MainChoose-objectives-list">
+									<li>Ofrecer las estrategias de mercadeo digital más atractivas y efectivas, específicamente concebidas, diseñadas y basadas en el presupuesto, estilo y propósito de la empresa de nuestros clientes.</li>
+									<li>Proveer un amplio rango de servicios de TI (Tecnología de Información).</li>
+									<li>Mantener los más altos estándares de calidad.</li>
+									<li>Continuar fortaleciendo nuestro equipo de profesionales altamente capacitado.</li>
+								</ul>
+
+								<p class="MainChoose-objectives-subtitle">
+									Queremos maximizar el potencial de tu negocio e integrarlo al mercado de una forma más moderna.
+								</p>	
+							</div>
+							
+							<div class="col-md-4 wrapper-vision">
+								<figure class="MainChoose-objectives wow slideInLeft">
+									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
+								</figure>
+
+								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="400" data-wow-duration="1s">
+									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
+								</figure>
+
+								<h2 class="MainChoose-objectives-title">Visión</h2>
+
+								<p class="MainChoose-objectives-subtitle">En 3WV buscamos crecer hasta convertirnos en la primera opción para toda pequeña, mediana y gran empresa, que busque expandirse a través de innovadoras campañas digitales para el mercado Latino-Americano y Norte-Americano, de igual forma para aquellos clientes que buscan excelencia en servicios relacionados con consultoría, negocio/comercio electrónico y soluciones de TI integrales.</p>
+
+							</div>
+							
+							<div class="col-md-4 wrapper-mission">
+								<figure class="MainChoose-objectives wow slideInLeft">
+									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
+								</figure>
+
+								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="450">
+									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
+								</figure>
+
+								<h2 class="MainChoose-objectives-title">Misión</h2>						
+
+								<p class="MainChoose-objectives-subtitle">
+									En 3WV Group desarrollamos y ejecutamos exitosas estrategias de mercadeo digital y soluciones de tecnología de información, mediante los diseños más innovadores y llamativos; a través de sofisticadas técnicas de ingeniería que son amigables al usuario y útiles para nuestros clientes. Dichas aplicaciones están elaboradas a la medida de sus necesidades, para poder asistirles eficazmente durante el proceso de alcanzar sus metas de negocio.
+								</p>
+
+								<p class="MainChoose-objectives-subtitle">
+									Nosotros escuchamos, creamos y brindamos las estrategias y soluciones más creativas a nuestros clientes, para que ellos puedan llegar al éxito.
+								</p>
+							</div>
+						@endif
 
 					</div> 
 				</div>
@@ -147,13 +240,96 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainService">
-						<h1 class="MainService-main">what we offer</h1>			
-						<h4 class="MainService-sub">3WV Group services</h4>
+						@if($lang == 'en')
+							<h1 class="MainService-main">what we offer</h1>			
+							<h4 class="MainService-sub">3WV Group services</h4>
 
-						<ul class="MainService-list">						
-							<li>
-								Digital Marketing.								
-								<ul style="display:none;">
+							<ul class="MainService-list">
+								<li>
+									Digital Marketing.								
+									<ul style="display:none;">
+										<li>Planning and execution of marketing and advertising campaigns in digital media.</li>
+										<li>Mailing list.</li>
+										<li>Solutions for phones, tablets and another mobile devices.</li>
+										<li>Custom Database design, development and management.</li>
+										<li>Google, Bing, Yahoo and Facebook Ads.</li>
+										<li>Search Engine Marketing (SEM).</li>
+										<li>Managing Social Media Influencers.</li>
+										<li>Promotional Websites (Mini Sites).</li>
+										<li>Social Media and Community Management.</li>
+										<li>Graphic Design.</li>
+									</ul>
+								</li>
+								<li>Websites and web applications.
+									<ul style="display:none;">
+										<li>Development of proposals and project drafts.</li>
+										<li>System architecture and components' design.</li>
+										<li>Graphic Design.</li>
+										<li>Programming.</li>
+										<li>Prototype creation and launching.</li>
+										<li>Maintenance, support and help.</li>
+										<li>Web applications.</li>
+										<li>Search Engine Optimization (SEO).</li>
+										<li>Development and setting of Content Management System (CMS).</li>
+										<li>Development of applications for e-Commerce and e-Business.</li>
+										<li>Intranets and Extranets.</li>
+									</ul>
+								</li>
+								<li>Social Media and Community Management.
+									<ul style="display:none;">
+										<li>Development and implementation of social media strategies.</li>
+										<li>Planning, designing and posting content in social media.</li>
+										<li>Monitoring of actions and activities to measure influence in audiences.</li>
+										<li>Drafting, designing, and posting content from clients and related content in websites and/or blogs.</li>
+										<li>Organization and management of contests and drafts on social media.</li>
+										<li>Preparing reports of results.</li>
+									</ul>
+								</li>
+								<li>Graphic Design.
+									<ul style="display:none;">
+										<li>Graphic Identity.</li>
+										<li>Design and redesign of logos.</li>
+										<li>Digital Web presence.</li>
+										<li>Cards and stationery.</li>
+										<li>Brochures, triptychs, catalogs, newsletters, magazines.</li>
+										<li>Packaging and Labels.</li>
+										<li>Signs.</li>
+										<li>Illustrations.</li>
+									</ul>
+								</li>
+								<li>Multimedia.
+									<ul style="display:none;">
+										<li>Multimedia Applications..</li>
+										<li>Electronic cards (e-cards).</li>
+										<li>Interactive CDs.</li>
+										<li>3D Animations.</li>
+										<li>Online learning (e-learning).</li>
+										<li>Video.</li>
+									</ul>
+								</li>
+							</ul>
+
+							<ul class="MainService-list-web">						
+								<li>
+									Digital Marketing.							
+									
+								</li>
+								<li>Websites and web applications.
+									
+								</li>
+								<li>Social Media and Community Management.
+									
+								</li>
+								<li>Graphic Design.
+									
+								</li>
+								<li>Multimedia.
+									
+								</li>
+							</ul>
+							<div class="box-service-content marketing" id="marketing">
+								<h3>Digital Marketing</h3>
+								<ul>
 									<li>Planning and execution of marketing and advertising campaigns in digital media.</li>
 									<li>Mailing list.</li>
 									<li>Solutions for phones, tablets and another mobile devices.</li>
@@ -165,9 +341,10 @@
 									<li>Social Media and Community Management.</li>
 									<li>Graphic Design.</li>
 								</ul>
-							</li>
-							<li>Websites and web applications.
-								<ul style="display:none;">
+							</div>
+							<div class="box-service-content web" id="web">
+								<h3>Websites and web applications</h3>
+								<ul>
 									<li>Development of proposals and project drafts.</li>
 									<li>System architecture and components' design.</li>
 									<li>Graphic Design.</li>
@@ -180,9 +357,10 @@
 									<li>Development of applications for e-Commerce and e-Business.</li>
 									<li>Intranets and Extranets.</li>
 								</ul>
-							</li>
-							<li>Social Media and Community Management.
-								<ul style="display:none;">
+							</div>
+							<div class="box-service-content community" id="community">
+								<h3>Social Media and Community Management</h3>
+								<ul>
 									<li>Development and implementation of social media strategies.</li>
 									<li>Planning, designing and posting content in social media.</li>
 									<li>Monitoring of actions and activities to measure influence in audiences.</li>
@@ -190,9 +368,10 @@
 									<li>Organization and management of contests and drafts on social media.</li>
 									<li>Preparing reports of results.</li>
 								</ul>
-							</li>
-							<li>Graphic Design.
-								<ul style="display:none;">
+							</div>
+							<div class="box-service-content design" id="design">
+								<h3>Graphic Design</h3>
+								<ul>
 									<li>Graphic Identity.</li>
 									<li>Design and redesign of logos.</li>
 									<li>Digital Web presence.</li>
@@ -202,9 +381,10 @@
 									<li>Signs.</li>
 									<li>Illustrations.</li>
 								</ul>
-							</li>
-							<li>Multimedia.
-								<ul style="display:none;">
+							</div>
+							<div class="box-service-content multimedia" id="multimedia">
+								<h3>Multimedia</h3>
+								<ul>
 									<li>Multimedia Applications..</li>
 									<li>Electronic cards (e-cards).</li>
 									<li>Interactive CDs.</li>
@@ -212,92 +392,163 @@
 									<li>Online learning (e-learning).</li>
 									<li>Video.</li>
 								</ul>
-							</li>
-						</ul>
-						<ul class="MainService-list-web">						
-							<li>
-								Digital Marketing.							
-								
-							</li>
-							<li>Websites and web applications.
-								
-							</li>
-							<li>Social Media and Community Management.
-								
-							</li>
-							<li>Graphic Design.
-								
-							</li>
-							<li>Multimedia.
-								
-							</li>
-						</ul>
-						<div class="box-service-content marketing" id="marketing">
-							<h3>Digital Marketing</h3>
-							<ul>
-								<li>Planning and execution of marketing and advertising campaigns in digital media.</li>
-								<li>Mailing list.</li>
-								<li>Solutions for phones, tablets and another mobile devices.</li>
-								<li>Custom Database design, development and management.</li>
-								<li>Google, Bing, Yahoo and Facebook Ads.</li>
-								<li>Search Engine Marketing (SEM).</li>
-								<li>Managing Social Media Influencers.</li>
-								<li>Promotional Websites (Mini Sites).</li>
-								<li>Social Media and Community Management.</li>
-								<li>Graphic Design.</li>
+							</div>
+						@endif
+
+						@if($lang == 'es')
+							<h1 class="MainService-main">Qué ofrecemos</h1>			
+							<h4 class="MainService-sub">Nuestros servicios</h4>
+
+							<ul class="MainService-list">
+								<li>
+									Mercadeo Digital.								
+									<ul style="display:none;">
+										<li>Planificación y ejecución de campañas de mercadeo y publicidad en medios digitales.</li>
+										<li>Envíos de listas de correo.</li>
+										<li>Soluciones para celulares, tabletas y otros dispositivos móviles.</li>
+										<li>Diseño, desarrollo y manejo personalizado de Bases de Datos.</li>
+										<li>Manejo de pautas publicitarias en Google, Bing, Yahoo y Facebook.</li>
+										<li>Mercadeo en Motores de Búsqueda (SEM).</li>
+										<li>Manejo de Influenciadores en Redes Sociales.</li>
+										<li>Sitios Web Promocionales (Mini Sites).</li>
+										<li>Social Media y Community Management.</li>
+										<li>Diseño Gráfico.</li>
+									</ul>
+								</li>
+								<li>Sitios y Aplicaciones Web.
+									<ul style="display:none;">
+										<li>Desarrollo de propuestas y anteproyectos.</li>
+										<li>Arquitectura del sistema y sus  componentes.</li>
+										<li>Diseño gráfico.</li>
+										<li>Programación.</li>
+										<li>Creación de prototipo y lanzamiento al mercado.</li>
+										<li>Mantenimiento, soporte y ayuda.</li>
+										<li>Aplicaciones para la web.</li>
+										<li>Optimización de Motores de Búsqueda (SEO).</li>
+										<li>Desarrollo y Configuración de Sistemas de Administración de Contenido (CMS).</li>
+										<li>Desarrollo de Aplicaciones de e-Commerce y e-Business.</li>
+										<li>Intranets y Extranets.</li>
+									</ul>
+								</li>
+								<li>Social Media y Community Management
+									<ul style="display:none;">
+										<li>Desarrollo e implementación de estrategias en medios sociales.</li>
+										<li>Planificación, diseño y publicación de contenidos en medios sociales.</li>
+										<li>Monitorización de todas las acciones y actividades para medir la influencia en el público.</li>
+										<li>Redacción, diseño y publicación de contenidos de la marca y relacionados con ella.</li>
+										<li>Organización y gestión de concursos y sorteos en medios sociales.</li>
+										<li>Preparación de informes de resultados.</li>
+									</ul>
+								</li>
+								<li>Diseño Gráfico
+									<ul style="display:none;">
+										<li>Identidad gráfica.</li>
+										<li>Diseño y rediseño de logos.</li>
+										<li>Presencia digital en la Web.</li>
+										<li>Tarjetas de presentación y papelería.</li>
+										<li>Brochures, trípticos, catálogos, boletines, revistas.</li>
+										<li>Empaques y etiquetas.</li>
+										<li>Señales.</li>
+										<li>Ilustraciones.</li>
+									</ul>
+								</li>
+								<li>Multimedia.
+									<ul style="display:none;">
+										<li>Aplicaciones Multimedia.</li>
+										<li>Tarjetas electrónicas (e-cards).</li>
+										<li>CDs interactivos.</li>
+										<li>Animaciones 3D.</li>
+										<li>Aprendizaje en línea (e-learning).</li>
+										<li>Video.</li>
+									</ul>
+								</li>
 							</ul>
-						</div>
-						<div class="box-service-content web" id="web">
-							<h3>Websites and web applications</h3>
-							<ul>
-								<li>Development of proposals and project drafts.</li>
-								<li>System architecture and components' design.</li>
-								<li>Graphic Design.</li>
-								<li>Programming.</li>
-								<li>Prototype creation and launching.</li>
-								<li>Maintenance, support and help.</li>
-								<li>Web applications.</li>
-								<li>Search Engine Optimization (SEO).</li>
-								<li>Development and setting of Content Management System (CMS).</li>
-								<li>Development of applications for e-Commerce and e-Business.</li>
-								<li>Intranets and Extranets.</li>
+
+
+							<ul class="MainService-list-web">						
+								<li>
+									Mercadeo Digital.	
+								</li>
+								<li>
+									Sitios y Aplicaciones Web.									
+								</li>
+								<li>
+									Social Media y Community Management									
+								</li>
+								<li>
+									Diseño Gráfico									
+								</li>
+								<li>
+									Multimedia.									
+								</li>
 							</ul>
-						</div>
-						<div class="box-service-content community" id="community">
-							<h3>Social Media and Community Management</h3>
-							<ul>
-								<li>Development and implementation of social media strategies.</li>
-								<li>Planning, designing and posting content in social media.</li>
-								<li>Monitoring of actions and activities to measure influence in audiences.</li>
-								<li>Drafting, designing, and posting content from clients and related content in websites and/or blogs.</li>
-								<li>Organization and management of contests and drafts on social media.</li>
-								<li>Preparing reports of results.</li>
-							</ul>
-						</div>
-						<div class="box-service-content design" id="design">
-							<h3>Graphic Design</h3>
-							<ul>
-								<li>Graphic Identity.</li>
-								<li>Design and redesign of logos.</li>
-								<li>Digital Web presence.</li>
-								<li>Cards and stationery.</li>
-								<li>Brochures, triptychs, catalogs, newsletters, magazines.</li>
-								<li>Packaging and Labels.</li>
-								<li>Signs.</li>
-								<li>Illustrations.</li>
-							</ul>
-						</div>
-						<div class="box-service-content multimedia" id="multimedia">
-							<h3>Multimedia</h3>
-							<ul>
-								<li>Multimedia Applications..</li>
-								<li>Electronic cards (e-cards).</li>
-								<li>Interactive CDs.</li>
-								<li>3D Animations.</li>
-								<li>Online learning (e-learning).</li>
-								<li>Video.</li>
-							</ul>
-						</div>						
+							<div class="box-service-content marketing" id="marketing">
+								<h3>Mercadeo Digital.</h3>
+								<ul>
+									<li>Planificación y ejecución de campañas de mercadeo y publicidad en medios digitales.</li>
+									<li>Envíos de listas de correo.</li>
+									<li>Soluciones para celulares, tabletas y otros dispositivos móviles.</li>
+									<li>Diseño, desarrollo y manejo personalizado de Bases de Datos.</li>
+									<li>Manejo de pautas publicitarias en Google, Bing, Yahoo y Facebook.</li>
+									<li>Mercadeo en Motores de Búsqueda (SEM).</li>
+									<li>Manejo de Influenciadores en Redes Sociales.</li>
+									<li>Sitios Web Promocionales (Mini Sites).</li>
+									<li>Social Media y Community Management.</li>
+									<li>Diseño Gráfico.</li>
+								</ul>
+							</div>
+							<div class="box-service-content web" id="web">
+								<h3>Sitios y Aplicaciones Web.</h3>
+								<ul>
+									<li>Desarrollo de propuestas y anteproyectos.</li>
+									<li>Arquitectura del sistema y sus  componentes.</li>
+									<li>Diseño gráfico.</li>
+									<li>Programación.</li>
+									<li>Creación de prototipo y lanzamiento al mercado.</li>
+									<li>Mantenimiento, soporte y ayuda.</li>
+									<li>Aplicaciones para la web.</li>
+									<li>Optimización de Motores de Búsqueda (SEO).</li>
+									<li>Desarrollo y Configuración de Sistemas de Administración de Contenido (CMS).</li>
+									<li>Desarrollo de Aplicaciones de e-Commerce y e-Business.</li>
+									<li>Intranets y Extranets.</li>
+								</ul>
+							</div>
+							<div class="box-service-content community" id="community">
+								<h3>Social Media y Community Management</h3>
+								<ul>
+									<li>Desarrollo e implementación de estrategias en medios sociales.</li>
+									<li>Planificación, diseño y publicación de contenidos en medios sociales.</li>
+									<li>Monitorización de todas las acciones y actividades para medir la influencia en el público.</li>
+									<li>Redacción, diseño y publicación de contenidos de la marca y relacionados con ella.</li>
+									<li>Organización y gestión de concursos y sorteos en medios sociales.</li>
+									<li>Preparación de informes de resultados.</li>
+								</ul>
+							</div>
+							<div class="box-service-content design" id="design">
+								<h3>Diseño Gráfico</h3>
+								<ul>
+									<li>Identidad gráfica.</li>
+									<li>Diseño y rediseño de logos.</li>
+									<li>Presencia digital en la Web.</li>
+									<li>Tarjetas de presentación y papelería.</li>
+									<li>Brochures, trípticos, catálogos, boletines, revistas.</li>
+									<li>Empaques y etiquetas.</li>
+									<li>Señales.</li>
+									<li>Ilustraciones.</li>
+								</ul>
+							</div>
+							<div class="box-service-content multimedia" id="multimedia">
+								<h3>Multimedia</h3>
+								<ul>
+									<li>Aplicaciones Multimedia.</li>
+									<li>Tarjetas electrónicas (e-cards).</li>
+									<li>CDs interactivos.</li>
+									<li>Animaciones 3D.</li>
+									<li>Aprendizaje en línea (e-learning).</li>
+									<li>Video.</li>
+								</ul>
+							</div>
+						@endif												
 
 					</div> 
 				</div>
@@ -353,8 +604,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainAlliance">
-						<h1 class="MainAlliance-main">alliances</h1>					
-
+						@if($lang == 'en')
+							<h1 class="MainAlliance-main">alliances</h1>					
+						@endif
+						@if($lang == 'es')
+							<h1 class="MainAlliance-main">alianzas</h1>					
+						@endif
 						<figure class="col-md-4 MainAlliance-partner wow slideInLeft">
 							<img src="{{ URL::to('/') }}/images/partner1.png" alt="partner">
 						</figure>
@@ -382,7 +637,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainClients">
-						<h1 class="MainClients-main">clients</h1>					
+						@if($lang == 'en')
+							<h1 class="MainClients-main">clients</h1>					
+						@endif
+						@if($lang == 'es')
+							<h1 class="MainClients-main">clientes</h1>					
+						@endif
 						<div class="banner">
 							<a href="#" class="unslider-arrow prev"><img src="{{ URL::to('/') }}/images/prev.png" alt=""></a>
 							<a href="#" class="unslider-arrow next"><img src="{{ URL::to('/') }}/images/next.png" alt=""></a>
@@ -692,7 +952,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainPortfolio">
-						<h1 class="MainPortfolio-main">portfolio</h1>
+						@if($lang == 'en')
+							<h1 class="MainPortfolio-main">portfolio</h1>
+						@endif
+						@if($lang == 'es')
+							<h1 class="MainPortfolio-main">portafolio</h1>
+						@endif
 
 						<ul class="wrapper-buttons-filter">
 							<li><a href="" data-category="web"><span class="icon-sphere"></span></a></li>
@@ -1227,69 +1492,137 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-12 MainContact">
-						<h1 class="MainContact-main">contacts</h1>					
+						@if($lang == 'en')
+							<h1 class="MainContact-main">contacts</h1>					
+							<form class="form-horizontal MainContact-form">
+							  <div class="form-group ">
+							    <label for="inputName" class="col-xs-3 control-label">Name</label>
+							    <div class="col-xs-9 margin-input">
+							      <input type="text" class="form-control input-tablet" id="inputName">
+							    </div>
+							  </div>
+							  <div class="form-group">
+							    <label for="inputEmail" class="col-xs-3 control-label">Email</label>
+							    <div class="col-xs-9 margin-input">
+							      <input type="email" class="form-control input-tablet" id="inputEmail">
+							    </div>
+							  </div>
+							  <div class="form-group">
+							    <label for="inputMessage" class="col-xs-3 control-label">Message</label>
+							    <div class="col-xs-9 margin-input">
+							       <textarea class="form-control input-areatablet" rows="3" id="inputMessage"></textarea>
+							    </div>
+							  </div>						
+							</form>
+							<div class="form-group">
+							    <div class="col-xs-12 MainContact-button-send">
+							      <button type="submit" class="btn btn-default">Send</button>
+							    </div>
+							</div>
 
-						<form class="form-horizontal MainContact-form">
-						  <div class="form-group ">
-						    <label for="inputName" class="col-xs-3 control-label">Name</label>
-						    <div class="col-xs-9 margin-input">
-						      <input type="text" class="form-control input-tablet" id="inputName">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <label for="inputEmail" class="col-xs-3 control-label">Email</label>
-						    <div class="col-xs-9 margin-input">
-						      <input type="email" class="form-control input-tablet" id="inputEmail">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <label for="inputMessage" class="col-xs-3 control-label">Message</label>
-						    <div class="col-xs-9 margin-input">
-						       <textarea class="form-control input-areatablet" rows="3" id="inputMessage"></textarea>
-						    </div>
-						  </div>						
-						 
-						  
-						</form>
-						<div class="form-group">
-						    <div class="col-xs-12 MainContact-button-send">
-						      <button type="submit" class="btn btn-default">Send</button>
-						    </div>
-						</div>
 
-						<div class="col-xs-12 col-md-12 content-address lesspadding">
-							<div class="col-xs-4">
-								<h4 class="address-title center">caracas - venezuela</h4>
-								
-								<address class="address-content">
-								    Master; (+58212) 991.3376 / 716.5890<br>
-								    Address: Av. Río de Janeiro, Edif. Arizano.<br>
-								    Caracas 1061<br>
-								    Email: info@3wv.net
-								 </address>
+							<div class="col-xs-12 col-md-12 content-address lesspadding">
+								<div class="col-xs-4">
+									<h4 class="address-title center">caracas - venezuela</h4>
+									
+									<address class="address-content">
+									    Master; (+58212) 991.3376 / 716.5890<br>
+									    Address: Av. Río de Janeiro, Edif. Arizano.<br>
+									    Caracas 1061<br>
+									    Email: info@3wv.net
+									 </address>
+								</div>
+								<div class="col-xs-4">
+									<h4 class="address-title center">miami - usa</h4>
+									
+									<address class="address-content">
+									    Master: (+1) 786.347.6274 / 786.863.8094<br>
+									    Address: 7715 NW 48th street, Suite 390 Miami, Fl <br>
+									    33166<br>
+									    Email: info@3wv.net
+									 </address>
+								</div>
+								<div class="col-xs-4">
+									<h4 class="address-title center">san jose - costa rica</h4>
+									
+									<address class="address-content">
+									    Master: (+506) 2248.34.85<br>
+									    Address: Av. Paseo Colón, Torre Mercedes,  <br>
+									    Piso 7,<br>
+									    San José<br>
+									    Email: ventas@3wv.net
+									 </address>
+								</div>
 							</div>
-							<div class="col-xs-4">
-								<h4 class="address-title center">miami - usa</h4>
-								
-								<address class="address-content">
-								    Master: (+1) 786.347.6274 / 786.863.8094<br>
-								    Address: 7715 NW 48th street, Suite 390 Miami, Fl <br>
-								    33166<br>
-								    Email: info@3wv.net
-								 </address>
+						@endif
+
+						@if($lang == 'es')
+							<h1 class="MainContact-main">contactos</h1>
+							<form class="form-horizontal MainContact-form">
+							  <div class="form-group ">
+							    <label for="inputName" class="col-xs-3 control-label">Nombre</label>
+							    <div class="col-xs-9 margin-input">
+							      <input type="text" class="form-control input-tablet" id="inputName">
+							    </div>
+							  </div>
+							  <div class="form-group">
+							    <label for="inputEmail" class="col-xs-3 control-label">Correo</label>
+							    <div class="col-xs-9 margin-input">
+							      <input type="email" class="form-control input-tablet" id="inputEmail">
+							    </div>
+							  </div>
+							  <div class="form-group">
+							    <label for="inputMessage" class="col-xs-3 control-label">Mensaje</label>
+							    <div class="col-xs-9 margin-input">
+							       <textarea class="form-control input-areatablet" rows="3" id="inputMessage"></textarea>
+							    </div>
+							  </div>						
+							 
+							</form>
+							<div class="form-group">
+							    <div class="col-xs-12 MainContact-button-send">
+							      <button type="submit" class="btn btn-default">Enviar</button>
+							    </div>
 							</div>
-							<div class="col-xs-4">
-								<h4 class="address-title center">san jose - costa rica</h4>
-								
-								<address class="address-content">
-								    Master: (+506) 2248.34.85<br>
-								    Address: Av. Paseo Colón, Torre Mercedes,  <br>
-								    Piso 7,<br>
-								    San José<br>
-								    Email: ventas@3wv.net
-								 </address>
-							</div>
-						</div>
+
+
+							<div class="col-xs-12 col-md-12 content-address lesspadding">
+								<div class="col-xs-4">
+									<h4 class="address-title center">caracas - venezuela</h4>
+									
+									<address class="address-content">
+									    Master; (+58212) 991.3376 / 716.5890<br>
+									    Dirección: Av. Río de Janeiro, Edif. Arizano.<br>
+									    Caracas 1061<br>
+									    Email: info@3wv.net
+									 </address>
+								</div>
+								<div class="col-xs-4">
+									<h4 class="address-title center">miami - usa</h4>
+									
+									<address class="address-content">
+									    Master: (+1) 786.347.6274 / 786.863.8094<br>
+									    Dirección: 7715 NW 48th street, Suite 390 Miami, Fl <br>
+									    33166<br>
+									    Email: info@3wv.net
+									 </address>
+								</div>
+								<div class="col-xs-4">
+									<h4 class="address-title center">san jose - costa rica</h4>
+									
+									<address class="address-content">
+									    Master: (+506) 2248.34.85<br>
+									    Dirección: Av. Paseo Colón, Torre Mercedes,  <br>
+									    Piso 7,<br>
+									    San José<br>
+									    Email: ventas@3wv.net
+									 </address>
+								</div>
+							</div>					
+						@endif
+
+
+						
 
 					</div> 
 				</div>
@@ -1297,17 +1630,5 @@
 			
 		</div>		
 	</div>
-</div>
-<a data-toggle="modal" href="#myModal" data-target="#myModal"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
-
-<div id="myModal" class="modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-
-	<div class="modal-dialog" role="document">
-	    <div class="modal-content">	      
-	      <div class="modal-body">
-	        <img src="{{ URL::to('/') }}/images/portfolio/big_images/1.jpg">
-	      </div>
-	    </div>
-  </div>
 </div>
 @endsection

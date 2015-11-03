@@ -1403,6 +1403,7 @@ div.content-clients:last-child{
 	    padding: 6px;
 	    margin-bottom: -4em;
 	    margin: 34px -12px -36px -33px;
+	    height: 148px;
 
 	}
 
@@ -1519,9 +1520,9 @@ div.content-clients:last-child{
 	    position: absolute;
 	    top: 0;
 	    right: 0;
-	    width: 779px;
+	    width: 443px;
 	    height: 884px;
-	    margin-right: -26em;
+	    margin-right: 0em;
     	margin-top: -17em;
 	    background: url(../images/item_bg_big.png) no-repeat 0 0;
 	}
