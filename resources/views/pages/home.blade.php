@@ -1494,23 +1494,24 @@
 					<div class="col-xs-12 col-md-12 MainContact">
 						@if($lang == 'en')
 							<h1 class="MainContact-main">contacts</h1>					
-							<form class="form-horizontal MainContact-form">
+							<form action="/contact" method="POST" class="form-horizontal MainContact-form">
+							  <input type="hidden" name="_token" value="{{ csrf_token() }}">
 							  <div class="form-group ">
 							    <label for="inputName" class="col-xs-3 control-label">Name</label>
 							    <div class="col-xs-9 margin-input">
-							      <input type="text" class="form-control input-tablet" id="inputName">
+							      <input type="text" name="name" class="form-control input-tablet" id="inputName">
 							    </div>
 							  </div>
 							  <div class="form-group">
 							    <label for="inputEmail" class="col-xs-3 control-label">Email</label>
 							    <div class="col-xs-9 margin-input">
-							      <input type="email" class="form-control input-tablet" id="inputEmail">
+							      <input type="email" name="email" class="form-control input-tablet" id="inputEmail">
 							    </div>
 							  </div>
 							  <div class="form-group">
 							    <label for="inputMessage" class="col-xs-3 control-label">Message</label>
 							    <div class="col-xs-9 margin-input">
-							       <textarea class="form-control input-areatablet" rows="3" id="inputMessage"></textarea>
+							       <textarea class="form-control input-areatablet" name="message" rows="3" id="inputMessage"></textarea>
 							    </div>
 							  </div>						
 							</form>
@@ -1519,6 +1520,21 @@
 							      <button type="submit" class="btn btn-default">Send</button>
 							    </div>
 							</div>
+
+							 @if($errors->has())
+							    <div class='alert alert-danger' style="margin-top:6em;">
+							        @foreach ($errors->all('<p>:message</p>') as $message)
+							            {!! $message !!}
+							        @endforeach
+							    </div>
+							@endif			
+							
+							@if (Session::has('message'))            
+							    <div class="alert alert-success alert-dismissable" style="margin-top:6em;">
+							      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							      <h4>  <i class="icon fa fa-check"></i> {{ Session::get('message') }}</h4>              
+							    </div>
+							@endif
 
 
 							<div class="col-xs-12 col-md-12 content-address lesspadding">
@@ -1558,33 +1574,48 @@
 
 						@if($lang == 'es')
 							<h1 class="MainContact-main">contactos</h1>
-							<form class="form-horizontal MainContact-form">
+							<form action="/contact" method="POST" class="form-horizontal MainContact-form">
+							  <input type="hidden" name="_token" value="{{ csrf_token() }}">
 							  <div class="form-group ">
 							    <label for="inputName" class="col-xs-3 control-label">Nombre</label>
 							    <div class="col-xs-9 margin-input">
-							      <input type="text" class="form-control input-tablet" id="inputName">
+							      <input type="text" name="name" class="form-control input-tablet" id="inputName">
 							    </div>
 							  </div>
 							  <div class="form-group">
 							    <label for="inputEmail" class="col-xs-3 control-label">Correo</label>
 							    <div class="col-xs-9 margin-input">
-							      <input type="email" class="form-control input-tablet" id="inputEmail">
+							      <input type="email" name="email" class="form-control input-tablet" id="inputEmail">
 							    </div>
 							  </div>
 							  <div class="form-group">
 							    <label for="inputMessage" class="col-xs-3 control-label">Mensaje</label>
 							    <div class="col-xs-9 margin-input">
-							       <textarea class="form-control input-areatablet" rows="3" id="inputMessage"></textarea>
+							       <textarea class="form-control input-areatablet" name="message" rows="3" id="inputMessage"></textarea>
 							    </div>
 							  </div>						
 							 
-							</form>
 							<div class="form-group">
 							    <div class="col-xs-12 MainContact-button-send">
 							      <button type="submit" class="btn btn-default">Enviar</button>
 							    </div>
 							</div>
-
+							</form>
+							
+							@if($errors->has())
+							    <div class='alert alert-danger' style="margin-top:6em;">
+							        @foreach ($errors->all('<p>:message</p>') as $message)
+							            {!! $message !!}
+							        @endforeach
+							    </div>
+							@endif			
+							
+							@if (Session::has('message'))            
+							    <div class="alert alert-success alert-dismissable" style="margin-top:6em;">
+							      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							      <h4>  <i class="icon fa fa-check"></i> {{ Session::get('message') }}</h4>              
+							    </div>
+							@endif
 
 							<div class="col-xs-12 col-md-12 content-address lesspadding">
 								<div class="col-xs-4">
@@ -1631,4 +1662,20 @@
 		</div>		
 	</div>
 </div>
+@endsection
+
+@section('footerscript')
+<script>
+	window.setTimeout(function() {
+	    $(".alert-danger").fadeTo(500, 0).slideUp(500, function(){
+	        $(this).remove(); 
+	    });
+	}, 5000);
+
+	window.setTimeout(function() {
+	    $(".alert-success").fadeTo(500, 0).slideUp(500, function(){
+	        $(this).remove(); 
+	    });
+	}, 5000);
+</script>
 @endsection

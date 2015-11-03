@@ -22,6 +22,23 @@ class PageController extends Controller {
 		return view('pages.home')->with(array('lang' => $lang));
 	}
 
+	public function storecontact(ContactFormRequest $request){
+		
+		\Mail::send('emails.contact',
+        array(
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'user_message' => $request->get('message')
+        ), function($message)
+    {
+        $message->from('williamsnieves@gmail.com');
+        $message->to('williamsnieves@gmail.com', 'Admin')->subject('Contacto 3wv');
+    });
+
+  		return redirect('/')->with('message', 'Gracias por contactarnos!!!');
+
+	}
+
 	/**
 	 * Show the form for creating a new resource.
 	 *
