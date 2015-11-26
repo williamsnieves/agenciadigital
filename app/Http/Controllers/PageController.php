@@ -16,8 +16,15 @@ class PageController extends Controller {
 	 * @return Response
 	 */
 	public function index()	{
-
-		$lang = Session::get('locale');
+		//die(Input::get('locale'));
+		//Session::set('locale', 'en');
+		$sessionLang =Session::get('locale'); 
+		if(!empty($sessionLang)){
+			$lang = Session::get('locale');
+		}else{
+			Session::set('locale', 'en');
+			$lang = Session::get('locale');
+		}
 
 		return view('pages.home')->with(array('lang' => $lang));
 	}

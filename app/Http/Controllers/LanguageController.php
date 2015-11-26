@@ -17,6 +17,7 @@ class LanguageController extends Controller {
 	public function index()
 	{
 		//
+		//die(Input::get('locale'));
 		Session::set('locale', Input::get('locale'));
 		return \Redirect::back();
 		//die(Input::get('locale'));

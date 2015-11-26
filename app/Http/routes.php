@@ -13,6 +13,6 @@
 
 Route::get('/', 'PageController@index');
 
-Route::get('/language', 'LanguageController@index');
+Route::get('language', 'LanguageController@index');
 
 Route::post('contact', 'PageController@storecontact');

@@ -532,7 +532,7 @@ div.content-clients:last-child{
 	margin-bottom: 7em;
 }
 .content-clients{
-	margin: 2em 0 4em 0;
+	margin: 2em 0 1em 0;
 	padding: 0;
 }
 
@@ -1089,26 +1089,23 @@ div.content-clients:last-child{
 
   	.Background-about{
 		background-repeat: no-repeat;
-		background: url('../images/bg_aboutweb.jpg') no-repeat 100% 100%;
+		background: url('../images/bg_aboutweb_1700.jpg') no-repeat center center fixed;
 		background-size: cover;
-		height:980px;
+		height:100%;
 		z-index: 99999;
 		background-color: #5b5b5a;
 	}
 
 	.Background-choose{
-		background: url('../images/bg_chooseweb.png') no-repeat 29% 9%;
+		background: url('../images/bg_chooseweb.png') no-repeat center center fixed;
 		background-size: cover;
 		z-index: 99999;
 		height:auto;
 		background-color: #4b4b4b;
 	}
 
-	.Background-service{
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-attachment: fixed;
-		background: url('../images/bg_serviceweb.png') repeat-y;
+	.Background-service{		
+		background: url('../images/bg_serviceweb.png') no-repeat center center fixed;
 		background-size: cover;
 		z-index: 99999;
 		height:980px;
@@ -1117,10 +1114,7 @@ div.content-clients:last-child{
 	}
 
 	.Background-portfolio{
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-attachment: fixed;
-		background: url('../images/bg_portfolioweb.png') no-repeat;
+		background: url('../images/bg_portfolioweb.png') no-repeat center center fixed;
 		background-size: cover;
 		z-index: 99999;
 		height:980px;
@@ -1128,10 +1122,7 @@ div.content-clients:last-child{
 	}
 
 	.Background-alliance{
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-attachment: fixed;
-		background: url('../images/bg_allianceweb.png') repeat-y;
+		background: url('../images/bg_allianceweb.png') no-repeat center center;
 		background-size: cover;
 		z-index: 9;
 		height:980px;
@@ -1140,10 +1131,7 @@ div.content-clients:last-child{
 	}
 
 	.Background-clients{
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-attachment: fixed;
-		background: url('../images/bg_clientsweb.png') repeat-y;
+		background: url('../images/bg_clientsweb.png') no-repeat center center fixed;
 		background-size: cover;
 		z-index: 99999;
 		height:980px;
@@ -1152,10 +1140,7 @@ div.content-clients:last-child{
 	}
 
 	.Background-contact{
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-attachment: fixed;
-		background: url('../images/bg_contactweb.jpg') repeat-y;
+		background: url('../images/bg_contactweb.jpg') no-repeat center center fixed;
 		background-size: cover;
 		z-index: 99999;
 		height:1040px;
@@ -1422,7 +1407,7 @@ div.content-clients:last-child{
 
 	div.content-clients:first-child{
 		margin-top: 3em;
-   		margin-bottom: 4em;
+   		margin-bottom: -1em;
 	}
 
 	.prev{
@@ -1551,6 +1536,8 @@ div.content-clients:last-child{
 	    height: 108px;
 	    background: url(../images/bg_alliance_transparent.png) no-repeat 0 0;
 	    background-size: contain;
+	    opacity: 0.5;
+	    -webkit-opacity: 0.5;
     }
 
     .bgAllianceSolid{
@@ -1560,6 +1547,8 @@ div.content-clients:last-child{
 	    height: 108px;
 	    background: url(../images/bg_alliance_solid.png) no-repeat 0 0;
 	    background-size: contain;
+	    opacity: 0.2;
+	    -webkit-opacity: 0.2;
     }
 
     .wrapper-buttons-filter{

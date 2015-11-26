@@ -137,9 +137,9 @@
 					<li class="Social-lan Social-bg">
 						<figure>
 							@if($lang == 'en')							
-								<a href="{{ URL::to('/') }}/language/?locale=es"><img class="img-lang-web" src="{{ URL::to('/') }}/images/english.png" alt="language"><input type="hidden" value="en" name="locale"/></a>							
+								<a href="{{ URL::to('/') }}/language?locale=es"><img class="img-lang-web" src="{{ URL::to('/') }}/images/english.png" alt="language"><input type="hidden" value="en" name="locale"/></a>							
 							@else
-								<a href="{{ URL::to('/') }}/language/?locale=en"><img class="img-lang-web" src="{{ URL::to('/') }}/images/lang-logo.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
+								<a href="{{ URL::to('/') }}/language?locale=en"><img class="img-lang-web" src="{{ URL::to('/') }}/images/lang-logo.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
 							@endif
 						</figure>
 					</li>
