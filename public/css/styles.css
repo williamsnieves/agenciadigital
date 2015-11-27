@@ -1,4 +1,8 @@
+html { 
+    height:100%;
+}
 body {
+  min-height:100%;
   font-family: Ubuntu;
 
 }
@@ -242,13 +246,14 @@ body {
 	bottom: 0;
 	right: 0;
 	position: fixed;
+	z-index: 9999999;
 }
 
 .Footer-text{
 	background: rgba(255,255,255,0.7);
 	border-radius: 30px 0 0 30px;
 	text-align: center;
-	padding: 1em;
+	padding: 0.7em;
     width: 275px;
     color: #232323;
     font-size: 0.8em;
@@ -917,8 +922,8 @@ div.content-clients:last-child{
     }
 
     .Footer-text{
-    	width: 493px;
-    	font-size: 1.3em;
+    	width: 413px;
+    	font-size: 1em;
     }
 
     .grid-clients-tablet{
@@ -1080,32 +1085,34 @@ div.content-clients:last-child{
 	}
 
 	.Background{
-    	background: url('../images/bg_home_websimple.png') no-repeat;
+    	background: url('../images/bg_home_websimple.png') no-repeat 100% 100% fixed;
     	background-color: #dfdfdf;
-  		height:980px;
   		background-size: cover;
   		margin-top: -1em;
+  		height: 100%;
+  		box-sizing: border-box;
   	}
 
   	.Background-about{
-		background-repeat: no-repeat;
-		background: url('../images/bg_aboutweb_1700.jpg') no-repeat center center fixed;
+		background: url('../images/bg_aboutweb_1700.jpg') no-repeat 100% 100% fixed;
 		background-size: cover;
-		height:100%;
+		-webkit-background-size: cover;
 		z-index: 99999;
 		background-color: #5b5b5a;
+		box-sizing: border-box;
 	}
 
 	.Background-choose{
-		background: url('../images/bg_chooseweb.png') no-repeat center center fixed;
+		background: url('../images/bg_chooseweb_1700.jpg') no-repeat center center fixed;
 		background-size: cover;
+		-webkit-background-size: cover;
 		z-index: 99999;
-		height:auto;
 		background-color: #4b4b4b;
+		box-sizing: border-box;
 	}
 
 	.Background-service{		
-		background: url('../images/bg_serviceweb.png') no-repeat center center fixed;
+		background: url('../images/bg_serviceweb_1700.jpg') no-repeat center center fixed;
 		background-size: cover;
 		z-index: 99999;
 		height:980px;
@@ -1114,7 +1121,7 @@ div.content-clients:last-child{
 	}
 
 	.Background-portfolio{
-		background: url('../images/bg_portfolioweb.png') no-repeat center center fixed;
+		background: url('../images/bg_portfolioweb_1700.jpg') no-repeat center center fixed;
 		background-size: cover;
 		z-index: 99999;
 		height:980px;
@@ -1122,7 +1129,7 @@ div.content-clients:last-child{
 	}
 
 	.Background-alliance{
-		background: url('../images/bg_allianceweb.png') no-repeat center center;
+		background: url('../images/bg_allianceweb_1700.jpg') no-repeat center center;
 		background-size: cover;
 		z-index: 9;
 		height:980px;
@@ -1131,7 +1138,7 @@ div.content-clients:last-child{
 	}
 
 	.Background-clients{
-		background: url('../images/bg_clientsweb.png') no-repeat center center fixed;
+		background: url('../images/bg_clientsweb_1700.jpg') no-repeat center center fixed;
 		background-size: cover;
 		z-index: 99999;
 		height:980px;
@@ -1140,7 +1147,7 @@ div.content-clients:last-child{
 	}
 
 	.Background-contact{
-		background: url('../images/bg_contactweb.jpg') no-repeat center center fixed;
+		background: url('../images/bg_contactweb_1700.jpg') no-repeat center center fixed;
 		background-size: cover;
 		z-index: 99999;
 		height:1040px;
@@ -1602,28 +1609,31 @@ div.content-clients:last-child{
 	    margin-right: 30em;
 	}
 
-	.fabric-web{		
-	    margin-right: 3em;
+	#bg3{	 
+    	margin-top: -11em;
+	}
+
+	.fabric-web {
+        margin-right: 4em;
 	    left: 5em;
-	    width: 1600px;
-	    margin-top: -3em;
-	    
+	    width: 1362px;
+	    margin-top: -14em;
 	}
 
 	.wrapper-anim-move{
-	    top: 32em;
-	    margin-left: -314px;
+        top: 16em;
+		margin-left: -284px;
 	}
 
 	.gear-small{
-		margin-top: 33em;
-   		margin-right: 6em;
+		margin-top: 28em;
+   		margin-right: 5em;
 	}
 
 
 	.gear-big{
-        margin-top: 30.5em;
-    	margin-right: 9em;
+        margin-top: 26em;
+    	margin-right: 8em;
 	}
 
 	.overlay-portfolio a{
@@ -1633,7 +1643,43 @@ div.content-clients:last-child{
 
 }
 
+
+@media screen and (min-width: 1440px){
+	.fabric-web {
+        margin-right: -4em;
+	    left: 5em;
+	    width: 2000px;
+	    margin-top: -20em;
+	}
+
+	.gear-big {
+	    margin-top: 38.5em;
+	    margin-right: 12em;
+	}
+
+	.gear-small {
+	    margin-top: 42em;
+	    margin-right: 8em;
+	}
+}
+
 @media screen and (min-width: 1600px){
+	.fabric-web {
+	    margin-right: -10em;
+	    left: 5em;
+	    width: 1600px;
+	    margin-top: -14em;
+	}
+
+	.gear-big {
+	    margin-top: 30.5em;
+	    margin-right: 10em;
+	}
+
+	.gear-small {
+	    margin-top: 33em;
+	    margin-right: 6em;
+	}
 
 	#bg2{	 	    
 	    margin-right: 45em;
@@ -1641,6 +1687,27 @@ div.content-clients:last-child{
 
 
 }
+
+@media screen and (min-width: 1800px){
+	.fabric-web {
+	    margin-right: -17em;
+	    left: 5em;
+	    width: 2000px;
+	    margin-top: -15em;
+	}
+	
+	.gear-big {
+	    margin-top: 38.5em;
+	    margin-right: 12em;
+	}
+
+	.gear-small {
+	    margin-top: 42em;
+	    margin-right: 8em;
+	}
+}
+
+
 
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {

@@ -7,7 +7,7 @@
 	<div class="row">
 		<div class="Background">
 			<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
-			<div id="bg2" data-0="top:60em;" data-end="top:-100em"></div>
+			<div id="bg2" data-0="top:40em;" data-end="top:-100em"></div>
 			<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
 			<div class="container">
 				<div class="row">
