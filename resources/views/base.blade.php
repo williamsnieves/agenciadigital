@@ -341,8 +341,13 @@
 				})
 		  });
 
-		  $(".MainService-list-web li:nth-child(1)").mouseover(function(e){
+		  $(".MainService-list-web li:nth-child(1)").on('click',function(e){
 				//alert("test");
+				$(".MainService-list-web li:nth-child(2)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(3)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(4)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(5)").removeClass('MainService-list-web-hover');
+				$(this).addClass('MainService-list-web-hover');
 				$("#marketing").show();
 				$("#web").hide();
 				$("#community").hide();
@@ -350,17 +355,22 @@
 				$("#multimedia").hide();
 		  })
 
-		  $(".MainService-list-web li:nth-child(1)").mouseout(function(e){
+		  /*$(".MainService-list-web li:nth-child(1)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })
+		   })*/
 
-		  $(".MainService-list-web li:nth-child(2)").mouseover(function(e){
+		  $(".MainService-list-web li:nth-child(2)").on('click',function(e){
 				//alert("test");
+				$(".MainService-list-web li:nth-child(1)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(3)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(4)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(5)").removeClass('MainService-list-web-hover');
+				$(this).addClass('MainService-list-web-hover');
 				$("#web").show();
 				$("#marketing").hide();
 				$("#community").hide();
@@ -368,17 +378,22 @@
 				$("#multimedia").hide();
 			})
 
-		  $(".MainService-list-web li:nth-child(2)").mouseout(function(e){
+		  /*$(".MainService-list-web li:nth-child(2)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })
+		   })*/
 
-		  $(".MainService-list-web li:nth-child(3)").mouseover(function(e){
+		  $(".MainService-list-web li:nth-child(3)").on('click',function(e){
 				//alert("test");
+				$(".MainService-list-web li:nth-child(1)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(2)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(4)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(5)").removeClass('MainService-list-web-hover');
+				$(this).addClass('MainService-list-web-hover');
 				$("#community").show();
 				$("#marketing").hide();
 				$("#web").hide();
@@ -386,17 +401,22 @@
 				$("#multimedia").hide();
 			})
 
-		  $(".MainService-list-web li:nth-child(3)").mouseout(function(e){
+		  /*$(".MainService-list-web li:nth-child(3)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })
+		   })*/
 
-		  $(".MainService-list-web li:nth-child(4)").mouseover(function(e){
+		  $(".MainService-list-web li:nth-child(4)").on('click',function(e){
 				//alert("test");
+				$(".MainService-list-web li:nth-child(1)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(2)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(3)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(5)").removeClass('MainService-list-web-hover');
+				$(this).addClass('MainService-list-web-hover');
 				$("#design").show();
 				$("#marketing").hide();
 				$("#web").hide();
@@ -404,17 +424,22 @@
 				$("#multimedia").hide();
 			})
 
-		  $(".MainService-list-web li:nth-child(4)").mouseout(function(e){
+		  /*$(".MainService-list-web li:nth-child(4)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })
+		   })*/
 
-		  $(".MainService-list-web li:nth-child(5)").mouseover(function(e){
+		  $(".MainService-list-web li:nth-child(5)").on('click', function(e){
 				//alert("test");
+				$(".MainService-list-web li:nth-child(1)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(2)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(3)").removeClass('MainService-list-web-hover');
+				$(".MainService-list-web li:nth-child(4)").removeClass('MainService-list-web-hover');
+				$(this).addClass('MainService-list-web-hover');
 				$("#multimedia").show();
 				$("#marketing").hide();
 				$("#web").hide();
@@ -423,14 +448,16 @@
 		   })
 
 
-		  $(".MainService-list-web li:nth-child(5)").mouseout(function(e){
+
+
+		  /*$(".MainService-list-web li:nth-child(5)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })
+		   })*/
 
 		  
 

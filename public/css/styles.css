@@ -1,8 +1,4 @@
-html { 
-    height:100%;
-}
-body {
-  min-height:100%;
+html,body {
   font-family: Ubuntu;
 
 }
@@ -571,6 +567,10 @@ div.content-clients:last-child{
 
 .content-address{
 	margin-top: 4em;
+}
+
+#bg2-wide{
+	display: none;
 }
 
 
@@ -1222,7 +1222,18 @@ div.content-clients:last-child{
 		padding-left: 1em;
 	}
 
-	.MainService-list-web li:hover{
+	/*.MainService-list-web li:hover{
+		border: 2px solid white;
+		border-right: none;
+		border-radius: 30px 0 0 30px;
+		background: #0b1e2e;
+		z-index: 999999999999;
+		width: 30.3em;
+		position: relative;
+		padding-left: 1em;
+	}*/
+
+	.MainService-list-web-hover{
 		border: 2px solid white;
 		border-right: none;
 		border-radius: 30px 0 0 30px;
@@ -1271,7 +1282,7 @@ div.content-clients:last-child{
 
 	.MainChoose-main{
 		font-size: 2em;
-    	margin: 0 1em 0 0;
+    	margin: -4em 1em 0 0;
 	}
 
 	.MainChoose-sub {
@@ -1596,9 +1607,13 @@ div.content-clients:last-child{
     	font-size: 1.3em;
 		
 	}
-	.MainService-list-web li:hover{		
+	/*.MainService-list-web li:hover{		
 		width: 100%;
 		
+	}*/
+
+	.MainService-list-web-hover{
+		width: 100%;
 	}
 
 	.table-web img{
@@ -1640,8 +1655,68 @@ div.content-clients:last-child{
 		padding: 0 0 0 0.6em;		 
 	}
 
+	.MainAbout-main{
+		font-size: 2em;
+    	margin: -5em 1em 0 0;
+	}
 
-}
+	.MainChoose-objectives-web{
+		width: 100%;
+	}
+
+	.MainChoose-objectives-web img{
+		width: 35%;
+	}
+
+	.MainChoose-objectives-title{
+		font-size: 1.5em;
+	}
+
+	.MainChoose-objectives-list {
+	    font-size: 1em;
+	}
+	.MainChoose-objectives-subtitle {
+	    font-size: 1em;
+	}
+
+	.MainService-main {
+	    font-size: 1.5em;
+	    margin: -4em 1em 0 0;
+	}
+
+	.MainService-sub {
+	    font-size: 1.1em;
+	    margin: 1em 1.5em 1em 0;
+	}
+
+	.MainAlliance-partner{
+		margin: -4em 0 0 0;
+	}
+
+	.MainClients-main {
+	    margin: -6em 1em 1em 0;
+	    font-size: 1.5em;
+	}
+
+	div.content-clients:first-child {
+	    margin-top: 1em;
+	    margin-bottom: -3em;
+	}
+	.content-clients {
+	    margin: 2em 0 -1em 0;
+	    padding: 0;
+	}
+
+	.prev{
+	    top: 11em;
+	}
+
+	.next{	
+	    top: 11em;
+	}
+
+
+}	
 
 
 @media screen and (min-width: 1440px){
@@ -1660,6 +1735,39 @@ div.content-clients:last-child{
 	.gear-small {
 	    margin-top: 42em;
 	    margin-right: 8em;
+	}
+
+	.wrapper-anim-move {
+	    top: 24em;
+	    margin-left: -297px;
+	}
+
+	#bg2{	 	    
+	    margin-right: 40em;
+    	margin-top: 15em;
+	}
+
+	.MainChoose-objectives-web{
+		width: 100%;
+	}
+
+	.MainChoose-objectives-web img{
+		width: 50%;
+	}
+
+	..MainChoose-objectives-title{
+		font-size: 2em;
+	}
+
+	.MainChoose-objectives-list {
+	    font-size: 1.2em;
+	}
+	.MainChoose-objectives-subtitle {
+	    font-size: 1.2em;
+	}
+
+	.MainChoose {
+	    margin: 22em 0 2em 0;
 	}
 }
 
@@ -1682,9 +1790,15 @@ div.content-clients:last-child{
 	}
 
 	#bg2{	 	    
-	    margin-right: 45em;
+	    margin-right: 33em;
+	    margin-top: 5em;
 	}
-
+	
+	.wrapper-anim-move {
+	    top: 21em;
+	    margin-left: -596px;
+	    width: 150%;
+	}
 
 }
 
@@ -1705,6 +1819,17 @@ div.content-clients:last-child{
 	    margin-top: 42em;
 	    margin-right: 8em;
 	}
+
+	.wrapper-anim-move {
+	    top: 28em;
+    	margin-left: -571px;
+	    width: 150%;
+	}
+	#bg2{
+		 margin-top: 15em;
+    	 margin-right: 43em;
+	}
+	
 }
 
 
