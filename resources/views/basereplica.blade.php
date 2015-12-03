@@ -465,39 +465,23 @@
 		  	$(".overlay-portfolio").show("fast");
 		  })
 
-		  
+		 
+
+		 
 
 		  var size = $(window).width();
 
 		
-
 			if(size >= 1024){
-				var s = skrollr.init({
-				edgeStrategy: 'set',
-				easing: {
-					WTF: Math.random,
-					inverted: function(p) {
-						return 1-p;
-					}
-				}
-			});
 				$(".MainService-list").unbind("click");
-
+				var s = skrollr.init({forceHeight: false});
 				
 			}
 			
 			$(window).resize(function() {
 				var size = $(window).width();
 				if(size >= 1024){
-					var s = skrollr.init({
-						edgeStrategy: 'set',
-						easing: {
-							WTF: Math.random,
-							inverted: function(p) {
-								return 1-p;
-							}
-						}
-					});
+					var s = skrollr.init({forceHeight: false});
 					$(".MainService-list").unbind("click");
 				}
 					

@@ -1,4 +1,4 @@
-@extends('base')
+@extends('basereplica')
 @section('title')
 	3wv - Home
 @endsection
@@ -39,17 +39,6 @@
 						</figure>						
 						<div  class="wrapper-anim-move">
 							<figure class="boxes-web moving">
-								<img src="{{ URL::to('/') }}/images/boxes.png" alt="boxes">
-							</figure>	
-						</div>
-
-						<figure class="fabric-tablet">
-							<img class="machine" src="{{ URL::to('/') }}/images/machine_tablet.png" alt="fabric">
-							<img class="absolute gear-big rotating" src="{{ URL::to('/') }}/images/gearbig.png" alt="gear">
-							<img class="absolute gear-small rotating" src="{{ URL::to('/') }}/images/gearsmall.png" alt="gear">
-						</figure>						
-						<div  class="wrapper-anim-move-tablet">
-							<figure class="boxes-tablet moving">
 								<img src="{{ URL::to('/') }}/images/boxes.png" alt="boxes">
 							</figure>	
 						</div>

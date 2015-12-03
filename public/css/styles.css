@@ -1,8 +1,6 @@
 html,body {
   font-family: Ubuntu;
-
 }
-
 .modal{
 	z-index: 999999999;
 }
@@ -43,6 +41,18 @@ html,body {
 }
 #multimedia{
 	display: none;
+}
+
+#bg1{
+    display: none;
+}
+
+#bg2{
+	display: none;
+}
+
+#bg3{	 
+    display: none;
 }
 .lesspadding{
 	padding: 0;
@@ -574,6 +584,23 @@ div.content-clients:last-child{
 }
 
 
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+.moving {
+  -webkit-animation: linealMove 8s linear infinite;
+  -moz-animation: linealMove 8s linear infinite;
+  -ms-animation: linealMove 8s linear infinite;
+  -o-animation: linealMove 8s linear infinite;
+  animation: linealMove 8s linear infinite;
+}
+
+
 @media screen and (min-width: 360px){
   	
   	.Background{
@@ -758,38 +785,39 @@ div.content-clients:last-child{
     	padding-left: 1.5em;
     }
 
-    .Background{
-    	background: url('../images/bg_hometablet.png') no-repeat;
-  		height:1247px;
+
+  	.Background{
+    	background: url('../images/bg_hometablet.jpg') no-repeat;
+    	background-color: #dfdfdf;
   		background-size: cover;
   		margin-top: -1em;
+  		height: 100%;
+  		box-sizing: border-box;
   	}
 
   	.Background-about{
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-attachment: fixed;
-		background: url('../images/bg-abouttablet.jpg') no-repeat;
-		background-size: cover;
+		background: url('../images/bg_abouttablet.png') no-repeat;
 		z-index: 99999;
-		height:1170px;
+		height: 100%;
+  		box-sizing: border-box;
 		background-color: #4b4b4b;
 	}
 
 	.Background-choose{
-		background: url('../images/bg-choosetablet.png') no-repeat 47% 100%;
+		background: url('../images/bg-choosetablet.png') no-repeat;
 		background-size: cover;
 		z-index: 99999;
 		background-color: #4b4b4b;
+		height: 100%;
+  		box-sizing: border-box;
 	}
 
 	.Background-service{
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-attachment: fixed;
-		background: url('../images/bg-servicestablet.png') repeat-y;
+		background: url('../images/bg-servicestablet.png') no-repeat;
 		background-size: cover;
 		z-index: 99999;
+		height: 100%;
+  		box-sizing: border-box;
 		/*height:1262px;*/
 		background-color: #4b4b4b;
 	}
@@ -839,6 +867,10 @@ div.content-clients:last-child{
 	}
 	.MainAbout-content{
 		font-size: 1.3em;
+	}
+
+	.special-title{
+		margin-bottom: 4em;
 	}
 
 	.MainChoose{
@@ -898,11 +930,11 @@ div.content-clients:last-child{
     }
 
     .MainTitle-sub {
-		font-size: 4em;
+		font-size: 3em;
     }
 
     .MainTitle-main{
-		font-size: 4.5em;
+		font-size: 3.5em;
     }
 
     .MainContact-form{
@@ -961,6 +993,71 @@ div.content-clients:last-child{
     .content-address{
     	margin-top: 4em;
     }
+    .fabric-tablet{
+    	display: block;
+	    /* float: right; */
+	    margin-top: 3em;
+	    /* margin-right: 6em; */
+	    position: relative;
+	    z-index: 9;
+	    left: -4em;
+    }
+
+    .gear-small{
+		top: 0;
+		right: 0;
+		width: 30px;
+		height: 28px;
+		margin-top: 19.5em;
+    	margin-right: 8em;
+	}
+
+
+	.gear-big{
+        top: 0;
+	    right: 0;
+	    width: 45px;
+	    height: 45px;
+	    margin-top: 17.5em;
+    	margin-right: 10.5em;
+	}
+
+	.wrapper-anim-move-tablet{
+		overflow: hidden;
+	    width: 100%;
+	    height: 44px;
+	    position: absolute;
+	    top: 38em;
+	    z-index: 9;
+	    margin-left: -373px;
+	}
+
+	.boxes-tablet{
+		display: block;
+		position: absolute;
+		top: 0;		
+	
+	}
+
+	#bg1{
+		display: none;
+	}
+
+	#bg2{
+	    display: none;
+	}
+
+	#bg3{
+		display: none;
+	}
+
+	.bgAllianceTransparent{
+    	display: none;
+    }
+
+    .bgAllianceSolid{
+    	display: none;
+    }
 }
 
 
@@ -971,12 +1068,6 @@ div.content-clients:last-child{
     	padding-left: 1.5em;
     }
 
-    .Background{
-    	background: url('../images/bg_hometablet.png') no-repeat;
-  		height:1270px;
-  		background-size: cover;
-  		margin-top: -1em;
-  	}
 }
 
 @media screen and (min-width: 960px){ 
@@ -986,18 +1077,17 @@ div.content-clients:last-child{
     	padding-left: 1.5em;
     }
 
-    .Background{
-    	background: url('../images/bg_hometablet.png') no-repeat;
-  		height:1557px;
-  		background-size: cover;
-  		margin-top: -1em;
-  	}
 }
 
 /*** web ***/
 
 @media screen and (min-width: 1024px){ 
-	
+	.fabric-tablet{
+    	display: none;
+    }
+    .boxes-tablet{
+		display: none;
+	}
    .header-mobile{
    	 display: none;
    }
@@ -1327,6 +1417,10 @@ div.content-clients:last-child{
 		margin: 15em 0 21em 0;
 	}
 
+	.fabric-tablet{
+    	display: none;
+    }
+
 	.fabric-web{
 		display: block;
 	    float: right;
@@ -1481,23 +1575,8 @@ div.content-clients:last-child{
 	}
 
 
-	.rotating {
-	  -webkit-animation: rotating 2s linear infinite;
-	  -moz-animation: rotating 2s linear infinite;
-	  -ms-animation: rotating 2s linear infinite;
-	  -o-animation: rotating 2s linear infinite;
-	  animation: rotating 2s linear infinite;
-	}
-
-	.moving {
-	  -webkit-animation: linealMove 8s linear infinite;
-	  -moz-animation: linealMove 8s linear infinite;
-	  -ms-animation: linealMove 8s linear infinite;
-	  -o-animation: linealMove 8s linear infinite;
-	  animation: linealMove 8s linear infinite;
-	}
-
 	#bg1{
+		display: block;
 	    z-index: 0;
 	    position: absolute;
 	    top: 4em;
@@ -1508,7 +1587,7 @@ div.content-clients:last-child{
 	}
 
 	#bg2{
-	    
+	    display: block;
 	    position: absolute;
 	    bottom: 0;
 	    right: 0;
@@ -1519,7 +1598,8 @@ div.content-clients:last-child{
 	    background: url(../images/item_bg_small.png) no-repeat 0 0;
 	}
 
-	#bg3{	 
+	#bg3{
+		display: block;	 
 	    position: absolute;
 	    top: 0;
 	    right: 0;
