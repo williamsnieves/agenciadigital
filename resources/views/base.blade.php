@@ -351,6 +351,22 @@
 			        unslider.data('unslider')[fn]();
 			    });
 
+			    $('.unslider-arrow-tablet').on("click", function(e) {			    	
+			    	e.preventDefault();
+			        var fn = this.className.split(' ')[1];
+			        
+			        //  Either do unslider.data('unslider').next() or .prev() depending on the className
+			        unsliderTablet.data('unslider')[fn]();
+			    });
+
+			    $('.unslider-arrow-mobile').on("click", function(e) {			    	
+			    	e.preventDefault();
+			        var fn = this.className.split(' ')[1];
+			        
+			        //  Either do unslider.data('unslider').next() or .prev() depending on the className
+			        unsliderMobile.data('unslider')[fn]();
+			    });
+
 			    $('.carousel').carousel({
 				  interval: 100000
 				})

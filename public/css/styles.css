@@ -1108,6 +1108,22 @@ div.content-clients:last-child{
 	.banner-tablet ul li{
 		float: left;
 	}
+
+	.content-clients {
+	    margin: 2em 0 -3em 0;
+	}
+
+	div.content-clients:first-child{
+		margin-bottom: -4em;
+	}
+
+	.prev{
+	    top: 19em;
+	}
+
+	.next{	
+	    top: 19em;
+	}
 }
 
 

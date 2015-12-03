@@ -811,25 +811,25 @@
 						</div>
 
 						<div class="banner-tablet">
-							<a href="#" class="unslider-arrow prev"><img src="{{ URL::to('/') }}/images/prev.png" alt=""></a>
-							<a href="#" class="unslider-arrow next"><img src="{{ URL::to('/') }}/images/next.png" alt=""></a>
+							<a href="#" class="unslider-arrow-tablet prev"><img src="{{ URL::to('/') }}/images/prev.png" alt=""></a>
+							<a href="#" class="unslider-arrow-tablet next"><img src="{{ URL::to('/') }}/images/next.png" alt=""></a>
 						    <ul>
 						        <li>
 						        	<div class="container-fluid grid-clients-tablet">
 						        		<div class="row lessright">
-						        				<div class="col-md-12 content-clients">						        					
+						        				<div class="col-xs-12 content-clients">						        					
 						        					<figure class="col-xs-4 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_13.png" alt=""></figure>
 							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_15.png" alt=""></figure>
 							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_17.png" alt=""></figure>
 						        				</div>        				
 						        			
-						        				<div class="col-md-12 content-clients">						        					
+						        				<div class="col-xs-12 content-clients">						        					
 							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_19.png" alt=""></figure>
 							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_21.png" alt=""></figure>						        											        					
 							        				<figure class="col-xs-4 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_35.png" alt=""></figure>
 						        				</div>			        						
 						        				
-						        				<div class="col-md-12 content-clients">						        					
+						        				<div class="col-xs-12 content-clients">						        					
 							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_37.png" alt=""></figure>
 							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_39.png" alt=""></figure>
 						        					<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_41.png" alt=""></figure>        					
@@ -843,7 +843,7 @@
 						        <li>
 						        	<div class="container-fluid grid-clients-tablet">
 						        		<div class="row lessright">
-						        				<div class="col-md-12 content-clients">						        					
+						        				<div class="col-xs-12 content-clients">						        					
 							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_43.png" alt=""></figure>
 							        				<figure class="col-xs-4 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_57.png" alt=""></figure>
 							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-1_59.png" alt=""></figure>								        				
@@ -901,15 +901,15 @@
 						        				</div>
 
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-md-2 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_12.png" alt=""></figure>
-							        				<figure class="col-md-2 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_13.png" alt=""></figure>
-							        				<figure class="col-md-2 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_15.png" alt=""></figure>
+							        				<figure class="col-xs-4 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_12.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_13.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_15.png" alt=""></figure>
 						        				</div>
 
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-md-2 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_19.png" alt=""></figure>
-							        				<figure class="col-md-2 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_21.png" alt=""></figure>
-						        					<figure class="col-md-2 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_35.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_19.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_21.png" alt=""></figure>
+						        					<figure class="col-xs-4 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_35.png" alt=""></figure>
 						        				</div> 
 						        		</div>
 						        	</div>			        					
@@ -920,31 +920,79 @@
 						        	<div class="container-fluid grid-clients-tablet">
 						        		<div class="row lessright">
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-2_61.png" alt=""></figure>
-							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-2_63.png" alt=""></figure>
-							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-2_65.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_37.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_39.png" alt=""></figure>
+						        					<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_41.png" alt=""></figure>
 						        				</div>
 
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-md-2 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_12.png" alt=""></figure>
-							        				<figure class="col-md-2 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_13.png" alt=""></figure>
-							        				<figure class="col-md-2 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_15.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_43.png" alt=""></figure>					        					
+							        				<figure class="col-xs-4 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_57.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_59.png" alt=""></figure>	
 						        				</div>
 
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-md-2 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_19.png" alt=""></figure>
-							        				<figure class="col-md-2 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_21.png" alt=""></figure>
-						        					<figure class="col-md-2 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_35.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_61.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_63.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos_65.png" alt=""></figure>
 						        				</div> 
 						        		</div>
 						        	</div>						        	
-						        </li>						        
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients-tablet">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_13.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_15.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_17.png" alt=""></figure>
+						        				</div>
+
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_19.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_21.png" alt=""></figure>						        											        									        					
+							        				<figure class="col-xs-4 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_35.png" alt=""></figure>
+						        				</div>
+
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_37.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_39.png" alt=""></figure>
+						        					<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_41.png" alt=""></figure>
+						        				</div> 
+						        		</div>
+						        	</div>						        	
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients-tablet">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_43.png" alt=""></figure>					        					
+							        				<figure class="col-xs-4 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_57.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_59.png" alt=""></figure>
+						        				</div>
+
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_61.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_63.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_65.png" alt=""></figure>
+						        				</div>
+
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_37.png" alt=""></figure>
+							        				<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_39.png" alt=""></figure>
+						        					<figure class="col-xs-4 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-4_41.png" alt=""></figure>
+						        				</div> 
+						        		</div>
+						        	</div>						        	
+						        </li>							        
 						    </ul>
 						</div>
 
 						<div class="banner-mobile">
-							<a href="#" class="unslider-arrow prev"><img src="{{ URL::to('/') }}/images/prev.png" alt=""></a>
-							<a href="#" class="unslider-arrow next"><img src="{{ URL::to('/') }}/images/next.png" alt=""></a>
+							<a href="#" class="unslider-arrow-mobile prev"><img src="{{ URL::to('/') }}/images/prev.png" alt=""></a>
+							<a href="#" class="unslider-arrow-mobile next"><img src="{{ URL::to('/') }}/images/next.png" alt=""></a>
 						    <ul>
 						        <li>
 						        	<div class="container-fluid grid-clients">
