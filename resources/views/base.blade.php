@@ -327,8 +327,23 @@
     		  });
 
     		  $('.banner').height("600");
+
+    		  var unsliderTablet = $('.banner-tablet').unslider({
+    		  	speed:1000,
+    		  	delay: false
+    		  });
+
+    		  $('.banner-tablet').height("600");
+
+    		  var unsliderMobile = $('.banner-mobile').unslider({
+    		  	speed:1000,
+    		  	delay: false
+    		  });
+
+    		  $('.banner-mobile').height("600");
     
 			    $('.unslider-arrow').on("click", function(e) {
+			    	console.log("aqui");
 			    	e.preventDefault();
 			        var fn = this.className.split(' ')[1];
 			        

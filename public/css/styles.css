@@ -364,6 +364,7 @@ html,body {
 .MainAlliance{
 	margin: 15em 0 5em 0;
 	padding: 0.5em;
+	overflow: hidden;
 }
 
 .MainAlliance-main{
@@ -515,10 +516,24 @@ html,body {
 .margin-input{
 	padding: 0 0 0 0.5em;
 }
+.banner{
+	display: none;
+}
+.banner-mobile{
+	position: relative; height: 500px; width: auto !important;
+}
 
-.banner { position: relative; height: 500px; width: auto !important; }
-.banner li { list-style: none; }
-.banner ul li { float: left; }
+.banner-mobile li{
+	list-style: none;
+}
+
+.banner-mobile ul li{
+	float: left;
+}
+
+.banner-tablet{
+	display: none;
+}
 
 .grid-clients{
 	padding: 0;
@@ -785,6 +800,10 @@ div.content-clients:last-child{
     	padding-left: 1.5em;
     }
 
+    .bottom{
+    	margin-bottom: 5em;
+    }
+
 
   	.Background{
     	background: url('../images/bg_hometablet.jpg') no-repeat;
@@ -814,9 +833,13 @@ div.content-clients:last-child{
 
 	.Background-service{
 		background: url('../images/bg-servicestablet.png') no-repeat;
-		background-size: cover;
+		-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 		z-index: 99999;
 		height: 100%;
+		overflow: hidden;
   		box-sizing: border-box;
 		/*height:1262px;*/
 		background-color: #4b4b4b;
@@ -942,6 +965,10 @@ div.content-clients:last-child{
     	padding-right: 6em;
     }
 
+    .MainAlliance-main{
+    	margin: 2em 0 0 0;
+    }
+
 	/*.Social{
 		position: fixed;
     	right: 0;
@@ -1058,6 +1085,29 @@ div.content-clients:last-child{
     .bgAllianceSolid{
     	display: none;
     }
+
+    .banner-mobile{
+		display: none;
+    }
+
+    .banner{
+    	display: none;
+    }
+
+    .banner-tablet{
+		display:block;
+		position: relative; 
+		height: 500px; 
+		width: auto !important;
+	}
+
+	.banner-tablet li{
+		list-style: none;
+	}
+
+	.banner-tablet ul li{
+		float: left;
+	}
 }
 
 
@@ -1672,6 +1722,30 @@ div.content-clients:last-child{
     .wrapper-buttons-filter li a:hover span:before{
     	color: #63b746;
     }
+	
+	.banner-mobile{
+		display: none;
+	}
+
+	.banner-tablet{
+		display: none;
+	}
+
+    .banner{
+		display:block;
+		position: relative; 
+		height: 500px; 
+		width: auto !important;
+	}
+
+	.banner li{
+		list-style: none;
+	}
+
+	.banner ul li{
+		float: left;
+	}
+
 }
 
 
