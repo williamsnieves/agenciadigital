@@ -615,6 +615,30 @@ div.content-clients:last-child{
   animation: linealMove 8s linear infinite;
 }
 
+.wrapper-buttons-filter{
+	list-style: none;
+	background: rgba(255,255,255,0.7);
+	padding: 0.3em;
+	width: 181px;
+	border-radius: 35px;
+	position: absolute;
+	top: 0;
+	right:0;
+	margin-right: 9em;
+}
+
+.wrapper-buttons-filter li{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+.wrapper-buttons-filter li a, a:hover{
+	text-decoration: none;
+}
+.wrapper-buttons-filter li a:hover span:before{
+	color: #63b746;
+}
+
 
 @media screen and (min-width: 360px){
   	
@@ -1124,7 +1148,25 @@ div.content-clients:last-child{
 	.next{	
 	    top: 19em;
 	}
-}
+
+	.wrapper-buttons-filter{
+		top: 47em;
+		left:0;		
+	}
+
+	.gallery-portfolio{
+		margin-left: 9em;
+   		width: 100%;
+	}
+
+	.content-img-portfolio{
+		position: relative;
+	    padding: 6px;
+	    margin-bottom: -4em;
+	    margin: 34px -12px -36px -33px;
+	    height: 148px;
+
+	}
 
 
 @media screen and (min-width: 768px){ 
@@ -1148,6 +1190,10 @@ div.content-clients:last-child{
 /*** web ***/
 
 @media screen and (min-width: 1024px){ 
+
+	.portfolio-tablet{
+		display: none;
+	}
 	.fabric-tablet{
     	display: none;
     }
@@ -1715,29 +1761,7 @@ div.content-clients:last-child{
 	    -webkit-opacity: 0.2;
     }
 
-    .wrapper-buttons-filter{
-    	list-style: none;
-    	background: rgba(255,255,255,0.7);
-    	padding: 0.3em;
-    	width: 181px;
-    	border-radius: 35px;
-    	position: absolute;
-    	top: 0;
-    	right:0;
-    	margin-right: 9em;
-    }
-
-    .wrapper-buttons-filter li{
-    	display: inline-block;
-    	margin: 0.5em;
-    }
-
-    .wrapper-buttons-filter li a, a:hover{
-    	text-decoration: none;
-    }
-    .wrapper-buttons-filter li a:hover span:before{
-    	color: #63b746;
-    }
+ 
 	
 	.banner-mobile{
 		display: none;
@@ -1760,6 +1784,10 @@ div.content-clients:last-child{
 
 	.banner ul li{
 		float: left;
+	}
+
+	.special-title {
+	    margin-bottom: 18em;
 	}
 
 }
@@ -1968,6 +1996,10 @@ div.content-clients:last-child{
 	    top: 21em;
 	    margin-left: -596px;
 	    width: 150%;
+	}
+
+	.special-title {
+	    margin-bottom: 18em;
 	}
 
 }
