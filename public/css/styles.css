@@ -87,6 +87,7 @@ html,body {
 .fabric-web{
 	display: none;
 }
+
 .table-web{
 	display: none;
 }
@@ -117,7 +118,6 @@ html,body {
 	background-attachment: fixed;
 	background: url('../images/bg_home.png') no-repeat;
 	background-size: cover;
-	height: 710px;
 	z-index: 99999;
 }
 
@@ -239,6 +239,8 @@ html,body {
 	color: #a4a9b2;
 	text-transform: uppercase;
 	margin:0;
+	font-size: 1.5em;
+
 }
 
 .MainTitle-main{
@@ -246,6 +248,7 @@ html,body {
 	color: #f7941e;
 	text-transform: uppercase;
 	margin: 0;
+	font-size: 1.5em;
 }
 
 .Footer{
@@ -598,6 +601,93 @@ div.content-clients:last-child{
 	display: none;
 }
 
+.wrapper-buttons-filter{
+	display: none;
+}
+
+.wrapper-buttons-filter-tablet{
+	list-style: none;
+	background: rgba(255,255,255,0.7);
+	padding: 0.3em;
+	width: 181px;
+	border-radius: 35px;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	margin-left: 8em;
+	z-index: 999;
+}
+
+.wrapper-buttons-filter-tablet li{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+.wrapper-buttons-filter-tablet li a, a:hover{
+	text-decoration: none;
+}
+.wrapper-buttons-filter-tablet li a:hover span:before{
+	color: #63b746;
+}
+
+#carousel-example-generic{
+	display: none
+}
+
+.fabric-mobile{
+	display: block;
+    /* float: right; */
+    margin-top: 1em;
+    /* margin-right: 6em; */
+    position: relative;
+    width:400px;
+    z-index: 9;
+    left: -4em;
+}
+
+.fabric-mobile img{
+	width: 326px;
+}
+.fabric-tablet{
+	display: none;
+}
+
+.wrapper-anim-move-tablet{
+	display: none;
+}
+
+.wrapper-anim-move-mobile{
+	overflow: hidden;
+    width: 271px;
+    height: 44px;
+    position: absolute;
+    top: 17em;
+    z-index: 9;
+    margin-left: -114px;
+}
+
+.wrapper-anim-move-mobile img{
+	width: 400px;
+}
+
+.gear-small{
+	top: 0;
+    right: 0;
+    width: 15px !important;
+    height: 15px;
+    margin-top: 9.8em;
+    margin-right: 7em;
+}
+
+
+.gear-big{
+    top: 0;
+    right: 0;
+    width: 20px !important;
+    height: 20px;
+    margin-top: 9em;
+    margin-right: 8em;
+}
 
 .rotating {
   -webkit-animation: rotating 2s linear infinite;
@@ -615,48 +705,24 @@ div.content-clients:last-child{
   animation: linealMove 8s linear infinite;
 }
 
-.wrapper-buttons-filter{
-	list-style: none;
-	background: rgba(255,255,255,0.7);
-	padding: 0.3em;
-	width: 181px;
-	border-radius: 35px;
-	position: absolute;
-	top: 0;
-	right:0;
-	margin-right: 9em;
-}
+@media screen and (min-width: 320px){
 
-.wrapper-buttons-filter li{
-	display: inline-block;
-	margin: 0.5em;
+  	.wrapper-anim-move-mobile {
+	    top: 18em;
+	}
+  	
 }
-
-.wrapper-buttons-filter li a, a:hover{
-	text-decoration: none;
-}
-.wrapper-buttons-filter li a:hover span:before{
-	color: #63b746;
-}
-
 
 @media screen and (min-width: 360px){
   	
-  	.Background{
-  		height:801px;
+  	.fabric-mobile{
+  		margin-top: 2em;
   	}
 
-  	.Background-about{
-  		padding-bottom: 5em;
-  	}
-
-  	.Background-choose{
-  		padding-bottom: 5em;
-  	}
-
-  	.Background-service{
-  		padding-bottom: 5em;
-  	}
+  	.wrapper-anim-move-mobile {
+	    top: 19em;
+	}
+  	
 }
 
 @media screen and (min-width: 375px){
@@ -664,20 +730,8 @@ div.content-clients:last-child{
     	margin: 0.5em 0 0.5em -1.5em;
     }
   	
-  	.Background{
-  		height:801px;
-  	}
-
-  	.Background-about{
-  		padding-bottom: 5em;
-  	}
-
-  	.Background-choose{
-  		padding-bottom: 5em;
-  	}
-
-  	.Background-service{
-  		padding-bottom: 5em;
+  	.fabric-mobile{
+  		margin-top: 2em;
   	}
 }
 
@@ -756,7 +810,6 @@ div.content-clients:last-child{
     .MainTitle-main{
 		font-size: 3.5em;
     }
-
 }
 
 @media screen and (min-width: 640px){
@@ -1044,15 +1097,7 @@ div.content-clients:last-child{
     .content-address{
     	margin-top: 4em;
     }
-    .fabric-tablet{
-    	display: block;
-	    /* float: right; */
-	    margin-top: 3em;
-	    /* margin-right: 6em; */
-	    position: relative;
-	    z-index: 9;
-	    left: -4em;
-    }
+    
 
     .gear-small{
 		top: 0;
@@ -1149,11 +1194,6 @@ div.content-clients:last-child{
 	    top: 19em;
 	}
 
-	.wrapper-buttons-filter{
-		top: 47em;
-		left:0;		
-	}
-
 	.gallery-portfolio{
 		margin-left: 9em;
    		width: 100%;
@@ -1167,6 +1207,71 @@ div.content-clients:last-child{
 	    height: 148px;
 
 	}
+
+	.content-img-portfolio{
+		margin-top: 44px;
+	}
+
+	.wrapper-type-portfolio-tablet{
+		position: absolute;
+		bottom: 0;
+		background: white;
+		border-radius: 0 30px 30px 0;
+		text-align: center;
+		width: 37px;
+		padding: 8px 8px 8px 0;
+		margin-bottom: 0.5em;
+	}
+
+	.overlay-portfolio{
+		transition: 0.2s opacity linear;
+		opacity: 0;
+	    position: absolute;
+	    top: 0;
+	    margin-top: 0.4em;
+	    text-align: center;
+	    background: rgba(0,0,0,0.6);
+	    width: 61%;
+    	height: 96%;
+	    padding: 3.5em;
+	    z-index: 9;
+
+	}
+
+	.overlay-portfolio a{		
+		position: relative;
+	    top: -9px;
+	}
+	
+	figure.content-img-portfolio:hover .overlay-portfolio{
+		transition: 0.2s opacity linear;
+		opacity: 1;
+	}
+	figure.content-img-portfolio:focus .overlay-portfolio{
+		transition: 0.2s opacity linear;
+		opacity: 1;
+	}
+
+	.fabric-tablet{
+		display: block;
+	    /* float: right; */
+	    margin-top: 3em;
+	    /* margin-right: 6em; */
+	    position: relative;
+	    z-index: 9;
+	    left: -4em;
+	}
+
+	.fabric-mobile{
+		display: none;
+	}
+
+
+	.wrapper-anim-move-mobile{
+		display: none;
+	}
+
+}
 
 
 @media screen and (min-width: 768px){ 
@@ -1788,6 +1893,43 @@ div.content-clients:last-child{
 
 	.special-title {
 	    margin-bottom: 18em;
+	}
+
+	.wrapper-buttons-filter-tablet{
+		display: none;
+	}
+
+	.wrapper-buttons-filter{
+		display: block;
+		list-style: none;
+		background: rgba(255,255,255,0.7);
+		padding: 0.3em;
+		width: 181px;
+		border-radius: 35px;
+		position: absolute;
+		top: 0;
+		right:0;
+		margin-right: 9em;
+	}
+
+	.wrapper-buttons-filter li{
+		display: inline-block;
+		margin: 0.5em;
+	}
+
+	.wrapper-buttons-filter li a, a:hover{
+		text-decoration: none;
+	}
+	.wrapper-buttons-filter li a:hover span:before{
+		color: #63b746;
+	}
+
+	#carousel-example-generic-tablet{
+		display: none
+	}
+
+	#carousel-example-generic{
+		display: block
 	}
 
 }

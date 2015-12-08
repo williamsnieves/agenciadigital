@@ -45,33 +45,39 @@
 			<div class="col-xs-2 lesspadding">
 				<ul class="Social">
 					<li class="Social-lan Social-bg">
-						<figure>
-							<img class="img-lang" src="{{ URL::to('/') }}/images/lang-logo.png" alt="language">
-							<img class="img-lang-tablet" src="{{ URL::to('/') }}/images/flag_tablet.png" alt="language">
+						<figure>							
+							@if($lang == 'en')							
+								<a href="{{ URL::to('/') }}/language?locale=es"><img class="img-lang" src="{{ URL::to('/') }}/images/english.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
+								<a href="{{ URL::to('/') }}/language?locale=es"><img class="img-lang-tablet" src="{{ URL::to('/') }}/images/flag_tablet_english.png" alt="language"><input type="hidden" value="en" name="locale"/></a>							
+							@else
+								<a href="{{ URL::to('/') }}/language?locale=es"><img class="img-lang" src="{{ URL::to('/') }}/images/spanish.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
+								<a href="{{ URL::to('/') }}/language?locale=en"><img class="img-lang-tablet" src="{{ URL::to('/') }}/images/flag_tablet_english.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
+							@endif
 						</figure>
+							
 					</li>
 					<li class="Social-face Social-bg">
 						<figure>
-							<img class="img-fb" src="{{ URL::to('/') }}/images/facebook-mobile-logo.png" alt="facebook">
-							<img class="img-fb-tablet" src="{{ URL::to('/') }}/images/fb_tablet.png" alt="facebook">
+							<a href="http://www.facebook.com/3wvgroup" target="blank"><img class="img-fb" src="{{ URL::to('/') }}/images/facebook-mobile-logo.png" alt="facebook"></a>
+							<a href="http://www.facebook.com/3wvgroup" target="blank"><img class="img-fb-tablet" src="{{ URL::to('/') }}/images/fb_tablet.png" alt="facebook"></a>
 						</figure>
 					</li>
 					<li class="Social-twit Social-bg">
 						<figure>
-							<img class="img-twit" src="{{ URL::to('/') }}/images/twitter-mobile-logo.png" alt="twitter">
-							<img class="img-twit-tablet" src="{{ URL::to('/') }}/images/twit_tablet.png" alt="twitter">
+							<a href="http://twitter.com/3WVGroup" target="blank"><img class="img-twit" src="{{ URL::to('/') }}/images/twitter-mobile-logo.png" alt="twitter"></a>
+							<a href="http://twitter.com/3WVGroup" target="blank"><img class="img-twit-tablet" src="{{ URL::to('/') }}/images/twit_tablet.png" alt="twitter"></a>
 						</figure>
 					</li>
 					<li class="Social-youtube Social-bg">
 						<figure>
-							<img class="img-tube" src="{{ URL::to('/') }}/images/youtube-mobile-logo.png" alt="youtube">
-							<img class="img-tube-tablet" src="{{ URL::to('/') }}/images/tube_tablet.png" alt="youtube">
+							<a href="http://www.linkedin.com/company/3wvgroup?trk=top_nav_home" target="blank"><img class="img-tube" src="{{ URL::to('/') }}/images/linkedin_mobile_logo.png" alt="linkedin"></a>
+							<a href="http://www.linkedin.com/company/3wvgroup?trk=top_nav_home" target="blank"><img class="img-tube-tablet" src="{{ URL::to('/') }}/images/linkedin_tablet.png" alt="linkedin"></a>
 						</figure>
 					</li>
 					<li class="Social-insta Social-bg">
 						<figure>
-							<img class="img-insta" src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram">
-							<img class="img-insta-tablet" src="{{ URL::to('/') }}/images/ins_tablet.png" alt="youtube">
+							<a href="http://instagram.com/3Wvgroup/" target="blank"><img class="img-insta" src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram"></a>
+							<a href="http://instagram.com/3Wvgroup/" target="blank"><img class="img-insta-tablet" src="{{ URL::to('/') }}/images/ins_tablet.png" alt="youtube"></a>	
 						</figure>
 					</li>
 				</ul>
@@ -370,6 +376,7 @@
 			    $('.carousel').carousel({
 				  interval: 100000
 				})
+
 		  });
 
 		  $(".MainService-list-web li:nth-child(1)").on('click',function(e){
