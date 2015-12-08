@@ -1007,18 +1007,18 @@
 						        	<div class="container-fluid grid-clients">
 						        		<div class="row lessright">
 						        				<div class="col-xs-12 content-clients">						        					
-						        					<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client1_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client2_mov.png" alt=""></figure>						        					
+						        					<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_13.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_15.png" alt=""></figure>						        					
 						        				</div>        				
 						        			
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client3_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client4_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_17.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_19.png" alt=""></figure>
 						        				</div>			        						
 						        				
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client5_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client6_mov.png" alt=""></figure>	
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_21.png" alt=""></figure>						        											        					
+							        				<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_35.png" alt=""></figure>	
 						        				</div>	
 						        		</div>
 						        	</div>	
@@ -1027,18 +1027,18 @@
 						        	<div class="container-fluid grid-clients">
 						        		<div class="row lessright">
 						        				<div class="col-xs-12 content-clients">						        					
-						        					<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client7_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client8_mov.png" alt=""></figure>
+						        					<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_37.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_39.png" alt=""></figure>
 						        				</div>        				
 						        			
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client9_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client10_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_41.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_43.png" alt=""></figure>
 						        				</div>			        						
 						        				
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client11_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client12_mov.png" alt=""></figure>	
+							        				<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_57.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_59.png" alt=""></figure>		
 						        				</div>				        				
 						        			
 						        		</div>
@@ -1049,21 +1049,198 @@
 						        <li>
 						        	<div class="container-fluid grid-clients">
 						        		<div class="row lessright">
-						        				<div class="col-xs-12 content-clients">						        					
-						        					<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client13_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client14_mov.png" alt=""></figure>
+						        				<div class="col-xs-12 content-clients">	
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_61.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_63.png" alt=""></figure>
 						        				</div>        				
 						        			
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client15_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client16_mov.png" alt=""></figure>
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-1_65.png" alt=""></figure>
+													<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_13.png" alt=""></figure>
 						        				</div>			        						
 						        				
 						        				<div class="col-xs-12 content-clients">						        					
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client17_mov.png" alt=""></figure>
-							        				<figure class="col-xs-6 client-wrapper"><img src="{{ URL::to('/') }}/images/clients/client18_mov.png" alt=""></figure>	
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_15.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_17.png" alt=""></figure>	
 						        				</div>				        				
 						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">	
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_19.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_21.png" alt=""></figure>
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_35.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_37.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_39.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_41.png" alt=""></figure>
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">	
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_43.png" alt=""></figure>		        					
+													<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_57.png" alt=""></figure>
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_59.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_61.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_63.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-2_65.png" alt=""></figure>
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">	
+													<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_12.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_13.png" alt=""></figure>
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_15.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_19.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_21.png" alt=""></figure>
+													<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_35.png" alt=""></figure>
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">	
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_37.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_39.png" alt=""></figure>
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_41.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_43.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_57.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_59.png" alt=""></figure>
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">	
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_61.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_63.png" alt=""></figure>
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos_65.png" alt=""></figure>
+													<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_13.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_15.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_17.png" alt=""></figure>
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">	
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_19.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_21.png" alt=""></figure>
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_35.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_37.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_39.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_41.png" alt=""></figure>
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">	
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_43.png" alt=""></figure>					        					
+													<figure class="col-xs-6 col-md-offset-1 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_57.png" alt=""></figure>
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">		
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_59.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_61.png" alt=""></figure>
+						        				</div>			        						
+						        				
+						        				<div class="col-xs-12 content-clients">						        					
+							        				<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_63.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_65.png" alt=""></figure>
+						        				</div>				        				
+						        			
+						        		</div>
+						        		
+						        	</div>
+						        </li>
+
+						        <li>
+						        	<div class="container-fluid grid-clients">
+						        		<div class="row lessright">
+						        				<div class="col-xs-12 content-clients">	
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_37.png" alt=""></figure>
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_39.png" alt=""></figure>
+						        				</div>        				
+						        			
+						        				<div class="col-xs-12 content-clients">		
+													<figure class="col-xs-6 client-wrapper"><img class="clients-img-mobile" src="{{ URL::to('/') }}/images/clients_web/logos-4_41.png" alt=""></figure>
+						        				</div>			        						
 						        		</div>
 						        		
 						        	</div>
@@ -2025,7 +2202,413 @@
 							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 							    <span class="sr-only">Next</span>
 							  </a>
-						</div>				
+						</div>
+
+						<div id="carousel-example-generic-mobile" class="carousel slide" data-ride="carousel">							  
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <div class="gallery-portfolio col-xs-12">
+										<figure class="col-xs-12 content-img-portfolio video">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/1.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet1" data-target="#myModalTablet1"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
+											</div>
+											<div id="myModalTablet1" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/1.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										<figure class="col-xs-12 content-img-portfolio social">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/2.jpg" alt="" />
+											<div class="overlay-portfolio">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet2" data-target="#myModalTablet2"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/social.png" alt="" />									
+											</div>
+											<div id="myModalTablet2" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/2.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										<figure class="col-xs-12 content-img-portfolio paper">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/3.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet3" data-target="#myModalTablet3"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+											</div>
+											<div id="myModalTablet3" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/3.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>																				
+								  </div>
+							    </div>
+
+							    <div class="item">
+							      <div class="gallery-portfolio col-xs-12">
+										<figure class="col-xs-12 content-img-portfolio web">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/4.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet4" data-target="#myModalTablet4"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+											</div>
+											<div id="myModalTablet4" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/4.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										
+										
+										<figure class="col-xs-12 content-img-portfolio web">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/5.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet5" data-target="#myModalTablet5"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+											</div>
+											<div id="myModalTablet5" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/5.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										<figure class="col-xs-12 content-img-portfolio web">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/6.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet7" data-target="#myModalTablet7"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+											</div>
+											<div id="myModalTablet7" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/6.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>																				
+								  </div>
+							    </div>
+							    <div class="item">
+							      <div class="gallery-portfolio col-xs-12">										
+										<figure class="col-xs-12 content-img-portfolio video">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/7.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet8" data-target="#myModalTablet8"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
+											</div>
+											<div id="myModalTablet8" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/7.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										<figure class="col-xs-12 content-img-portfolio paper">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/8.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet9" data-target="#myModalTablet9"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+											</div>
+											<div id="myModalTablet9" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/8.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+
+										<figure class="col-xs-12 content-img-portfolio social">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/9.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet10" data-target="#myModalTablet10"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/social.png" alt="" />
+											</div>
+											<div id="myModalTablet10" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/9.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>										
+								  </div>
+							    </div>
+							    <div class="item">
+							      <div class="gallery-portfolio col-xs-12">										
+										<figure class="col-xs-12 content-img-portfolio social">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/10.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet11" data-target="#myModalTablet11"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/social.png" alt="" />
+											</div>
+											<div id="myModalTablet11" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/10.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										<figure class="col-xs-12 content-img-portfolio paper">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/11.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet12" data-target="#myModalTablet12"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+											</div>
+											<div id="myModalTablet12" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/11.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										<figure class="col-xs-12 content-img-portfolio paper">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/12.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet13" data-target="#myModalTablet13"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+											</div>
+											<div id="myModalTablet13" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/12.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>										
+								  </div>
+							    </div>
+							    <div class="item">
+							      <div class="gallery-portfolio col-xs-12">
+										<figure class="col-xs-12 content-img-portfolio">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/13.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet14" data-target="#myModalTablet14"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
+											</div>
+											<div id="myModalTablet14" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/13.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										<figure class="col-xs-12 content-img-portfolio social">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/14.jpg" alt="" />
+											<div class="overlay-portfolio">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet15" data-target="#myModalTablet15"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/social.png" alt="" />									
+											</div>
+											<div id="myModalTablet15" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/14.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										<figure class="col-xs-12 content-img-portfolio">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/15.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet16" data-target="#myModalTablet16"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
+											</div>
+											<div id="myModalTablet16" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/15.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>																				
+								  </div>
+							    </div>
+							    <div class="item">
+							      <div class="gallery-portfolio col-xs-12">
+										<figure class="col-xs-12 content-img-portfolio web">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/16.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet17" data-target="#myModalTablet17"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+											</div>
+											<div id="myModalTablet17" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/16.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>										
+										
+										<figure class="col-xs-12 content-img-portfolio web">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/17.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet18" data-target="#myModalTablet18"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+											</div>
+											<div id="myModalTablet18" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/17.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>
+										<figure class="col-xs-12 content-img-portfolio web">
+											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/18.jpg" alt="" />
+											<div class="overlay-portfolio" id="overlay">
+												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalTablet19" data-target="#myModalTablet19"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+											</div>
+											<div class="wrapper-type-portfolio-mobile">
+												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
+											</div>
+											<div id="myModalTablet19" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+												<div class="modal-dialog" role="document">
+												    <div class="modal-content">	      
+												      <div class="modal-body">
+												        <img style="width:100%;" src="{{ URL::to('/') }}/images/portfolio/big_images/18.jpg">
+												      </div>
+												    </div>
+											  </div>
+											</div>
+										</figure>																				
+								  </div>
+							    </div>								    
+							  </div>
+
+							  <!-- Controls -->
+							  <a class="left carousel-control" href="#carousel-example-generic-mobile" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							  </a>
+							  <a class="right carousel-control" href="#carousel-example-generic-mobile" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
+						</div>					
 
 						
 					</div> 
@@ -2064,12 +2647,12 @@
 							       <textarea class="form-control input-areatablet" name="message" rows="3" id="inputMessage"></textarea>
 							    </div>
 							  </div>						
-							</form>
 							<div class="form-group">
 							    <div class="col-xs-12 MainContact-button-send">
 							      <button type="submit" class="btn btn-default">Send</button>
 							    </div>
 							</div>
+							</form>
 
 							 @if($errors->has())
 							    <div class='alert alert-danger' style="margin-top:6em;">

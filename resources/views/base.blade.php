@@ -50,8 +50,8 @@
 								<a href="{{ URL::to('/') }}/language?locale=es"><img class="img-lang" src="{{ URL::to('/') }}/images/english.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
 								<a href="{{ URL::to('/') }}/language?locale=es"><img class="img-lang-tablet" src="{{ URL::to('/') }}/images/flag_tablet_english.png" alt="language"><input type="hidden" value="en" name="locale"/></a>							
 							@else
-								<a href="{{ URL::to('/') }}/language?locale=es"><img class="img-lang" src="{{ URL::to('/') }}/images/spanish.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
-								<a href="{{ URL::to('/') }}/language?locale=en"><img class="img-lang-tablet" src="{{ URL::to('/') }}/images/flag_tablet_english.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
+								<a href="{{ URL::to('/') }}/language?locale=en"><img class="img-lang" src="{{ URL::to('/') }}/images/spanish.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
+								<a href="{{ URL::to('/') }}/language?locale=en"><img class="img-lang-tablet" src="{{ URL::to('/') }}/images/flag_tablet.png" alt="language"><input type="hidden" value="en" name="locale"/></a>
 							@endif
 						</figure>
 							
