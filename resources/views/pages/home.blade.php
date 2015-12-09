@@ -2214,12 +2214,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/1.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet1" data-target="#myModalTablet1"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile1" data-target="#myModalMobile1"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
 											</div>
-											<div id="myModalTablet1" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile1" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2234,12 +2234,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/2.jpg" alt="" />
 											<div class="overlay-portfolio">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet2" data-target="#myModalTablet2"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile2" data-target="#myModalMobile2"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/social.png" alt="" />									
 											</div>
-											<div id="myModalTablet2" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile2" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2254,12 +2254,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/3.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet3" data-target="#myModalTablet3"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile3" data-target="#myModalMobile3"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
 											</div>
-											<div id="myModalTablet3" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile3" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2279,12 +2279,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/4.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet4" data-target="#myModalTablet4"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile4" data-target="#myModalMobile4"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
 											</div>
-											<div id="myModalTablet4" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile4" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2301,12 +2301,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/5.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet5" data-target="#myModalTablet5"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile5" data-target="#myModalMobile5"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
 											</div>
-											<div id="myModalTablet5" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile5" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2321,12 +2321,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/6.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet7" data-target="#myModalTablet7"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile7" data-target="#myModalMobile7"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
 											</div>
-											<div id="myModalTablet7" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile7" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2345,12 +2345,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/7.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet8" data-target="#myModalTablet8"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile8" data-target="#myModalMobile8"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
 											</div>
-											<div id="myModalTablet8" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile8" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2365,12 +2365,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/8.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet9" data-target="#myModalTablet9"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile9" data-target="#myModalMobile9"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
 											</div>
-											<div id="myModalTablet9" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile9" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2386,12 +2386,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/9.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet10" data-target="#myModalTablet10"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile10" data-target="#myModalMobile10"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/social.png" alt="" />
 											</div>
-											<div id="myModalTablet10" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile10" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2410,12 +2410,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/10.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet11" data-target="#myModalTablet11"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile11" data-target="#myModalMobile11"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/social.png" alt="" />
 											</div>
-											<div id="myModalTablet11" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile11" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2430,12 +2430,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/11.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet12" data-target="#myModalTablet12"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile12" data-target="#myModalMobile12"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
 											</div>
-											<div id="myModalTablet12" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile12" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2450,12 +2450,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/12.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet13" data-target="#myModalTablet13"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile13" data-target="#myModalMobile13"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
 											</div>
-											<div id="myModalTablet13" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile13" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2474,12 +2474,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/13.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet14" data-target="#myModalTablet14"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile14" data-target="#myModalMobile14"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/multimedia.png" alt="" />
 											</div>
-											<div id="myModalTablet14" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile14" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2494,12 +2494,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/14.jpg" alt="" />
 											<div class="overlay-portfolio">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet15" data-target="#myModalTablet15"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile15" data-target="#myModalMobile15"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/social.png" alt="" />									
 											</div>
-											<div id="myModalTablet15" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile15" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2514,12 +2514,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/15.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet16" data-target="#myModalTablet16"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile16" data-target="#myModalMobile16"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/paper.png" alt="" />
 											</div>
-											<div id="myModalTablet16" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile16" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2538,12 +2538,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/16.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet17" data-target="#myModalTablet17"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile17" data-target="#myModalMobile17"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
 											</div>
-											<div id="myModalTablet17" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile17" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2559,12 +2559,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/17.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet18" data-target="#myModalTablet18"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile18" data-target="#myModalMobile18"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
 											</div>
-											<div id="myModalTablet18" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile18" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
@@ -2579,12 +2579,12 @@
 											<img class="portofolio-image" src="{{ URL::to('/') }}/images/portfolio/18.jpg" alt="" />
 											<div class="overlay-portfolio" id="overlay">
 												<a href="#"><img class="link-portfolio" src="{{ URL::to('/') }}/images/link_portfolio.png" alt=""></a>
-												<a data-toggle="modal" href="#myModalTablet19" data-target="#myModalTablet19"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
+												<a data-toggle="modal" href="#myModalMobile19" data-target="#myModalMobile19"><img class="view-portfolio" src="{{ URL::to('/') }}/images/view_portfolio.png" alt=""></a>
 											</div>
 											<div class="wrapper-type-portfolio-mobile">
 												<img src="{{ URL::to('/') }}/images/web.png" alt="" />
 											</div>
-											<div id="myModalTablet19" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											<div id="myModalMobile19" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
 												<div class="modal-dialog" role="document">
 												    <div class="modal-content">	      
