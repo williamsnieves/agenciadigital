@@ -794,6 +794,39 @@ figure.content-img-portfolio:focus .overlay-portfolio{
   	
 }
 
+@media screen and (min-height: 632px){
+	
+  	.MainContact {
+	    margin: 11em 0 0 0 !important;
+	}
+
+	.MainContact-main {  
+	    margin: 0 1em -0.5em 0 !important;
+	}
+	.input-areatablet {
+	    height: 139px;
+	}
+
+	.input-tablet {
+	    height: 32px !important;
+	}
+
+	.content-address {
+	    margin-top: -1em !important;
+	}
+
+	.MainClients {
+	    margin: 25em 0 -18em 0 !important;
+	}
+}
+
+@media screen and (min-height: 949px){
+	
+	.MainClients {
+	    margin: 32em 0 -3em 0 !important;
+	}
+}
+
 @media screen and (min-height: 640px){
 	.wrapper-anim-move-mobile {
 	    top: 28em !important;
@@ -808,6 +841,14 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
   	.wrapper-anim-move-mobile {
 	    top: 18em;
+	}
+
+	.MainContact-main {	   
+	    margin: -2em 0 0 0;
+	}
+
+	.content-address {
+	    margin-top: -6em;
 	}
   	
 }
@@ -833,6 +874,14 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.wrapper-buttons-filter-tablet {
 	    margin-left: 6.5em;
 	}
+
+	.MainContact-main {	   
+	    margin: -2em 0 0 0;
+	}
+
+	.content-address {
+	    margin-top: -6em;
+	}
   	
 }
 
@@ -856,6 +905,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.wrapper-buttons-filter-tablet{
 		margin-left: 6.5em;
+	}
+
+	.MainContact-form {
+    	margin: 3em 0 -6em 0;
 	}
 }
 
@@ -913,6 +966,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.wrapper-buttons-filter-tablet {
 	    margin-left: 8.5em;
 	}
+
+	.content-address {
+	    margin-top: 4em;
+	}
 }
 
 @media screen and (min-width: 480px){
@@ -952,6 +1009,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 }
 
 @media screen and (min-width: 600px){
+
+	.Background{
+  		height:auto;
+  	}
     .MainAbout-content{
     	font-size: 1.2em;
     }
@@ -983,6 +1044,95 @@ figure.content-img-portfolio:focus .overlay-portfolio{
     .MainTitle-main{
 		font-size: 3.5em;
     }
+    .fabric-mobile img {
+	    width: 502px;
+	}
+
+	.wrapper-anim-move-mobile {
+    	top: 38em !important;
+    	margin-left: -15px;
+	}
+
+	.gear-small {	    
+	    margin-top: 15em;
+	    margin-right: -4.5em;
+	}
+
+	.gear-big {	    
+	    margin-top: 14em;
+	    margin-right: -3em;
+	}
+
+	.MainAbout {
+	    margin: 18em 0 18em 0;
+	}
+
+	.MainService {
+	    margin: 18em 0 35em 0;
+	}
+
+	.MainAlliance {
+	    margin: 15em 0 10em 0;
+	}
+
+	.MainClients {
+	    margin: 15em 0 15em 0;
+	}
+
+	.MainClients-main {
+	    margin-top: 2em;
+	    margin-bottom: 2em;
+	}
+
+	div.content-clients:first-child {
+	    margin-bottom: -7em;
+	}
+	.content-clients {
+	    margin: 2em 0 -7em -1.5em;
+	}
+
+	.next, .prev {	   
+	    top: 20em;	   
+	}
+
+	.MainPortfolio {
+	    margin: 15em 0 10em 0;
+	}
+	.MainPortfolio-main {
+	    margin: 0em 0 -0.5em 0;
+	}
+
+	.content-img-portfolio {
+	    margin: 72px -12px -36px 132px;
+	}
+
+	.portofolio-image{
+		width: 50%;
+	}
+
+	.wrapper-buttons-filter-tablet {
+	    margin-left: 14.5em;
+	    top: 47em;
+	    bottom: -6em;
+	}
+
+	.overlay-portfolio {
+	    width: 49%;
+	    height: 117%;
+	}
+
+	.overlay-portfolio a {
+	    top: 16px;
+	}
+
+	.MainContact {
+	    margin: 27em 0 10em 0;ç
+	}
+
+	.content-address {
+	    margin-top: 7em;
+	}
+
 }
 
 @media screen and (min-width: 640px){
@@ -1128,7 +1278,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 
 	.MainAbout{
-		margin: 25em 0 0 0;
+		margin: 21em 0 0 0;
     	padding: 1em 3em 0 3em;
 	}
 	.MainAbout-main{
@@ -1143,7 +1293,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 
 	.special-title{
-		margin-bottom: 4em;
+		margin-bottom: 12em;
 	}
 
 	.MainChoose{
@@ -1168,7 +1318,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 
 	.MainService{
-		margin: 22em 0 22em 0;
+		margin: 22em 0 26em 0;
 	}
 
 	.MainService-main{
@@ -1183,6 +1333,14 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.MainClients{
 		margin: 25em 0 0 0;
+	}
+
+	.MainClients-main {
+   		 margin-bottom: -1em;
+	}
+
+	.MainPortfolio-main {
+	    margin: 3em 0 -0.5em 0;
 	}
 
 	.MainContact{
@@ -1292,6 +1450,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 
 	.wrapper-anim-move-tablet{
+		display: block;
 		overflow: hidden;
 	    width: 100%;
 	    height: 44px;
@@ -1341,6 +1500,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 		position: relative; 
 		height: 500px; 
 		width: auto !important;
+		margin-bottom: 4em;
 	}
 
 	.banner-tablet li{
@@ -1381,7 +1541,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 
 	.content-img-portfolio{
-		margin-top: 44px;
+		margin-top: 52px;
 	}
 
 	.wrapper-type-portfolio-tablet{
@@ -1392,7 +1552,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 		text-align: center;
 		width: 37px;
 		padding: 8px 8px 8px 0;
-		margin-bottom: 0.5em;
+		margin-bottom: -1em;
 	}
 
 	.overlay-portfolio{
@@ -1403,8 +1563,8 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	    margin-top: 0.4em;
 	    text-align: center;
 	    background: rgba(0,0,0,0.6);
-	    width: 61%;
-    	height: 96%;
+	    width: 68%;
+    	height: 104%;
 	    padding: 3.5em;
 	    z-index: 9;
 
@@ -1412,7 +1572,11 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.overlay-portfolio a{		
 		position: relative;
-	    top: -9px;
+	    top: 9px;
+	}
+
+	.portofolio-image {
+	    width: 70%;
 	}
 	
 	figure.content-img-portfolio:hover .overlay-portfolio{
@@ -1438,13 +1602,27 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 		display: none;
 	}
 
+	.wrapper-buttons-filter-tablet{	    
+	    top: 49em;
+	    bottom: 10em;
+	    margin-left: 8.5em;
+	}
+
 
 	.wrapper-anim-move-mobile{
 		display: none;
 	}
 
+	.MainContact-button-send {	   
+	    margin-left: 3.5em;
+	}
+
+	.margin-input {
+   		 padding: 0 73px 0 14px;
+	}
 	#carousel-example-generic-tablet{
 		display: block;
+		margin-bottom: 11em;
 	}
 
 	#carousel-example-generic{
@@ -1464,6 +1642,92 @@ figure.content-img-portfolio:focus .overlay-portfolio{
     	margin: 0.5em 0 0.5em 0;
     	padding-left: 1.5em;
     }
+
+}
+
+
+@media screen and (min-width: 800px){ 
+	
+    .fabric-tablet {	   
+	    margin-top: 12em;	    
+	    left: -9em;
+	}
+
+	.fabric-tablet img{
+		width: 765px;
+	}
+
+	.gear-big {
+	    margin-top: 21em;
+	    margin-right: 3.5em;
+	}
+
+	.gear-small {
+	    margin-top: 23em;
+	    margin-right: 1em;
+	}
+
+	.wrapper-anim-move-tablet {
+		display: block;
+	    overflow: hidden;
+	    width: 100%;
+	    height: 44px;
+	    position: absolute;
+	    top: 51em;
+	    z-index: 9;
+	    margin-left: -371px;
+	}
+
+	.MainAbout {
+	    margin: 23em 0 16em 0;
+	}
+
+	.MainService {
+	    margin: 25em 0 41em 0;
+	}
+
+	.MainAlliance {
+	    margin: 18em 0 22em 0;
+	}
+
+	.MainClients-main {
+	    margin-top: -1em;
+	    margin-bottom: -1em;
+	}
+
+	.MainClients {
+	    margin: 25em 0 16em 0;
+	}
+
+	.MainClients {
+	    margin: 25em 0 16em 0;
+	}
+
+	.gallery-portfolio {
+	    margin-left: 8em;
+	}
+	.MainPortfolio-main {
+	    margin: 3em 0 2.5em 0;
+	}
+	.content-img-portfolio {
+	    margin-top: 60px;
+	}
+	.portofolio-image {
+	    width: 70%;
+	}
+
+	.wrapper-buttons-filter-tablet {
+	    top: 58em;	   
+	    bottom: 7em;
+	}
+
+	.wrapper-buttons-filter-tablet {
+	    margin-left: 7.5em;
+	}
+
+	.MainContact {
+	    margin: 28em 0 8em 0;
+	}
 
 }
 
@@ -2130,6 +2394,11 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 
 @media screen and (min-width: 1200px){
+
+	.Background-clients {	    
+	    background-size: inherit;
+	    height: auto;
+	}
 	.MainService-list-web{
 		
     	margin: 3em 0 0 8em;
@@ -2266,6 +2535,30 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	    margin-bottom: 0.5em;
 	}
 
+	.input-areatablet {
+	    height: 139px !important;
+	}
+
+	.MainClients {
+	    margin: 25em 0 0 0;
+	}
+
+	.bgAllianceTransparent{
+    	display: block;
+    }
+
+    .bgAllianceSolid{
+    	display: block;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+
+	.MainClients {
+	    margin-bottom: -3em !important;
+	}
+	
 }
 
 @media screen and (min-height: 636px){
@@ -2337,6 +2630,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.MainChoose {
 	    margin: 22em 0 2em 0;
 	}
+
+	.MainClients-main {
+	    margin: -5em 1em 1em 0;
+	}
 }
 
 @media screen and (min-width: 1600px){
@@ -2370,6 +2667,15 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.special-title {
 	    margin-bottom: 18em;
+	}
+
+	.Background-clients {	    
+	    background-size: cover;
+	    height: auto;
+	}
+
+	.MainClients {
+	    margin: 30em 0 8em 0 !important;
 	}
 
 }
@@ -2419,6 +2725,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.wrapper-type-portfolio {
 	    margin-bottom: 0.5em;
+	}
+
+	.MainClients {
+	    margin: 30em 0 0 0;
 	}
 	
 }
