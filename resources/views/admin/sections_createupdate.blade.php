@@ -44,8 +44,8 @@
             </div>
         @endif
       <!-- form start -->
-      @if(isset($section))
-        {!! Form::model($section, ['route' => ['admin.sections.update', $section->id], 'method' => 'patch']) !!}                 
+      @if(isset($sections))
+        {!! Form::model($sections, ['route' => ['admin.sections.update', $sections->id], 'method' => 'patch']) !!}                 
             <div class="box-body">
               <div class="form-group">
                 {!! Form::label('inputName', 'Nombre de la seccion:') !!}

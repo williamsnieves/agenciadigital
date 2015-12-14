@@ -64,35 +64,28 @@
                 <li><a href="{{ URL::to('/') }}/admin/nodes/create"><i class="fa fa-circle-o"></i>Agregar nodos</a></li>                               
               </ul>
             </li>
+
             <li class="treeview">
               <a href="#">
                 
-                <i class="fa fa-file-image-o"></i><span>Imagenes</span><i class="fa fa-angle-left pull-right"></i>                
+                <i class="fa fa-plus-square-o"></i><span>Categorías</span><i class="fa fa-angle-left pull-right"></i>                
               </a>
               <ul class="treeview-menu">
-                <li><a href="{{ URL::to('/') }}/admin/images"><i class="fa fa-circle-o"></i>Ver imagenes</a></li>
-                <li><a href="{{ URL::to('/') }}/admin/images/create"><i class="fa fa-circle-o"></i>Agregar imagenes</a></li>                               
+                <li><a href="{{ URL::to('/') }}/admin/categories"><i class="fa fa-circle-o"></i>Ver categorías</a></li>
+                <li><a href="{{ URL::to('/') }}/admin/categories/create"><i class="fa fa-circle-o"></i>Agregar categorias</a></li>                               
               </ul>
-            </li>        
+            </li>                       
             <li class="treeview">
               <a href="#">
                 
-                <i class="fa fa-sitemap"></i><span>Categorías</span><i class="fa fa-angle-left pull-right"></i>               
+                <i class="fa fa-plus-square-o"></i><span>Portafolios</span><i class="fa fa-angle-left pull-right"></i>                
               </a>
               <ul class="treeview-menu">
-                <li><a href="{{ URL::to('/') }}/admin/categories"><i class="fa fa-circle-o"></i>Ver categorias</a></li>
-                <li><a href="{{ URL::to('/') }}/admin/categories/create"><i class="fa fa-circle-o"></i>Agregar categorías</a></li>                               
+                <li><a href="{{ URL::to('/') }}/admin/portfolios"><i class="fa fa-circle-o"></i>Ver elementos del portafolios</a></li>
+                <li><a href="{{ URL::to('/') }}/admin/portfolios/create"><i class="fa fa-circle-o"></i>Agregar elementos al portafolios</a></li>                               
               </ul>
-            </li>              
-            <li class="treeview">
-              <a href="#">                
-                <i class="fa fa-picture-o"></i><span>Galerías</span><i class="fa fa-angle-left pull-right"></i>                
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="{{ URL::to('/') }}/admin/galleries"><i class="fa fa-circle-o"></i>Ver galerías creadas</a></li>
-                <li><a href="{{ URL::to('/') }}/admin/galleries/create"><i class="fa fa-circle-o"></i>Agregar galería</a></li>                               
-              </ul>
-            </li>            
+            </li>
+
           </ul>
         </section>
         <!-- /.sidebar -->

@@ -30,6 +30,9 @@ Route::group([
   Route::resource('admin/editors', 'AdminUsersController');
   Route::resource('admin/pages', 'PageController');
   Route::resource('admin/sections', 'SectionController');
+  Route::resource('admin/nodes', 'NodeController');
+  Route::resource('admin/categories', 'CategoryController');
+  Route::resource('admin/portfolios', 'PortfolioController');
 });
 
 

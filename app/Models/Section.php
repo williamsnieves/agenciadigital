@@ -6,4 +6,5 @@ class Section extends Model {
 
 	//
 
+	protected $table = "sections";
 }

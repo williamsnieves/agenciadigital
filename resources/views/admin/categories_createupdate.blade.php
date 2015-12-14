@@ -50,16 +50,7 @@
               <div class="form-group">
                 {!! Form::label('inputName', 'Nombre de la marca:') !!}
                 {!! Form::text('name', null, ["class" => "form-control", 'placeholder'=>'Ingresa nombre de la marca', "id" => "inputName"]) !!}
-              </div>
-              <div class="form-group">
-                {!! Form::label('inputTitle', 'Marca:') !!}
-                {!! Form::select('brands', array('default' => 'Selecciona la marca') + $brands, $category->brands_id , ['class' => 'form-control']) !!}                        
-              </div> 
-
-              <div class="form-group">
-                {!! Form::label('inputThumb', 'Actualizar Imagen de la categoría:') !!}
-                {!! Form::select('images', $thumbs, $category->images_id , ['class' => 'form-control select2thumbs']) !!}                        
-              </div>
+              </div>              
             </div>
             <div class="box-footer">
               {!! Form::submit('Actualizar', ["class" => "btn btn-primary"]) !!}            
@@ -71,16 +62,7 @@
               <div class="form-group">
                 {!! Form::label('inputName', 'Nombre de la categoría:') !!}
                 {!! Form::text('name', null, ["class" => "form-control", 'placeholder'=>'Ingresa nombre de la categoría', "id" => "inputName"]) !!}
-              </div>
-              <div class="form-group">
-                {!! Form::label('inputTitle', 'Marca:') !!}
-                {!! Form::select('brands', array('default' => 'Selecciona la marca') + $brands, null , ['class' => 'form-control']) !!}                        
-              </div>
-
-              <div class="form-group">
-                {!! Form::label('inputThumb', 'Agregar Imagen de la categoría:') !!}
-                {!! Form::select('images', $thumbs, null , ['class' => 'form-control select2thumbs']) !!}                        
-              </div>
+              </div>             
                 
                             
             </div>

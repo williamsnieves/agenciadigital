@@ -33,13 +33,8 @@ class CategoryController extends Controller {
 	public function create()
 	{
 		//
-		$brands = Brand::lists('name', 'id');
-		//$thumbs = CustomImage::lists('name', 'id');
-		$thumbs = \DB::table('images')->where('isThumbnail', '1')->lists('name','id');
 		
-		//print_r($thumbs);
-		//return $thumbs;
-		return view('admin.categories_createupdate')->with(array('brands' => $brands, 'thumbs' => $thumbs));
+		return view('admin.categories_createupdate');
 	}
 
 	/**
@@ -51,22 +46,9 @@ class CategoryController extends Controller {
 	{
 		//
 
-		
-		$imageId = CustomImage::find($request->input('images'));
+	
 		$categories = new Category;
 		$categories->name = $request->input('name');
-		$categories->slug = Str::slug(Str::lower($request->input('name')), '-');
-
-		
-		$categories->images()->associate($imageId);
-
-		if($request->input('brands') != 'default'){
-			$brandId = Brand::find($request->input('brands'));
-			$categories->brands()->associate($brandId);
-		}else{
-			return redirect('admin/categories/create')->with('customexception', 'Debes asociar el tipo de producto a una marca');
-		}
-
 
 		$categories->save();
 
@@ -94,11 +76,9 @@ class CategoryController extends Controller {
 	{
 		//
 
-		$brands = Brand::lists('name', 'id');
-		//$thumbs = CustomImage::lists('name', 'id');
-		$thumbs = \DB::table('images')->where('isThumbnail', '1')->lists('name','id');
+	
 		$category = Category::find($id);			
-		return view('admin.categories_createupdate')->with(array('category' => $category, 'brands' => $brands, 'thumbs' => $thumbs));
+		return view('admin.categories_createupdate')->with(array('category' => $category));
 	}
 
 	/**
@@ -111,18 +91,9 @@ class CategoryController extends Controller {
 	{
 		//
 		
-		$imageId = CustomImage::find($request->input('images'));
+		
 		$categories = Category::find($id);
 		$categories->name = $request->input('name');
-		$categories->slug = Str::slug(Str::lower($request->input('name')), '-');
-		$categories->images()->associate($imageId);
-
-		if($request->input('brands') != 'default'){
-			$brandId = Brand::find($request->input('brands'));
-			$categories->brands()->associate($brandId);
-		}else{
-			return redirect('admin/categories/'.$id.'/edit')->with('customexception', 'Debes asociar el tipo de producto a una marca');
-		}
 
 		$categories->save();
 

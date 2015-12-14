@@ -50,20 +50,24 @@
             <div class="box-body">
               <div class="form-group">
                 {!! Form::label('inputName', 'Nombre del nodo en el admin:') !!}
-                {!! Form::text('name', null, ["class" => "form-control", 'placeholder'=>'Ingresa nombre del nodo', "id" => "inputName"]) !!}
+                {!! Form::text('name_node', null, ["class" => "form-control", 'placeholder'=>'Ingresa nombre del nodo', "id" => "inputName"]) !!}
               </div>
               <div class="form-group">
                 {!! Form::label('inputTitle', 'Titulo del nodo en la pagina:') !!}
                 {!! Form::text('title', null, ["class" => "form-control", 'placeholder'=>'Ingresa título del nodo', "id" => "inputTitle"]) !!}
               </div>
               <div class="form-group">
+                {!! Form::label('inputSubTitle', 'Subtitulo del nodo en la pagina:') !!}
+                {!! Form::text('subtitle', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtítulo del nodo', "id" => "inputSubTitle"]) !!}
+              </div>
+              <div class="form-group">
                 {!! Form::label('inputContent', 'Contenido del page:') !!}
-                {!! Form::textarea('content', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del nodo', "id" => "inputContent"]) !!}
+                {!! Form::textarea('description', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del nodo', "id" => "inputContent"]) !!}
               </div>
 
               <div class="form-group">
                 {!! Form::label('inputTitle', 'Página:') !!}
-                {!! Form::select('pages', array('default' => 'Selecciona') + $pages, $node->pages_id , ['class' => 'form-control']) !!}
+                {!! Form::select('pages', array('default' => 'Selecciona') + $pages, $node->content_pages_id , ['class' => 'form-control']) !!}
                         
               </div>              
               
@@ -78,16 +82,21 @@
             <div class="box-body">
               <div class="form-group">
                 {!! Form::label('inputName', 'Nombre del nodo en el admin:') !!}
-                {!! Form::text('name', null, ["class" => "form-control", 'placeholder'=>'Ingresa nombre del nodo', "id" => "inputName"]) !!}
+                {!! Form::text('name_node', null, ["class" => "form-control", 'placeholder'=>'Ingresa nombre del nodo', "id" => "inputName"]) !!}
               </div>
               <div class="form-group">
                 {!! Form::label('inputTitle', 'Titulo del nodo en la pagina:') !!}
                 {!! Form::text('title', null, ["class" => "form-control", 'placeholder'=>'Ingresa título del nodo', "id" => "inputTitle"]) !!}
               </div>
 
+               <div class="form-group">
+                {!! Form::label('inputSubTitle', 'Subtitulo del nodo en la pagina:') !!}
+                {!! Form::text('subtitle', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtítulo del nodo', "id" => "inputSubTitle"]) !!}
+              </div>
+
               <div class="form-group">
                 {!! Form::label('inputContent', 'Contenido del nodo:') !!}
-                {!! Form::textarea('content', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del nodo', "id" => "inputContent"]) !!}
+                {!! Form::textarea('description', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del nodo', "id" => "inputContent"]) !!}
               </div>
 
               <div class="form-group">

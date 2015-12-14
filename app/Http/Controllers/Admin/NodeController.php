@@ -5,7 +5,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\NodesValidationRequest;
 use Illuminate\Http\Request;
 use App\Models\Node;
-use App\Models\Page;
+use App\Models\ContentPage;
 
 class NodeController extends Controller {
 
@@ -30,7 +30,7 @@ class NodeController extends Controller {
 	public function create()
 	{
 		//
-		$pages = Page::all();
+		$pages = ContentPage::all();
 		return view('admin.nodes_createupdate')->with('pages', $pages);
 	}
 
@@ -44,12 +44,13 @@ class NodeController extends Controller {
 		//
 		
 		$nodes = new Node;
-		$nodes->name = $request->input('name');
+		$nodes->name_node = $request->input('name_node');
 		$nodes->title = $request->input('title');
-		$nodes->content = $request->input('content');
+		$nodes->subtitle = $request->input('subtitle');
+		$nodes->description = $request->input('description');
 
 		if($request->input('pages') != 'default'){
-			$pages = Page::find($request->input('pages'));
+			$pages = ContentPage::find($request->input('pages'));
 			$nodes->pages()->associate($pages);
 		}else{
 			return redirect('admin/nodes/create')->with('customexception', 'Debes asociar el nodo a una página');
@@ -82,7 +83,7 @@ class NodeController extends Controller {
 	{
 		//
 		//$pages = Node::with('page')->get();
-		$pages = Page::lists('name', 'id');
+		$pages = ContentPage::lists('name', 'id');
 		$node = Node::find($id);
 		//$pages = $node->pages;
 
@@ -102,13 +103,14 @@ class NodeController extends Controller {
 
 		
 		$nodes = Node::find($id);
-		$nodes->name = $request->input('name');
+		$nodes->name_node = $request->input('name_node');
 		$nodes->title = $request->input('title');
-		$nodes->content = $request->input('content');
+		$nodes->subtitle = $request->input('subtitle');
+		$nodes->description = $request->input('description');
 		
 
 		if($request->input('pages') != 'default'){
-			$pagesId = Page::find($request->input('pages'));
+			$pagesId = ContentPage::find($request->input('pages'));
 			$nodes->pages()->associate($pagesId);
 		}else{
 			return redirect('admin/nodes/create')->with('customexception', 'Debes asociar el nodo a una página');
@@ -132,7 +134,7 @@ class NodeController extends Controller {
 		$nodes =  Node::find($id);
 		$nodes->delete();
 
-		return redirect()->route('admin.nodes.index')->with('message', 'Sección borrada');
+		return redirect()->route('admin.nodes.index')->with('message', 'Nodo borrado');
 	}
 
 }

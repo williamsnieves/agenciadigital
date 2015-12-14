@@ -22,19 +22,18 @@ class NodesValidationRequest extends Request {
 	public function rules()
 	{
 		return [
-		    'name' => 'required|alpha_dash',
+		    'name_node' => 'required',
 		    'title' => 'required',
-		    'content' => 'required',		    	   
+		    'description' => 'required',		    	   
 		  ];
 	}
 
 	public function messages()
 	{
 	    return [
-	        'name.required' => 'Debes ingresar el nombre que tendra el nodo dentro del sistema',
-	        'name.alpha_dash' => 'Debes ingresar solo letras y evitar los espacios usa  _ o #',	        
+	        'name_node.required' => 'Debes ingresar el nombre que tendra el nodo dentro del sistema',	        
 	        'title.required' => 'Debes ingresar el título que tendra el nodo en la página',	               
-	        'content.required' => 'Debes ingresar el contenido del nodo',	                
+	        'description.required' => 'Debes ingresar el contenido del nodo',	                
 	    ];
 	}
 
