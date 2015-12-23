@@ -52,7 +52,10 @@ class PageController extends Controller {
 		$pages->name = $request->input('name');
 		$pages->title = $request->input('title');
 		$pages->subtitle = $request->input('subtitle');
-		$pages->content = $request->input('content');		
+		$pages->content = $request->input('content');
+		$pages->title_en = $request->input('title_en');
+		$pages->subtitle_en = $request->input('subtitle_en');
+		$pages->content_en = $request->input('content_en');		
 
 		if($request->input('galleries') != 'default'){
 			$galleryId = Gallery::find($request->input('galleries'));
@@ -115,6 +118,9 @@ class PageController extends Controller {
 		$pages->title = $request->input('title');
 		$pages->subtitle = $request->input('subtitle');
 		$pages->content = $request->input('content');
+		$pages->title_en = $request->input('title_en');
+		$pages->subtitle_en = $request->input('subtitle_en');
+		$pages->content_en = $request->input('content_en');
 
 		if($request->input('name') == 'nosotros')
 			$pages->link =  'about';

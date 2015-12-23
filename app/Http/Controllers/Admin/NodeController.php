@@ -49,6 +49,10 @@ class NodeController extends Controller {
 		$nodes->subtitle = $request->input('subtitle');
 		$nodes->description = $request->input('description');
 
+		$nodes->title_en = $request->input('title_en');
+		$nodes->subtitle_en = $request->input('subtitle_en');
+		$nodes->description_en = $request->input('description_en');
+
 		if($request->input('pages') != 'default'){
 			$pages = ContentPage::find($request->input('pages'));
 			$nodes->pages()->associate($pages);
@@ -107,6 +111,10 @@ class NodeController extends Controller {
 		$nodes->title = $request->input('title');
 		$nodes->subtitle = $request->input('subtitle');
 		$nodes->description = $request->input('description');
+
+		$nodes->title_en = $request->input('title_en');
+		$nodes->subtitle_en = $request->input('subtitle_en');
+		$nodes->description_en = $request->input('description_en');
 		
 
 		if($request->input('pages') != 'default'){

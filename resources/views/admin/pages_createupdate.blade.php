@@ -50,13 +50,25 @@
                 {!! Form::text('title', null, ["class" => "form-control", 'placeholder'=>'Ingresa título del page', "id" => "inputTitle"]) !!}
               </div>
               <div class="form-group">
+                {!! Form::label('inputTitleEnglish', 'Titulo de la página ingles:') !!}
+                {!! Form::text('title_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa título del page en ingles', "id" => "inputTitleEnglish"]) !!}
+              </div>
+              <div class="form-group">
                 {!! Form::label('inputSubTitle', 'Subtitulo de la página:') !!}
                 {!! Form::text('subtitle', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtitulo del page', "id" => "inputSubTitle"]) !!}
+              </div>
+              <div class="form-group">
+                {!! Form::label('inputSubTitleEnglish', 'Subtitulo de la página en ingles:') !!}
+                {!! Form::text('subtitle_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtítulo del page', "id" => "inputSubTitleEnglish"]) !!}
               </div>
               <div class="form-group">
                 {!! Form::label('inputContent', 'Contenido de la pagina:') !!}
                 {!! Form::textarea('content', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del page', "id" => "inputContent"]) !!}
               </div>
+              <div class="form-group">
+                {!! Form::label('inputContentEnglish', 'Contenido de la pagina:') !!}
+                {!! Form::textarea('content_en', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del page', "id" => "inputContentEnglish"]) !!}
+              </div> 
               <div class="form-group">
                 {!! Form::label('inputContent', 'Asociar galeria al contenido de la pagina pagina:') !!}
                 {!! Form::select('galleries', array('default' => 'Selecciona') + $galleries, $page->galleries_id , ['class' => 'form-control']) !!}
@@ -83,12 +95,25 @@
                 {!! Form::text('title', null, ["class" => "form-control", 'placeholder'=>'Ingresa título del page', "id" => "inputTitle"]) !!}
               </div>
               <div class="form-group">
+                {!! Form::label('inputTitleEnglish', 'Titulo de la página ingles:') !!}
+                {!! Form::text('title_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa título del page en ingles', "id" => "inputTitleEnglish"]) !!}
+              </div>
+              <div class="form-group">
                 {!! Form::label('inputSubTitle', 'Subtitulo de la página:') !!}
                 {!! Form::text('subtitle', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtítulo del page', "id" => "inputSubTitle"]) !!}
               </div>
               <div class="form-group">
+                {!! Form::label('inputSubTitleEnglish', 'Subtitulo de la página en ingles:') !!}
+                {!! Form::text('subtitle_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtítulo del page', "id" => "inputSubTitleEnglish"]) !!}
+              </div>
+              <div class="form-group">
                 {!! Form::label('inputContent', 'Contenido de la pagina:') !!}
                 {!! Form::textarea('content', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del page', "id" => "inputContent"]) !!}
+              </div> 
+
+              <div class="form-group">
+                {!! Form::label('inputContentEnglish', 'Contenido de la pagina:') !!}
+                {!! Form::textarea('content_en', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del page', "id" => "inputContentEnglish"]) !!}
               </div> 
 
               <div class="form-group">

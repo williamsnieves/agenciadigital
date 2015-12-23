@@ -6,8 +6,6 @@ use App\Http\Requests\CategoriesValidationRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use App\Models\Category;
-use App\Models\Brand;
-use App\Models\CustomImage;
 
 class CategoryController extends Controller {
 

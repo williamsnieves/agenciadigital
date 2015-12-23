@@ -1,5 +1,6 @@
 html,body {
   font-family: Ubuntu;
+  height: auto !important;
 }
 .modal{
 	z-index: 999999999;
@@ -2389,6 +2390,11 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	#carousel-example-generic{
 		display: block
 	}
+	.modal-dialog {
+	    top: 9em;
+	    width: 60%;
+	    margin: 30px auto;
+	}
 
 }
 
@@ -2550,6 +2556,24 @@ figure.content-img-portfolio:focus .overlay-portfolio{
     .bgAllianceSolid{
     	display: block;
     }
+    .MainAbout {
+	    margin: 23em 0 -14em 0;
+	}
+
+	.MainChoose {
+	    margin: 24em 0 6em 0;
+	}
+
+	.MainChoose-main {
+	    font-size: 2em;
+	    margin: -6em 1em 0 0;
+	}
+
+	.Background-contact {
+	    
+	    height: auto;	  
+	    padding-bottom: 0 !important;
+	}
 
 }
 
@@ -2677,6 +2701,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.MainClients {
 	    margin: 30em 0 8em 0 !important;
 	}
+
 
 }
 
