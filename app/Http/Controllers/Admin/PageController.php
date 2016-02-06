@@ -55,7 +55,15 @@ class PageController extends Controller {
 		$pages->content = $request->input('content');
 		$pages->title_en = $request->input('title_en');
 		$pages->subtitle_en = $request->input('subtitle_en');
-		$pages->content_en = $request->input('content_en');		
+		$pages->content_en = $request->input('content_en');	
+		$pages->speciatitle = $request->input('speciatitle');	
+		$pages->speciatitle_en = $request->input('speciatitle_en');		
+
+		$section = $request->input('sections');
+
+        if(!empty($section))
+            $pages->section_id = $request->input('sections');
+
 
 		if($request->input('galleries') != 'default'){
 			$galleryId = Gallery::find($request->input('galleries'));
@@ -99,7 +107,8 @@ class PageController extends Controller {
 
 		$page = ContentPage::find($id);
 		$gallery = Gallery::lists('name', 'id');
-		return view('admin.pages_createupdate')->with(array('page' => $page, 'galleries' => $gallery));
+		$section = Section::lists('name', 'id');
+		return view('admin.pages_createupdate')->with(array('page' => $page, 'galleries' => $gallery, 'sections' => $section));
 	}
 
 	/**
@@ -121,6 +130,13 @@ class PageController extends Controller {
 		$pages->title_en = $request->input('title_en');
 		$pages->subtitle_en = $request->input('subtitle_en');
 		$pages->content_en = $request->input('content_en');
+		$pages->speciatitle = $request->input('speciatitle');	
+		$pages->speciatitle_en = $request->input('speciatitle_en');	
+
+		$section = $request->input('sections');
+
+        if(!empty($section))
+            $pages->section_id = $request->input('sections');
 
 		if($request->input('name') == 'nosotros')
 			$pages->link =  'about';

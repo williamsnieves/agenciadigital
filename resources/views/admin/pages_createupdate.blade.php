@@ -66,8 +66,16 @@
                 {!! Form::textarea('content', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del page', "id" => "inputContent"]) !!}
               </div>
               <div class="form-group">
-                {!! Form::label('inputContentEnglish', 'Contenido de la pagina:') !!}
+                {!! Form::label('inputContentEnglish', 'Contenido de la pagina en ingles:') !!}
                 {!! Form::textarea('content_en', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del page', "id" => "inputContentEnglish"]) !!}
+              </div>
+              <div class="form-group">
+                {!! Form::label('inputTitleSpecial', 'contenido especial:') !!}
+                {!! Form::text('speciatitle', null, ["class" => "form-control", 'placeholder'=>'Ingresa contenido especial', "id" => "inputTitleSpecial"]) !!}
+              </div>
+              <div class="form-group">
+                {!! Form::label('inputTitleSpecialEnglish', 'contenido especial ingles:') !!}
+                {!! Form::text('speciatitle_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa contenido especial en ingles', "id" => "inputTitleSpecialEnglish"]) !!}
               </div> 
               <div class="form-group">
                 {!! Form::label('inputContent', 'Asociar galeria al contenido de la pagina pagina:') !!}
@@ -75,7 +83,7 @@
               </div>
               <div class="form-group">
                 {!! Form::label('inputContent', 'Asociar sección  al contenido de la pagina:') !!}
-                {!! Form::select('sections', array('default' => 'Selecciona') + $sections, null , ['class' => 'form-control', 'placeholder'=>'Ingresa descripción del page'  ]) !!}
+                {!! Form::select('sections', array('default' => 'Selecciona') + $sections, $page->section_id , ['class' => 'form-control', 'placeholder'=>'Ingresa descripción del page'  ]) !!}
               </div>
               
             </div>
@@ -112,9 +120,18 @@
               </div> 
 
               <div class="form-group">
-                {!! Form::label('inputContentEnglish', 'Contenido de la pagina:') !!}
+                {!! Form::label('inputContentEnglish', 'Contenido de la pagina en ingles:') !!}
                 {!! Form::textarea('content_en', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del page', "id" => "inputContentEnglish"]) !!}
-              </div> 
+              </div>
+
+              <div class="form-group">
+                {!! Form::label('inputTitleSpecial', 'contenido especial:') !!}
+                {!! Form::text('speciatitle', null, ["class" => "form-control", 'placeholder'=>'Ingresa contenido especial', "id" => "inputTitleSpecial"]) !!}
+              </div>
+              <div class="form-group">
+                {!! Form::label('inputTitleSpecialEnglish', 'contenido especial ingles:') !!}
+                {!! Form::text('speciatitle_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa contenido especial en ingles', "id" => "inputTitleSpecialEnglish"]) !!}
+              </div>
 
               <div class="form-group">
                 {!! Form::label('inputContent', 'Asociar galeria al contenido de la pagina pagina:') !!}

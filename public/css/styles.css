@@ -276,6 +276,11 @@ html,body {
 	color: white;
 }
 
+.MainAbout p{
+	text-align: center;
+	color: white;
+}
+
 .MainAbout-sub{
 	text-align: center;
 	color: white;
@@ -332,7 +337,26 @@ html,body {
 	color: white;
 }
 
+.wrapper-objectives ul{
+	color: white;
+}
+
 .MainChoose-objectives-subtitle{
+	text-align: center;
+	color: white;
+}
+
+.wrapper-objectives p{
+	text-align: center;
+	color: white;
+}
+
+.wrapper-vision p{
+	text-align: center;
+	color: white;
+}
+
+.wrapper-mission p{
 	text-align: center;
 	color: white;
 }
@@ -364,6 +388,10 @@ html,body {
 
 .MainService-list{
 	color: white;
+}
+
+.MainService-list li ul{
+	display: none
 }
 
 .MainAlliance{
@@ -776,6 +804,11 @@ div.content-clients:first-child {
     height: 148px;
 }
 
+.special-title{
+	color: #90c23e !important;
+	font-weight: bold;
+}
+
 figure.content-img-portfolio:hover .overlay-portfolio{
 	transition: 0.2s opacity linear;
 	opacity: 1;
@@ -1018,17 +1051,36 @@ figure.content-img-portfolio:focus .overlay-portfolio{
     	font-size: 1.2em;
     }
 
-    .MainChoose-objectives-list{
+    .MainAbout p{
     	font-size: 1.2em;
     }
 
     .MainChoose-objectives-list{
+    	font-size: 1.2em;
+    }
+
+    .wrapper-objectives ul{
     	font-size: 1.2em;
     }
 
     .MainChoose-objectives-subtitle{
 		font-size: 1.2em;
     }
+
+    .wrapper-objectives p{
+		text-align: center;
+		color: white;
+	}
+
+	.wrapper-mission p{
+		text-align: center;
+		color: white;
+	}
+
+	.wrapper-vision p{
+		text-align: center;
+		color: white;
+	}
 
     .MainService-list{
     	font-size: 1.2em;
@@ -1293,6 +1345,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 		font-size: 1.3em;
 	}
 
+	.MainAbout p{
+		font-size: 1.3em;
+	}
+
 	.special-title{
 		margin-bottom: 12em;
 	}
@@ -1314,8 +1370,26 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.MainChoose-objectives-list{
 		font-size: 1.2em;
 	}
+	.wrapper-objectives ul{
+		font-size: 1.2em;
+	}
 	.MainChoose-objectives-subtitle{
 		font-size: 1.2em;
+	}
+
+	.wrapper-objectives p{
+		text-align: center;
+		color: white;
+	}
+
+	.wrapper-vision p{
+		text-align: center;
+		color: white;
+	}
+
+	.wrapper-mission p{
+		text-align: center;
+		color: white;
 	}
 
 	.MainService{
@@ -1916,6 +1990,11 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 		font-size: 1.2em;
 	}
 
+	.MainAbout p{
+		padding: 0 4em 0 4em;
+		font-size: 1.2em;
+	}
+
 
   	.MainTitle{
   		margin: 18em 0 0 0;
@@ -1947,7 +2026,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 
 	.special-title{
-		color: #90c23e;
+		color: #90c23e !important;
 		font-weight: bold;
 	}
 
@@ -2489,8 +2568,22 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.MainChoose-objectives-list {
 	    font-size: 1em;
 	}
+	.wrapper-objectives ul{
+		font-size: 1em;
+	}
 	.MainChoose-objectives-subtitle {
 	    font-size: 1em;
+	}
+	.wrapper-objectives p{
+		font-size: 1em;
+	}
+
+	.wrapper-vision p{
+		font-size: 1em;
+	}
+
+	.wrapper-mission p{
+		font-size: 1em;
 	}
 
 	.MainService-main {
@@ -2647,8 +2740,22 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.MainChoose-objectives-list {
 	    font-size: 1.2em;
 	}
+	.wrapper-objectives ul{
+		font-size: 1.2em;
+	}
 	.MainChoose-objectives-subtitle {
 	    font-size: 1.2em;
+	}
+	.wrapper-objectives p{
+		font-size: 1.2em;
+	}
+
+	.wrapper-vision p{
+		font-size: 1.2em;
+	}
+
+	.wrapper-mission p{
+		font-size: 1.2em;
 	}
 
 	.MainChoose {

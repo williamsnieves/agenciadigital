@@ -22,9 +22,8 @@ class PagesValidationRequest extends Request {
 	public function rules()
 	{
 		return [
-		    'name' => 'required | alpha',
-		    'title' => 'required | alpha',
-		    'content' => 'required',	   
+		    'name' => 'required',
+		    'title' => 'required',	   
 		  ];
 	}
 
@@ -32,8 +31,7 @@ class PagesValidationRequest extends Request {
 	{
 	    return [
 	        'name.required' => 'Debes ingresar el nombre que tendra la sección dentro del sistema',	        
-	        'title.required' => 'Debes ingresar el título que tendra la sección en el site',	               
-	        'content.required' => 'Debes ingresar el contenido de la sección',	        
+	        'title.required' => 'Debes ingresar el título que tendra la sección en el site',	    	        
 	    ];
 	}
 

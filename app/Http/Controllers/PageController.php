@@ -6,6 +6,10 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Requests\ContactFormRequest;
 
+use App\Models\Section;
+use App\Models\ContentPage;
+use App\Models\Node;
+
 use Input;
 use Session;
 class PageController extends Controller {
@@ -18,6 +22,18 @@ class PageController extends Controller {
 	public function index()	{
 		//die(Input::get('locale'));
 		//Session::set('locale', 'en');
+
+		//$about =  ContentPage::where("section_id", "=", "2")->get();
+		$about = \DB::table('content_pages')->join('sections', 'content_pages.section_id', '=', 'sections.id')->where('sections.name', '=', 'about')->get();
+		$choose = \DB::table('content_pages')->join('nodes', 'content_pages.id', '=', 'nodes.content_pages_id')->join('sections', 'content_pages.section_id', '=', 'sections.id')->where('sections.name', '=', 'choose')
+		->select('content_pages.title','content_pages.subtitle','content_pages.title_en','content_pages.subtitle_en', 'nodes.title as title_node', 'nodes.title_en as title_en_node', 'nodes.subtitle as subtitle_node', 'nodes.subtitle_en as subtitle_en_node', 'nodes.description', 'nodes.description_en')
+		->get();
+
+		$service = \DB::table('content_pages')->join('nodes', 'content_pages.id', '=', 'nodes.content_pages_id')->join('sections', 'content_pages.section_id', '=', 'sections.id')->where('sections.name', '=', 'services')
+		->select('content_pages.title','content_pages.subtitle','content_pages.title_en','content_pages.subtitle_en', 'nodes.title as title_node', 'nodes.title_en as title_en_node', 'nodes.subtitle as subtitle_node', 'nodes.subtitle_en as subtitle_en_node', 'nodes.description', 'nodes.description_en')
+		->get();
+		//return $service; 
+
 		$sessionLang =Session::get('locale'); 
 		if(!empty($sessionLang)){
 			$lang = Session::get('locale');
@@ -26,7 +42,7 @@ class PageController extends Controller {
 			$lang = Session::get('locale');
 		}
 
-		return view('pages.home')->with(array('lang' => $lang));
+		return view('pages.home')->with(array('lang' => $lang, 'about' => $about, 'choose' => $choose, 'service' => $service));
 	}
 
 	public function storecontact(ContactFormRequest $request){

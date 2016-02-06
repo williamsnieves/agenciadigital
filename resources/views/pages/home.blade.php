@@ -78,35 +78,31 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainAbout">
-						@if($lang == 'en')
-							<h1 class="MainAbout-main">who we are</h1>			
-							<h4 class="MainAbout-sub">3WV Group as a company</h4>
-							<p class="MainAbout-content">3WV is the most convenient multi-faceted and international web marketing agency for you. With more than fifteen years of experience on bringing success to our clients, we are unique because we understand that the technical value is just as important as the aesthetical one, and the message is as vital as the way you deliver it. Winner of numerous national and international awards, 3WV is known as one of the most diversified companies in its field.</p>
-							<p class="MainAbout-content">
-							We are worldwide communicators that embrace the internet and all its possibilities as the medium to achieve what our clients need, regardless of where they are located.
-							</p>
-							<p class="MainAbout-content">
-								Our team has the best system engineers and the most creative designers, advertisers, marketing specialists and writters who work together in order to conceptualize, plan, execute and deliver winning and endearing digital and web marketing campaigns. 
-							</p>
-							<p class="MainAbout-content special-title">
-								We believe that technology is the greatest tool to reach the global audience.
-							</p>
-						@endif
+						@foreach($about as $aboutdata)
+							@if($lang == 'en')
+								<h1 class="MainAbout-main">{{$aboutdata->title_en}}</h1>			
+								<h4 class="MainAbout-sub">{{$aboutdata->subtitle_en}}</h4>
+								{{!! $aboutdata->content_en !!}}
+								<p class="MainAbout-content special-title">
+									{{$aboutdata->speciatitle_en}}
+								</p>
+							@endif
 
-						@if($lang == 'es')
-							<h1 class="MainAbout-main">Quiénes somos</h1>			
-							<h4 class="MainAbout-sub">3WV Group como empresa</h4>
-							<p class="MainAbout-content">3WV Group es la agencia de mercadeo web de presencia internacional más conveniente para impulsar tu negocio. Con más de quince años de experiencia haciendo exitosos a nuestros clientes. Ganadora de numerosos premios nacionales e internacionales, 3WV es reconocida como una de las compañías más diversificadas dentro de su área.</p>
-							<p class="MainAbout-content">
-							Somos profesionales que asumimos el Internet y todas sus posibilidades como el medio para lograr lo que nuestros clientes necesitan, sin importar dónde se encuentren.
-							</p>
-							<p class="MainAbout-content">
-								Nuestro equipo está conformado por los mejores ingenieros de sistema, los diseñadores, publicistas, especialistas en mercadeo y redactores creativos; quienes trabajan en conjunto para conceptualizar, planificar, ejecutar y lanzar campañas de mercadeo digitales altamente atractivas, diferentes e innovadoras.
-							</p>
-							<p class="MainAbout-content special-title">
-								Creemos en la tecnología como la mejor herramienta para comunicarse con el mundo.
-							</p>
-						@endif
+							@if($lang == 'es')
+								<h1 class="MainAbout-main">{{$aboutdata->title}}</h1>			
+								<h4 class="MainAbout-sub">{{$aboutdata->subtitle}}</h4>
+								<p class="MainAbout-content">3WV Group es la agencia de mercadeo web de presencia internacional más conveniente para impulsar tu negocio. Con más de quince años de experiencia haciendo exitosos a nuestros clientes. Ganadora de numerosos premios nacionales e internacionales, 3WV es reconocida como una de las compañías más diversificadas dentro de su área.</p>
+								<p class="MainAbout-content">
+								Somos profesionales que asumimos el Internet y todas sus posibilidades como el medio para lograr lo que nuestros clientes necesitan, sin importar dónde se encuentren.
+								</p>
+								<p class="MainAbout-content">
+									Nuestro equipo está conformado por los mejores ingenieros de sistema, los diseñadores, publicistas, especialistas en mercadeo y redactores creativos; quienes trabajan en conjunto para conceptualizar, planificar, ejecutar y lanzar campañas de mercadeo digitales altamente atractivas, diferentes e innovadoras.
+								</p>
+								<p class="MainAbout-content special-title">
+									Creemos en la tecnología como la mejor herramienta para comunicarse con el mundo.
+								</p>
+							@endif
+						@endforeach
 
 					</div> 
 				</div>
@@ -123,8 +119,8 @@
 				<div class="row">
 					<div class="col-xs-12 MainChoose">
 						@if($lang == 'en')
-							<h1 class="MainChoose-main">how we think</h1>			
-							<h4 class="MainChoose-sub">3WV Group philosophy</h4>
+							<h1 class="MainChoose-main">{{$choose[0]->title_en}}</h1>			
+							<h4 class="MainChoose-sub">{{$choose[0]->subtitle_en}}</h4>
 							
 							<div class="col-md-4 wrapper-objectives">
 								<figure class="MainChoose-objectives wow slideInLeft">
@@ -134,18 +130,9 @@
 									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
 								</figure>
 
-								<h2 class="MainChoose-objectives-title">objectives</h2>
-
-								<ul class="MainChoose-objectives-list">
-									<li>To offer our customers the most engaging and innovative marketing strategies, specifically designed based on the company's budget, style and purpose.</li>
-									<li>To provide our clients with a complete range of IT services.</li>
-									<li>To maintain the highest quality standards.</li>
-									<li>To strengthen our team of highly trained professionals.</li>
-								</ul>
-
-								<p class="MainChoose-objectives-subtitle">
-									We want to maximize the potential of our customer's company and integrate it into the market place in a modern way.
-								</p>	
+								<h2 class="MainChoose-objectives-title">{{$choose[0]->title_en_node}}</h2>
+								
+								{!! $choose[0]->description_en !!}
 							</div>
 							
 							<div class="col-md-4 wrapper-vision">
@@ -157,9 +144,9 @@
 									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
 								</figure>
 
-								<h2 class="MainChoose-objectives-title">vision</h2>
+								<h2 class="MainChoose-objectives-title">{{$choose[1]->title_en_node}}</h2>
 
-								<p class="MainChoose-objectives-subtitle">At 3WV, we want to become the first resource for small, medium and large size companies/businesses that are looking to expand themselves by means of pioneering digital marketing campaigns for Latin-American and US markets. As well, for those clients demanding excellence in services related to consulting, e-business and IT integrated solutions.</p>
+								{!! $choose[1]->description_en !!}
 
 							</div>
 							
@@ -172,21 +159,15 @@
 									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
 								</figure>
 
-								<h2 class="MainChoose-objectives-title">mission</h2>						
-
-								<p class="MainChoose-objectives-subtitle">
-									At 3WV, we develop, execute and provide our clients with thriving digital marketing strategies and IT solutions, by means of the most innovative and engaging designs and sophisticated engineering techniques that are entirely friendly to the user and very helpful to our clients. These are customized to your needs in order to assist you efficiently in achieving your business goals.
-								</p>
-
-								<p class="MainChoose-objectives-subtitle">
-									We listen. We craft. We deliver the most creative strategies and solutions for your success.
-								</p>
+								<h2 class="MainChoose-objectives-title">{{$choose[2]->title_en_node}}</h2>						
+								{!! $choose[2]->description_en !!}
+								
 							</div>
 						@endif
 
 						@if($lang == 'es')
-							<h1 class="MainChoose-main">Cómo pensamos</h1>			
-							<h4 class="MainChoose-sub">Filosofía 3WV Group</h4>
+							<h1 class="MainChoose-main">{{$choose[0]->title}}</h1>			
+							<h4 class="MainChoose-sub">{{$choose[0]->subtitle}}</h4>
 							
 							<div class="col-md-4 wrapper-objectives">
 								<figure class="MainChoose-objectives wow slideInLeft">
@@ -196,18 +177,9 @@
 									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
 								</figure>
 
-								<h2 class="MainChoose-objectives-title">Objetivos</h2>
+								<h2 class="MainChoose-objectives-title">{{$choose[0]->title_node}}</h2>
 
-								<ul class="MainChoose-objectives-list">
-									<li>Ofrecer las estrategias de mercadeo digital más atractivas y efectivas, específicamente concebidas, diseñadas y basadas en el presupuesto, estilo y propósito de la empresa de nuestros clientes.</li>
-									<li>Proveer un amplio rango de servicios de TI (Tecnología de Información).</li>
-									<li>Mantener los más altos estándares de calidad.</li>
-									<li>Continuar fortaleciendo nuestro equipo de profesionales altamente capacitado.</li>
-								</ul>
-
-								<p class="MainChoose-objectives-subtitle">
-									Queremos maximizar el potencial de tu negocio e integrarlo al mercado de una forma más moderna.
-								</p>	
+								{!! $choose[0]->description !!}	
 							</div>
 							
 							<div class="col-md-4 wrapper-vision">
@@ -219,9 +191,9 @@
 									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
 								</figure>
 
-								<h2 class="MainChoose-objectives-title">Visión</h2>
+								<h2 class="MainChoose-objectives-title">{{$choose[1]->title_node}}</h2>
 
-								<p class="MainChoose-objectives-subtitle">En 3WV buscamos crecer hasta convertirnos en la primera opción para toda pequeña, mediana y gran empresa, que busque expandirse a través de innovadoras campañas digitales para el mercado Latino-Americano y Norte-Americano, de igual forma para aquellos clientes que buscan excelencia en servicios relacionados con consultoría, negocio/comercio electrónico y soluciones de TI integrales.</p>
+								{!! $choose[1]->description !!}
 
 							</div>
 							
@@ -234,15 +206,9 @@
 									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
 								</figure>
 
-								<h2 class="MainChoose-objectives-title">Misión</h2>						
+								<h2 class="MainChoose-objectives-title">{{$choose[2]->title_node}}</h2>						
 
-								<p class="MainChoose-objectives-subtitle">
-									En 3WV Group desarrollamos y ejecutamos exitosas estrategias de mercadeo digital y soluciones de tecnología de información, mediante los diseños más innovadores y llamativos; a través de sofisticadas técnicas de ingeniería que son amigables al usuario y útiles para nuestros clientes. Dichas aplicaciones están elaboradas a la medida de sus necesidades, para poder asistirles eficazmente durante el proceso de alcanzar sus metas de negocio.
-								</p>
-
-								<p class="MainChoose-objectives-subtitle">
-									Nosotros escuchamos, creamos y brindamos las estrategias y soluciones más creativas a nuestros clientes, para que ellos puedan llegar al éxito.
-								</p>
+								{!! $choose[2]->description !!}
 							</div>
 						@endif
 
@@ -261,312 +227,88 @@
 				<div class="row">
 					<div class="col-xs-12 MainService">
 						@if($lang == 'en')
-							<h1 class="MainService-main">what we offer</h1>			
-							<h4 class="MainService-sub">3WV Group services</h4>
+							<h1 class="MainService-main">{{$service[0]->title_en}}</h1>			
+							<h4 class="MainService-sub">{{$service[0]->subtitle_en}}</h4>
 
 							<ul class="MainService-list">
-								<li>
-									Digital Marketing.								
-									<ul style="display:none;">
-										<li>Planning and execution of marketing and advertising campaigns in digital media.</li>
-										<li>Mailing list.</li>
-										<li>Solutions for phones, tablets and another mobile devices.</li>
-										<li>Custom Database design, development and management.</li>
-										<li>Google, Bing, Yahoo and Facebook Ads.</li>
-										<li>Search Engine Marketing (SEM).</li>
-										<li>Managing Social Media Influencers.</li>
-										<li>Promotional Websites (Mini Sites).</li>
-										<li>Social Media and Community Management.</li>
-										<li>Graphic Design.</li>
-									</ul>
-								</li>
-								<li>Websites and web applications.
-									<ul style="display:none;">
-										<li>Development of proposals and project drafts.</li>
-										<li>System architecture and components' design.</li>
-										<li>Graphic Design.</li>
-										<li>Programming.</li>
-										<li>Prototype creation and launching.</li>
-										<li>Maintenance, support and help.</li>
-										<li>Web applications.</li>
-										<li>Search Engine Optimization (SEO).</li>
-										<li>Development and setting of Content Management System (CMS).</li>
-										<li>Development of applications for e-Commerce and e-Business.</li>
-										<li>Intranets and Extranets.</li>
-									</ul>
-								</li>
-								<li>Social Media and Community Management.
-									<ul style="display:none;">
-										<li>Development and implementation of social media strategies.</li>
-										<li>Planning, designing and posting content in social media.</li>
-										<li>Monitoring of actions and activities to measure influence in audiences.</li>
-										<li>Drafting, designing, and posting content from clients and related content in websites and/or blogs.</li>
-										<li>Organization and management of contests and drafts on social media.</li>
-										<li>Preparing reports of results.</li>
-									</ul>
-								</li>
-								<li>Graphic Design.
-									<ul style="display:none;">
-										<li>Graphic Identity.</li>
-										<li>Design and redesign of logos.</li>
-										<li>Digital Web presence.</li>
-										<li>Cards and stationery.</li>
-										<li>Brochures, triptychs, catalogs, newsletters, magazines.</li>
-										<li>Packaging and Labels.</li>
-										<li>Signs.</li>
-										<li>Illustrations.</li>
-									</ul>
-								</li>
-								<li>Multimedia.
-									<ul style="display:none;">
-										<li>Multimedia Applications..</li>
-										<li>Electronic cards (e-cards).</li>
-										<li>Interactive CDs.</li>
-										<li>3D Animations.</li>
-										<li>Online learning (e-learning).</li>
-										<li>Video.</li>
-									</ul>
-								</li>
+								@foreach($service as $servicedata)
+									<li>
+										{{$servicedata->title_en_node}}	
+										{!! $servicedata->description_en !!}	
+										
+									</li>
+								@endforeach
 							</ul>
 
 							<ul class="MainService-list-web">						
-								<li>
-									Digital Marketing.							
-									
-								</li>
-								<li>Websites and web applications.
-									
-								</li>
-								<li>Social Media and Community Management.
-									
-								</li>
-								<li>Graphic Design.
-									
-								</li>
-								<li>Multimedia.
-									
-								</li>
+								@foreach($service as $servicedata)
+									<li>
+										{{$servicedata->title_en_node}}
+									</li>
+								@endforeach
 							</ul>
 							<div class="box-service-content marketing" id="marketing">
-								<h3>Digital Marketing</h3>
-								<ul>
-									<li>Planning and execution of marketing and advertising campaigns in digital media.</li>
-									<li>Mailing list.</li>
-									<li>Solutions for phones, tablets and another mobile devices.</li>
-									<li>Custom Database design, development and management.</li>
-									<li>Google, Bing, Yahoo and Facebook Ads.</li>
-									<li>Search Engine Marketing (SEM).</li>
-									<li>Managing Social Media Influencers.</li>
-									<li>Promotional Websites (Mini Sites).</li>
-									<li>Social Media and Community Management.</li>
-									<li>Graphic Design.</li>
-								</ul>
+								<h3>{{$service[0]->title_en_node}}</h3>
+								{!! $service[0]->description_en !!}								
 							</div>
 							<div class="box-service-content web" id="web">
-								<h3>Websites and web applications</h3>
-								<ul>
-									<li>Development of proposals and project drafts.</li>
-									<li>System architecture and components' design.</li>
-									<li>Graphic Design.</li>
-									<li>Programming.</li>
-									<li>Prototype creation and launching.</li>
-									<li>Maintenance, support and help.</li>
-									<li>Web applications.</li>
-									<li>Search Engine Optimization (SEO).</li>
-									<li>Development and setting of Content Management System (CMS).</li>
-									<li>Development of applications for e-Commerce and e-Business.</li>
-									<li>Intranets and Extranets.</li>
-								</ul>
+								<h3>{{$service[1]->title_en_node}}</h3>
+								{!! $service[1]->description_en !!}
 							</div>
 							<div class="box-service-content community" id="community">
-								<h3>Social Media and Community Management</h3>
-								<ul>
-									<li>Development and implementation of social media strategies.</li>
-									<li>Planning, designing and posting content in social media.</li>
-									<li>Monitoring of actions and activities to measure influence in audiences.</li>
-									<li>Drafting, designing, and posting content from clients and related content in websites and/or blogs.</li>
-									<li>Organization and management of contests and drafts on social media.</li>
-									<li>Preparing reports of results.</li>
-								</ul>
+								<h3>{{$service[2]->title_en_node}}</h3>
+								{!! $service[2]->description_en !!}
 							</div>
 							<div class="box-service-content design" id="design">
-								<h3>Graphic Design</h3>
-								<ul>
-									<li>Graphic Identity.</li>
-									<li>Design and redesign of logos.</li>
-									<li>Digital Web presence.</li>
-									<li>Cards and stationery.</li>
-									<li>Brochures, triptychs, catalogs, newsletters, magazines.</li>
-									<li>Packaging and Labels.</li>
-									<li>Signs.</li>
-									<li>Illustrations.</li>
-								</ul>
+								<h3>{{$service[3]->title_en_node}}</h3>
+								{!! $service[3]->description_en !!}
 							</div>
 							<div class="box-service-content multimedia" id="multimedia">
-								<h3>Multimedia</h3>
-								<ul>
-									<li>Multimedia Applications..</li>
-									<li>Electronic cards (e-cards).</li>
-									<li>Interactive CDs.</li>
-									<li>3D Animations.</li>
-									<li>Online learning (e-learning).</li>
-									<li>Video.</li>
-								</ul>
+								<h3>{{$service[4]->title_en_node}}</h3>
+								{!! $service[4]->description_en !!}
 							</div>
 						@endif
 
 						@if($lang == 'es')
-							<h1 class="MainService-main">Qué ofrecemos</h1>			
-							<h4 class="MainService-sub">Nuestros servicios</h4>
+							<h1 class="MainService-main">{{$service[0]->title}}</h1>			
+							<h4 class="MainService-sub">{{$service[0]->subtitle}}</h4>
 
 							<ul class="MainService-list">
-								<li>
-									Mercadeo Digital.								
-									<ul style="display:none;">
-										<li>Planificación y ejecución de campañas de mercadeo y publicidad en medios digitales.</li>
-										<li>Envíos de listas de correo.</li>
-										<li>Soluciones para celulares, tabletas y otros dispositivos móviles.</li>
-										<li>Diseño, desarrollo y manejo personalizado de Bases de Datos.</li>
-										<li>Manejo de pautas publicitarias en Google, Bing, Yahoo y Facebook.</li>
-										<li>Mercadeo en Motores de Búsqueda (SEM).</li>
-										<li>Manejo de Influenciadores en Redes Sociales.</li>
-										<li>Sitios Web Promocionales (Mini Sites).</li>
-										<li>Social Media y Community Management.</li>
-										<li>Diseño Gráfico.</li>
-									</ul>
-								</li>
-								<li>Sitios y Aplicaciones Web.
-									<ul style="display:none;">
-										<li>Desarrollo de propuestas y anteproyectos.</li>
-										<li>Arquitectura del sistema y sus  componentes.</li>
-										<li>Diseño gráfico.</li>
-										<li>Programación.</li>
-										<li>Creación de prototipo y lanzamiento al mercado.</li>
-										<li>Mantenimiento, soporte y ayuda.</li>
-										<li>Aplicaciones para la web.</li>
-										<li>Optimización de Motores de Búsqueda (SEO).</li>
-										<li>Desarrollo y Configuración de Sistemas de Administración de Contenido (CMS).</li>
-										<li>Desarrollo de Aplicaciones de e-Commerce y e-Business.</li>
-										<li>Intranets y Extranets.</li>
-									</ul>
-								</li>
-								<li>Social Media y Community Management
-									<ul style="display:none;">
-										<li>Desarrollo e implementación de estrategias en medios sociales.</li>
-										<li>Planificación, diseño y publicación de contenidos en medios sociales.</li>
-										<li>Monitorización de todas las acciones y actividades para medir la influencia en el público.</li>
-										<li>Redacción, diseño y publicación de contenidos de la marca y relacionados con ella.</li>
-										<li>Organización y gestión de concursos y sorteos en medios sociales.</li>
-										<li>Preparación de informes de resultados.</li>
-									</ul>
-								</li>
-								<li>Diseño Gráfico
-									<ul style="display:none;">
-										<li>Identidad gráfica.</li>
-										<li>Diseño y rediseño de logos.</li>
-										<li>Presencia digital en la Web.</li>
-										<li>Tarjetas de presentación y papelería.</li>
-										<li>Brochures, trípticos, catálogos, boletines, revistas.</li>
-										<li>Empaques y etiquetas.</li>
-										<li>Señales.</li>
-										<li>Ilustraciones.</li>
-									</ul>
-								</li>
-								<li>Multimedia.
-									<ul style="display:none;">
-										<li>Aplicaciones Multimedia.</li>
-										<li>Tarjetas electrónicas (e-cards).</li>
-										<li>CDs interactivos.</li>
-										<li>Animaciones 3D.</li>
-										<li>Aprendizaje en línea (e-learning).</li>
-										<li>Video.</li>
-									</ul>
-								</li>
+								@foreach($service as $servicedata)
+									<li>
+										{{$servicedata->title_node}}	
+										{!! $servicedata->description !!}	
+										
+									</li>
+								@endforeach
 							</ul>
-
 
 							<ul class="MainService-list-web">						
-								<li>
-									Mercadeo Digital.	
-								</li>
-								<li>
-									Sitios y Aplicaciones Web.									
-								</li>
-								<li>
-									Social Media y Community Management									
-								</li>
-								<li>
-									Diseño Gráfico									
-								</li>
-								<li>
-									Multimedia.									
-								</li>
+								@foreach($service as $servicedata)
+									<li>
+										{{$servicedata->title_node}}
+									</li>
+								@endforeach
 							</ul>
 							<div class="box-service-content marketing" id="marketing">
-								<h3>Mercadeo Digital.</h3>
-								<ul>
-									<li>Planificación y ejecución de campañas de mercadeo y publicidad en medios digitales.</li>
-									<li>Envíos de listas de correo.</li>
-									<li>Soluciones para celulares, tabletas y otros dispositivos móviles.</li>
-									<li>Diseño, desarrollo y manejo personalizado de Bases de Datos.</li>
-									<li>Manejo de pautas publicitarias en Google, Bing, Yahoo y Facebook.</li>
-									<li>Mercadeo en Motores de Búsqueda (SEM).</li>
-									<li>Manejo de Influenciadores en Redes Sociales.</li>
-									<li>Sitios Web Promocionales (Mini Sites).</li>
-									<li>Social Media y Community Management.</li>
-									<li>Diseño Gráfico.</li>
-								</ul>
+								<h3>{{$service[0]->title_node}}</h3>
+								{!! $service[0]->description !!}								
 							</div>
 							<div class="box-service-content web" id="web">
-								<h3>Sitios y Aplicaciones Web.</h3>
-								<ul>
-									<li>Desarrollo de propuestas y anteproyectos.</li>
-									<li>Arquitectura del sistema y sus  componentes.</li>
-									<li>Diseño gráfico.</li>
-									<li>Programación.</li>
-									<li>Creación de prototipo y lanzamiento al mercado.</li>
-									<li>Mantenimiento, soporte y ayuda.</li>
-									<li>Aplicaciones para la web.</li>
-									<li>Optimización de Motores de Búsqueda (SEO).</li>
-									<li>Desarrollo y Configuración de Sistemas de Administración de Contenido (CMS).</li>
-									<li>Desarrollo de Aplicaciones de e-Commerce y e-Business.</li>
-									<li>Intranets y Extranets.</li>
-								</ul>
+								<h3>{{$service[1]->title_node}}</h3>
+								{!! $service[1]->description !!}
 							</div>
 							<div class="box-service-content community" id="community">
-								<h3>Social Media y Community Management</h3>
-								<ul>
-									<li>Desarrollo e implementación de estrategias en medios sociales.</li>
-									<li>Planificación, diseño y publicación de contenidos en medios sociales.</li>
-									<li>Monitorización de todas las acciones y actividades para medir la influencia en el público.</li>
-									<li>Redacción, diseño y publicación de contenidos de la marca y relacionados con ella.</li>
-									<li>Organización y gestión de concursos y sorteos en medios sociales.</li>
-									<li>Preparación de informes de resultados.</li>
-								</ul>
+								<h3>{{$service[2]->title_node}}</h3>
+								{!! $service[2]->description !!}
 							</div>
 							<div class="box-service-content design" id="design">
-								<h3>Diseño Gráfico</h3>
-								<ul>
-									<li>Identidad gráfica.</li>
-									<li>Diseño y rediseño de logos.</li>
-									<li>Presencia digital en la Web.</li>
-									<li>Tarjetas de presentación y papelería.</li>
-									<li>Brochures, trípticos, catálogos, boletines, revistas.</li>
-									<li>Empaques y etiquetas.</li>
-									<li>Señales.</li>
-									<li>Ilustraciones.</li>
-								</ul>
+								<h3>{{$service[3]->title_node}}</h3>
+								{!! $service[3]->description !!}
 							</div>
 							<div class="box-service-content multimedia" id="multimedia">
-								<h3>Multimedia</h3>
-								<ul>
-									<li>Aplicaciones Multimedia.</li>
-									<li>Tarjetas electrónicas (e-cards).</li>
-									<li>CDs interactivos.</li>
-									<li>Animaciones 3D.</li>
-									<li>Aprendizaje en línea (e-learning).</li>
-									<li>Video.</li>
-								</ul>
+								<h3>{{$service[4]->title_node}}</h3>
+								{!! $service[4]->description !!}
 							</div>
 						@endif												
 

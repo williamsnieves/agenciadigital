@@ -57,16 +57,28 @@
                 {!! Form::text('title', null, ["class" => "form-control", 'placeholder'=>'Ingresa título del nodo', "id" => "inputTitle"]) !!}
               </div>
               <div class="form-group">
+                {!! Form::label('inputTitleEnglish', 'Titulo del nodo en la pagina en ingles:') !!}
+                {!! Form::text('title_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa título del nodo en ingles', "id" => "inputTitleEnglish"]) !!}
+              </div>
+              <div class="form-group">
                 {!! Form::label('inputSubTitle', 'Subtitulo del nodo en la pagina:') !!}
                 {!! Form::text('subtitle', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtítulo del nodo', "id" => "inputSubTitle"]) !!}
               </div>
               <div class="form-group">
-                {!! Form::label('inputContent', 'Contenido del page:') !!}
+                {!! Form::label('inputSubTitleEnglish', 'Subtitulo del nodo en la pagina en ingles:') !!}
+                {!! Form::text('subtitle_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtítulo del nodo en ingles', "id" => "inputSubTitleEnglish"]) !!}
+              </div>
+              <div class="form-group">
+                {!! Form::label('inputContent', 'Contenido del nodo:') !!}
                 {!! Form::textarea('description', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del nodo', "id" => "inputContent"]) !!}
+              </div>
+              <div class="form-group">
+                {!! Form::label('inputContentEnglish', 'Contenido del nodo en ingles:') !!}
+                {!! Form::textarea('description_en', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa contenido del nodo en ingles', "id" => "inputContentEnglish"]) !!}
               </div>
 
               <div class="form-group">
-                {!! Form::label('inputTitle', 'Página:') !!}
+                {!! Form::label('inputPage', 'Página:') !!}
                 {!! Form::select('pages', array('default' => 'Selecciona') + $pages, $node->content_pages_id , ['class' => 'form-control']) !!}
                         
               </div>              
@@ -90,13 +102,28 @@
               </div>
 
                <div class="form-group">
+                {!! Form::label('inputTitleEnglish', 'Titulo del nodo en la pagina en ingles:') !!}
+                {!! Form::text('title_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa título del nodo en ingles', "id" => "inputTitleEnglish"]) !!}
+              </div>
+
+               <div class="form-group">
                 {!! Form::label('inputSubTitle', 'Subtitulo del nodo en la pagina:') !!}
                 {!! Form::text('subtitle', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtítulo del nodo', "id" => "inputSubTitle"]) !!}
               </div>
 
               <div class="form-group">
+                {!! Form::label('inputSubTitleEnglish', 'Subtitulo del nodo en la pagina en ingles:') !!}
+                {!! Form::text('subtitle_en', null, ["class" => "form-control", 'placeholder'=>'Ingresa subtítulo del nodo en ingles', "id" => "inputSubTitleEnglish"]) !!}
+              </div>
+
+              <div class="form-group">
                 {!! Form::label('inputContent', 'Contenido del nodo:') !!}
                 {!! Form::textarea('description', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa descripción del nodo', "id" => "inputContent"]) !!}
+              </div>
+
+               <div class="form-group">
+                {!! Form::label('inputContentEnglish', 'Contenido del nodo en ingles:') !!}
+                {!! Form::textarea('description_en', null, ["class" => "form-control ckeditor", 'placeholder'=>'Ingresa contenido del nodo en ingles', "id" => "inputContentEnglish"]) !!}
               </div>
 
               <div class="form-group">
