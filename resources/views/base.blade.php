@@ -39,7 +39,7 @@
 			</div>
 			<div class="col-xs-8 lesspadding">
 				<figure class="Image">					
-					<img class="Image-logo" src="{{ URL::to('/') }}/images/bg_logotablet.png" alt="3wv">
+					<img class="Image-logo" src="{{ URL::to('/') }}/images/bg_logoweb.png" alt="3wv">
 				</figure>
 			</div>
 			<div class="col-xs-2 lesspadding">
@@ -135,7 +135,7 @@
 			</div>
 			<div class="lesspadding">
 				<figure class="Image web-logo">					
-					<img class="Image-logo" src="{{ URL::to('/') }}/images/bg_logoweb.png" alt="3wv">
+					<img class="Image-logo" src="{{ URL::to('/') }}/images/bg_logotablet.png" alt="3wv">
 				</figure>
 			</div>
 			<div class="lesspadding">
@@ -379,7 +379,17 @@
 
 		  });
 
-		  $(".MainService-list-web li:nth-child(1)").on('click',function(e){
+		   $(".MainService-list-web li").mouseout(function(e){
+				//alert("test");
+				$("#multimedia").hide();
+				$("#marketing").hide();
+				$("#web").hide();
+				$("#community").hide();
+				$("#design").hide();
+				$(".MainService-list-web li").removeClass('MainService-list-web-hover');
+		   })
+
+		  $(".MainService-list-web li:nth-child(1)").on('mouseover',function(e){
 				//alert("test");
 				$(".MainService-list-web li:nth-child(2)").removeClass('MainService-list-web-hover');
 				$(".MainService-list-web li:nth-child(3)").removeClass('MainService-list-web-hover');
@@ -393,16 +403,16 @@
 				$("#multimedia").hide();
 		  })
 
-		  /*$(".MainService-list-web li:nth-child(1)").mouseout(function(e){
+		  $(".MainService-list-web li:nth-child(1)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })*/
+		   })
 
-		  $(".MainService-list-web li:nth-child(2)").on('click',function(e){
+		  $(".MainService-list-web li:nth-child(2)").on('mouseover',function(e){
 				//alert("test");
 				$(".MainService-list-web li:nth-child(1)").removeClass('MainService-list-web-hover');
 				$(".MainService-list-web li:nth-child(3)").removeClass('MainService-list-web-hover');
@@ -416,16 +426,16 @@
 				$("#multimedia").hide();
 			})
 
-		  /*$(".MainService-list-web li:nth-child(2)").mouseout(function(e){
+		  $(".MainService-list-web li:nth-child(2)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })*/
+		   })
 
-		  $(".MainService-list-web li:nth-child(3)").on('click',function(e){
+		  $(".MainService-list-web li:nth-child(3)").on('mouseover',function(e){
 				//alert("test");
 				$(".MainService-list-web li:nth-child(1)").removeClass('MainService-list-web-hover');
 				$(".MainService-list-web li:nth-child(2)").removeClass('MainService-list-web-hover');
@@ -439,16 +449,16 @@
 				$("#multimedia").hide();
 			})
 
-		  /*$(".MainService-list-web li:nth-child(3)").mouseout(function(e){
+		  $(".MainService-list-web li:nth-child(3)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })*/
+		   })
 
-		  $(".MainService-list-web li:nth-child(4)").on('click',function(e){
+		  $(".MainService-list-web li:nth-child(4)").on('mouseover',function(e){
 				//alert("test");
 				$(".MainService-list-web li:nth-child(1)").removeClass('MainService-list-web-hover');
 				$(".MainService-list-web li:nth-child(2)").removeClass('MainService-list-web-hover');
@@ -462,16 +472,16 @@
 				$("#multimedia").hide();
 			})
 
-		  /*$(".MainService-list-web li:nth-child(4)").mouseout(function(e){
+		  $(".MainService-list-web li:nth-child(4)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })*/
+		   })
 
-		  $(".MainService-list-web li:nth-child(5)").on('click', function(e){
+		  $(".MainService-list-web li:nth-child(5)").on('mouseover', function(e){
 				//alert("test");
 				$(".MainService-list-web li:nth-child(1)").removeClass('MainService-list-web-hover');
 				$(".MainService-list-web li:nth-child(2)").removeClass('MainService-list-web-hover');
@@ -488,14 +498,14 @@
 
 
 
-		  /*$(".MainService-list-web li:nth-child(5)").mouseout(function(e){
+		  $(".MainService-list-web li:nth-child(5)").mouseout(function(e){
 				//alert("test");
 				$("#multimedia").hide();
 				$("#marketing").hide();
 				$("#web").hide();
 				$("#community").hide();
 				$("#design").hide();
-		   })*/
+		   })
 
 		  
 

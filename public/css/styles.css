@@ -199,10 +199,11 @@ html,body {
 
 .Image{
 	padding: 0 0.5em 0 0.5em;
+	text-align: center
 }
 
 .Image-logo{
-	width: 100%;
+	width: 231px;
 }
 
 .Social{
@@ -1841,21 +1842,21 @@ figure.content-img-portfolio:focus .overlay-portfolio{
    }
 
    .Image-logo{
-   	width: 231px;
+   	width: 342px;
    }
 
    
 	.menu-bg-web{
 		position: fixed;
 		top: 9em;
-		z-index: 99;
+		z-index: 9999;
 	}
 
 	.web-logo{
 		position: fixed;
 		top: 0;
 		width: 100%;
-    	z-index: 99999999;
+    	z-index: 999;
 	}
 
 	.web-social{
@@ -2016,6 +2017,8 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 		text-transform: uppercase;
 		margin:0;
 		font-size: 1.7em;
+		position: relative;
+    	top: 3em;
 	}
 
 	.MainTitle-main-web{				
@@ -2055,6 +2058,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.MainService-list-web li{
 		font-size: 1em;
 		padding-left: 1em;
+	}
+
+	.MainService-list-web li:hover{
+		cursor: pointer;
 	}
 
 	/*.MainService-list-web li:hover{
@@ -2659,7 +2666,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.MainChoose-main {
 	    font-size: 2em;
-	    margin: -6em 1em 0 0;
+	    margin: -4em 1em 0 0;
 	}
 
 	.Background-contact {

@@ -173,7 +173,7 @@
 								<figure class="MainChoose-objectives wow slideInLeft">
 									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
 								</figure>
-								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="300">
+								<figure class="MainChoose-objectives-web wow slideInDown">
 									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
 								</figure>
 
@@ -187,7 +187,7 @@
 									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
 								</figure>
 
-								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="400" data-wow-duration="1s">
+								<figure class="MainChoose-objectives-web wow slideInDown">
 									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
 								</figure>
 
@@ -202,7 +202,7 @@
 									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
 								</figure>
 
-								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="450">
+								<figure class="MainChoose-objectives-web wow slideInDown">
 									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
 								</figure>
 
