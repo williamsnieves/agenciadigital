@@ -625,6 +625,14 @@ div.content-clients:last-child{
 	color: white;
 	text-transform: uppercase;
 	font-size: 0.9em;
+	padding-left: 2.5em;
+}
+
+.addres-middle{
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	padding-left: 7em;
 }
 
 .content-address{
@@ -1820,6 +1828,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 @media screen and (min-width: 1024px){ 
 
+	.extra, .extra_1400, .extra_1600, .extra_1800{
+		display: none !important;
+	}
+
 	.portfolio-tablet{
 		display: none;
 	}
@@ -2489,7 +2501,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.Background-clients {	    
 	    background-size: inherit;
-	    height: auto;
+	    height: 980px;
 	}
 	.MainService-list-web{
 		
@@ -2682,6 +2694,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.MainClients {
 	    margin-bottom: -3em !important;
 	}
+
 	
 }
 
@@ -2772,6 +2785,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.MainClients-main {
 	    margin: -5em 1em 1em 0;
 	}
+
+	.extra_1400{
+		display: block !important;
+	}
 }
 
 @media screen and (min-width: 1600px){
@@ -2809,11 +2826,16 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.Background-clients {	    
 	    background-size: cover;
-	    height: auto;
+	    height: 980px;
 	}
 
 	.MainClients {
 	    margin: 30em 0 8em 0 !important;
+	}
+
+
+	.extra_1600{
+		display: block !important;
 	}
 
 
@@ -2868,6 +2890,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.MainClients {
 	    margin: 30em 0 0 0;
+	}
+
+	.extra_1800{
+		display: block !important;
 	}
 	
 }

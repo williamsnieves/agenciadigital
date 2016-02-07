@@ -126,7 +126,7 @@
 								<figure class="MainChoose-objectives wow slideInLeft">
 									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
 								</figure>
-								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="300">
+								<figure class="MainChoose-objectives-web wow slideInDown">
 									<img src="{{ URL::to('/') }}/images/objectives.png" alt="objectives">
 								</figure>
 
@@ -140,7 +140,7 @@
 									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
 								</figure>
 
-								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="400" data-wow-duration="1s">
+								<figure class="MainChoose-objectives-web wow slideInDown">
 									<img src="{{ URL::to('/') }}/images/vision.png" alt="vision">
 								</figure>
 
@@ -155,7 +155,7 @@
 									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
 								</figure>
 
-								<figure class="MainChoose-objectives-web wow slideInDown" data-wow-offset="450">
+								<figure class="MainChoose-objectives-web wow slideInDown">
 									<img src="{{ URL::to('/') }}/images/mission.png" alt="mission">
 								</figure>
 
@@ -363,6 +363,39 @@
 			<div class="bgAllianceTransparent" style="left:66em;" data-0="top:170em;" data-end="top:-75em"></div>
 			<div class="bgAllianceSolid" style="left:68em;" data-0="top:170em;" data-end="top:-25em"></div>
 
+			<div class="bgAllianceTransparent" style="left:70em;" data-0="top:175em;" data-end="top:-80em"></div>
+			<div class="bgAllianceSolid" style="left:72em;" data-0="top:175em;" data-end="top:-60em"></div>
+			<div class="bgAllianceTransparent" style="left:74em;" data-0="top:170em;" data-end="top:-100em"></div>
+			<div class="bgAllianceSolid" style="left:76em;" data-0="top:175em;" data-end="top:-50em"></div>
+			<div class="bgAllianceTransparent" style="left:78em;" data-0="top:160em;" data-end="top:-20em"></div>
+			<div class="bgAllianceSolid" style="left:80em;" data-0="top:160em;" data-end="top:-12em"></div>
+			<div class="bgAllianceTransparent" style="left:82em;" data-0="top:160em;" data-end="top:-110em"></div>
+			<div class="bgAllianceSolid extra_1400" style="left:84em;" data-0="top:160em;" data-end="top:-55em"></div>
+			<div class="bgAllianceTransparent extra_1400" style="left:86em;" data-0="top:170em;" data-end="top:-75em"></div>
+			<div class="bgAllianceSolid extra_1400" style="left:88em;" data-0="top:170em;" data-end="top:-25em"></div>
+
+			<div class="bgAllianceTransparent extra_1400" style="left:90em;" data-0="top:175em;" data-end="top:-80em"></div>
+			<div class="bgAllianceSolid extra_1400" style="left:92em;" data-0="top:175em;" data-end="top:-60em"></div>
+			<div class="bgAllianceTransparent extra_1600" style="left:94em;" data-0="top:170em;" data-end="top:-100em"></div>
+			<div class="bgAllianceSolid extra_1600" style="left:96em;" data-0="top:175em;" data-end="top:-50em"></div>
+			<div class="bgAllianceTransparent extra_1600" style="left:98em;" data-0="top:160em;" data-end="top:-20em"></div>
+			<div class="bgAllianceSolid extra_1600" style="left:100em;" data-0="top:160em;" data-end="top:-12em"></div>
+			<div class="bgAllianceTransparent extra_1600" style="left:102em;" data-0="top:160em;" data-end="top:-110em"></div>
+			<div class="bgAllianceSolid extra_1600" style="left:104em;" data-0="top:160em;" data-end="top:-55em"></div>
+			<div class="bgAllianceTransparent extra_1800" style="left:106em;" data-0="top:170em;" data-end="top:-75em"></div>
+			<div class="bgAllianceSolid extra_1800" style="left:108em;" data-0="top:170em;" data-end="top:-25em"></div>
+
+			<div class="bgAllianceTransparent extra_1800" style="left:110em;" data-0="top:175em;" data-end="top:-80em"></div>
+			<div class="bgAllianceSolid extra_1800" style="left:112em;" data-0="top:175em;" data-end="top:-60em"></div>
+			<div class="bgAllianceTransparent extra_1800" style="left:114em;" data-0="top:170em;" data-end="top:-100em"></div>
+			<div class="bgAllianceSolid extra_1800" style="left:116em;" data-0="top:175em;" data-end="top:-50em"></div>
+			<div class="bgAllianceTransparent extra_1800" style="left:118em;" data-0="top:160em;" data-end="top:-20em"></div>
+			<div class="bgAllianceSolid extra_1800" style="left:120em;" data-0="top:160em;" data-end="top:-12em"></div>
+			<div class="bgAllianceTransparent extra_1800" style="left:122em;" data-0="top:160em;" data-end="top:-110em"></div>
+			<div class="bgAllianceSolid extra_1800" style="left:124em;" data-0="top:160em;" data-end="top:-55em"></div>
+			<div class="bgAllianceTransparent extra_1800" style="left:126em;" data-0="top:170em;" data-end="top:-75em"></div>
+			<div class="bgAllianceSolid extra_1800" style="left:128em;" data-0="top:170em;" data-end="top:-25em"></div>
+
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 MainAlliance">
@@ -538,7 +571,7 @@
 						        </li>
 
 						        <li>
-						        	<div class="container-fluid grid-clients-web">
+						        	<div class="container-fluid grid-clients-web" data-length="5">
 						        		<div class="row lessright">
 						        				<div class="col-md-12 content-clients">						        					
 						        					<figure class="col-md-2 col-md-offset-1 client-wrapper"><img class="clients-img-tablet" src="{{ URL::to('/') }}/images/clients_web/logos-5_13.png" alt=""></figure>
@@ -2414,7 +2447,7 @@
 
 							<div class="col-xs-12 col-md-12 content-address lesspadding">
 								<div class="col-xs-4">
-									<h4 class="address-title center">caracas - venezuela</h4>
+									<h4 class="address-title">caracas - venezuela</h4>
 									
 									<address class="address-content">
 									    Master; (+58212) 991.3376 / 716.5890<br>
@@ -2424,7 +2457,7 @@
 									 </address>
 								</div>
 								<div class="col-xs-4">
-									<h4 class="address-title center">miami - usa</h4>
+									<h4 class="addres-middle">miami - usa</h4>
 									
 									<address class="address-content">
 									    Master: (+1) 786.347.6274 / 786.863.8094<br>
@@ -2434,7 +2467,7 @@
 									 </address>
 								</div>
 								<div class="col-xs-4">
-									<h4 class="address-title center">san jose - costa rica</h4>
+									<h4 class="address-title">san jose - costa rica</h4>
 									
 									<address class="address-content">
 									    Master: (+506) 2248.34.85<br>

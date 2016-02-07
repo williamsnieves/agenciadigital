@@ -254,6 +254,8 @@
 
 	
 	<script>
+
+		var counterClients = 0;
 		var isDown = false;
 		wow = new WOW({
           boxClass:     'wow',      // default
@@ -286,6 +288,7 @@
           $(document).on("mousedown", function(){
             if(isDown){
               isDown = false;
+              slider.slideReveal("hide");
               return;
             }else{
               slider.slideReveal("hide");
@@ -350,7 +353,20 @@
     
 			    $('.unslider-arrow').on("click", function(e) {
 			    	console.log("aqui");
-			    	e.preventDefault();
+			    	counterClients++;
+			    	e.preventDefault();	
+
+			    	/*if(counterClients == 5){
+			    		console.log("mojon");
+			    	} */
+
+			    	//var attrLn = $(e.currentTarget).parent().children('ul').children('li').children('div')[4]
+
+			    	/*if($(attrLn).attr("data-length") === "5"){
+			    		console.log("estirar height");
+			    	}*/
+			    	//console.log($(e.currentTarget).parent().children('ul').children('li').children('div')[4]);
+
 			        var fn = this.className.split(' ')[1];
 			        
 			        //  Either do unslider.data('unslider').next() or .prev() depending on the className
