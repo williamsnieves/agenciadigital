@@ -549,6 +549,23 @@
 
 				
 			}
+
+			console.log(size);
+			if(size >= 1263){
+				$(".boxes-web").removeClass("moving").addClass('movingMedium');
+			}
+
+			if(size >= 1583){
+				$(".boxes-web").removeClass("movingMedium").addClass('movingLong');
+			}
+
+			if(size >= 1783){
+				$(".boxes-web").removeClass("movingLong").addClass('movingVeryLong');
+			}
+
+			/*if(size >= 1263){
+				$(".boxes-web").removeClass("moving").addClass('movingMedium');
+			}*/
 			
 			$(window).resize(function() {
 				var size = $(window).width();
@@ -563,6 +580,18 @@
 						}
 					});
 					$(".MainService-list").unbind("click");
+				}
+
+				if(size >= 1263){
+					$(".boxes-web").removeClass("moving").addClass('movingMedium');
+				}
+
+				if(size >= 1583){
+					$(".boxes-web").removeClass("movingMedium").addClass('movingLong');
+				}
+
+				if(size >= 1783){
+					$(".boxes-web").removeClass("movingLong").addClass('movingVeryLong');
 				}
 					
 			})

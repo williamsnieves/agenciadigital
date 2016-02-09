@@ -391,10 +391,7 @@
 			<div class="bgAllianceSolid extra_1800" style="left:116em;" data-0="top:175em;" data-end="top:-50em"></div>
 			<div class="bgAllianceTransparent extra_1800" style="left:118em;" data-0="top:160em;" data-end="top:-20em"></div>
 			<div class="bgAllianceSolid extra_1800" style="left:120em;" data-0="top:160em;" data-end="top:-12em"></div>
-			<div class="bgAllianceTransparent extra_1800" style="left:122em;" data-0="top:160em;" data-end="top:-110em"></div>
-			<div class="bgAllianceSolid extra_1800" style="left:124em;" data-0="top:160em;" data-end="top:-55em"></div>
-			<div class="bgAllianceTransparent extra_1800" style="left:126em;" data-0="top:170em;" data-end="top:-75em"></div>
-			<div class="bgAllianceSolid extra_1800" style="left:128em;" data-0="top:170em;" data-end="top:-25em"></div>
+		
 
 			<div class="container">
 				<div class="row">
@@ -2460,8 +2457,8 @@
 									<h4 class="addres-middle">miami - usa</h4>
 									
 									<address class="address-content">
-									    Master: (+1) 786.347.6274 / 786.863.8094<br>
-									    Address: 7715 NW 48th street, Suite 390 Miami, Fl <br>
+									    Master:  +1 (305) 222.7962<br>
+									    Address:  7735 NW 48th St. Suite 115, Miami FL<br>
 									    33166<br>
 									    Email: info@3wv.net
 									 </address>
@@ -2540,8 +2537,8 @@
 									<h4 class="address-title center">miami - usa</h4>
 									
 									<address class="address-content">
-									    Master: (+1) 786.347.6274 / 786.863.8094<br>
-									    Dirección: 7715 NW 48th street, Suite 390 Miami, Fl <br>
+									    Master:  +1 (305) 222.7962<br>
+									    Dirección: 7735 NW 48th St. Suite 115, Miami FL<br>
 									    33166<br>
 									    Email: info@3wv.net
 									 </address>
