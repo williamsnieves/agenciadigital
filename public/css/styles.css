@@ -203,7 +203,7 @@ html,body {
 }
 
 .Image-logo{
-	width: 231px;
+	width: 84%;
 }
 
 .Social{
@@ -1137,6 +1137,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.wrapper-anim-move-mobile {
     	top: 38em !important;
     	margin-left: -15px;
+	    width: 21em;
 	}
 
 	.gear-small {	    
@@ -1163,6 +1164,8 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.MainClients {
 	    margin: 15em 0 15em 0;
+	    top: -18em;
+    	padding-bottom: 2em;
 	}
 
 	.MainClients-main {
@@ -1212,11 +1215,17 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 
 	.MainContact {
-	    margin: 27em 0 10em 0;ç
+	    margin: 27em 0 10em 0;
+	    padding-top: 6em;
 	}
 
 	.content-address {
 	    margin-top: 7em;
+	    margin-bottom: 11em;
+	}
+
+	.MainContact-button-send button{
+		margin-bottom: 10em !important;
 	}
 
 }
@@ -1350,6 +1359,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 		z-index: 99999;
 		background-color: #4b4b4b;
 		padding-bottom: 5em;
+		height: 1162px;
 	}
 
 	.Background-contact{
@@ -1441,6 +1451,8 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.MainClients{
 		margin: 25em 0 0 0;
+		position: relative;
+    	top: -14em;
 	}
 
 	.MainClients-main {
@@ -1535,6 +1547,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
     .content-address{
     	margin-top: 4em;
+    	margin-bottom: 0;
     }
     
 
@@ -1725,6 +1738,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	    margin-left: 3.5em;
 	}
 
+	.MainContact-button-send button{
+		margin-bottom: 5em !important;
+	}
+
 	.margin-input {
    		 padding: 0 73px 0 14px;
 	}
@@ -1805,6 +1822,8 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.MainClients {
 	    margin: 25em 0 16em 0;
+	    padding-bottom: 13em;
+	    top:0;
 	}
 
 	.MainClients {
@@ -2927,6 +2946,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 
 	.extra_1800{
 		display: block !important;
+	}
+
+	.Background-clients{
+		height: 1239px;
 	}
 }
 

@@ -288,7 +288,9 @@
           $(document).on("mousedown", function(){
             if(isDown){
               isDown = false;
-              slider.slideReveal("hide");
+              setTimeout(function(){
+              	slider.slideReveal("hide");
+              },1000)              
               return;
             }else{
               slider.slideReveal("hide");
