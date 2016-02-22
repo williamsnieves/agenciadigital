@@ -82,7 +82,7 @@
 							@if($lang == 'en')
 								<h1 class="MainAbout-main">{{$aboutdata->title_en}}</h1>			
 								<h4 class="MainAbout-sub">{{$aboutdata->subtitle_en}}</h4>
-								{{!! $aboutdata->content_en !!}}
+								{!! $aboutdata->content_en !!}
 								<p class="MainAbout-content special-title">
 									{{$aboutdata->speciatitle_en}}
 								</p>
@@ -91,15 +91,9 @@
 							@if($lang == 'es')
 								<h1 class="MainAbout-main">{{$aboutdata->title}}</h1>			
 								<h4 class="MainAbout-sub">{{$aboutdata->subtitle}}</h4>
-								<p class="MainAbout-content">3WV Group es la agencia de mercadeo web de presencia internacional más conveniente para impulsar tu negocio. Con más de quince años de experiencia haciendo exitosos a nuestros clientes. Ganadora de numerosos premios nacionales e internacionales, 3WV es reconocida como una de las compañías más diversificadas dentro de su área.</p>
-								<p class="MainAbout-content">
-								Somos profesionales que asumimos el Internet y todas sus posibilidades como el medio para lograr lo que nuestros clientes necesitan, sin importar dónde se encuentren.
-								</p>
-								<p class="MainAbout-content">
-									Nuestro equipo está conformado por los mejores ingenieros de sistema, los diseñadores, publicistas, especialistas en mercadeo y redactores creativos; quienes trabajan en conjunto para conceptualizar, planificar, ejecutar y lanzar campañas de mercadeo digitales altamente atractivas, diferentes e innovadoras.
-								</p>
+								{!! $aboutdata->content !!}
 								<p class="MainAbout-content special-title">
-									Creemos en la tecnología como la mejor herramienta para comunicarse con el mundo.
+									{{$aboutdata->speciatitle}}
 								</p>
 							@endif
 						@endforeach

@@ -46,8 +46,15 @@
 	})
 
 	var opcPortfolio = $(".menu-bg-web").children('ul').children('li')[6];
+	var opcMarketing = $(".menu-bg-web").children('ul').children('li')[3];
 	var opcPortfolioTablet = $(".Navigation").children('ul').children('li')[6];
 
+	
+	$(opcMarketing).on('click', function(e){
+		$(".MainService-list-web li:nth-child(1)").addClass('MainService-list-web-hover');
+		$("#marketing").show();		
+		//$(".gallery-portfolio").children('.social').show("slow");
+	})
 	$(opcPortfolio).on('click', function(e){
 		$(".gallery-portfolio").children().show("slow");
 		$(".wrapper-buttons-filter").children().children().children().removeClass('icon-active');		
