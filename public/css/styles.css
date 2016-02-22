@@ -2453,7 +2453,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 
 	.content-address{
-    	margin-bottom: 5em;
+    	margin-bottom: -2em;
+    	position: relative;
+    	top: -7em;
+
     }
 
     .MainContact{
@@ -2732,7 +2735,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 
 	.MainClients {
-	    margin: 25em 0 0 0;
+	    margin: 25em 0 0 0 !important;
 	}
 
 	.bgAllianceTransparent{
@@ -2768,7 +2771,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	.MainClients {
 	    margin-bottom: -3em !important;
 	    position: relative;
-    	top: 4em
+    	top: 6em
 	}
 
 	.MainAbout {
