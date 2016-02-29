@@ -4,6 +4,8 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
+	<meta name="description" content="3WV is the most convenient multi-faceted and international web marketing agency for you. With more than seventeen years of experience on bringing success to our clients, we are unique because we understand that the technical value is just as important as the aesthetical one, and the message is as vital as the way you deliver it. Winner of numerous national and international awards, 3WV is known as one of the most diversified companies in its field">
+	<meta name="keywords" content="web site, multimedia, mobil application, 3d animation, video, video mapping, online campaing, promotional campaing, social network, interactive wall, digitall wall, media wall, web design">
 	<title>@yield('title')</title>
 	
 	
@@ -78,6 +80,12 @@
 						<figure>
 							<a href="http://instagram.com/3Wvgroup/" target="blank"><img class="img-insta" src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram"></a>
 							<a href="http://instagram.com/3Wvgroup/" target="blank"><img class="img-insta-tablet" src="{{ URL::to('/') }}/images/ins_tablet.png" alt="youtube"></a>	
+						</figure>
+					</li>
+					<li class="Social-pinte Social-bg">
+						<figure>
+							<a href="https://www.pinterest.com/3wvgroup/" target="blank"><img class="img-pinte" src="{{ URL::to('/') }}/images/pinterest_mobile.png" alt="facebook"></a>
+							<a href="https://www.pinterest.com/3wvgroup/" target="blank"><img class="img-pinte-tablet" src="{{ URL::to('/') }}/images/pinterest_tablet.png" alt="facebook"></a>
 						</figure>
 					</li>
 				</ul>
@@ -167,6 +175,11 @@
 					<li class="Social-insta Social-bg">
 						<figure>
 							<a href="http://instagram.com/3Wvgroup/" target="blank"><img class="img-insta-web" src="{{ URL::to('/') }}/images/instagram-mobile-logo.png" alt="instagram"></a>							
+						</figure>
+					</li>
+					<li class="Social-insta Social-bg">
+						<figure>
+							<a href="https://www.pinterest.com/3wvgroup/" target="blank"><img class="img-pinte-web" src="{{ URL::to('/') }}/images/pinterest_mobile.png" alt="pinteres"></a>							
 						</figure>
 					</li>
 				</ul>

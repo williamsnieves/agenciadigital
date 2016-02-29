@@ -86,6 +86,10 @@ html,body {
 	display: none;
 }
 
+.img-pinte-tablet{
+	display: none;
+}
+
 .fabric-web{
 	display: none;
 }
@@ -1295,6 +1299,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 		display: none;
 	}
 
+	.img-pinte{
+		display: none;
+	}
+
 	.img-lang-tablet{
 		display: block;
 	}
@@ -1309,7 +1317,10 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	}
 	.img-insta-tablet{
 		display: block;
-	}   
+	}  
+	.img-pinte-tablet{
+		display: block;
+	}  
     .Social li {
     	margin: 0.5em 0 0.5em -0.5em;
     	padding-left: 1.5em;
@@ -1529,8 +1540,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
     }
 
     .Footer-text{
-    	width: 413px;
-    	font-size: 1em;
+    	width: 413px;    	
     }
 
     .grid-clients-tablet{
@@ -1972,7 +1982,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
 	
 	.Social{
 		width: 600px;
-		margin-right: -22em;
+		margin-right: -19em;
 	}
 
 	.Social li{
@@ -2456,6 +2466,7 @@ figure.content-img-portfolio:focus .overlay-portfolio{
     	margin-bottom: -2em;
     	position: relative;
     	top: -7em;
+    	padding-left: 9em;
 
     }
 

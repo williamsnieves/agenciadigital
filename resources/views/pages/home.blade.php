@@ -1,6 +1,6 @@
 @extends('base')
 @section('title')
-	3wv - Home
+	3WV - IT & DIGITAL MEDIA SOLUTIONS
 @endsection
 @section('content')
 <div class="container-fluid" id="home">
