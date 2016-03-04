@@ -2392,7 +2392,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-12 MainContact">
 						@if($lang == 'en')
-							<h1 class="MainContact-main">contacts</h1>					
+							<h1 class="MainContact-main">contact us</h1>					
 							<form action="/contact" method="POST" class="form-horizontal MainContact-form">
 							  <input type="hidden" name="_token" value="{{ csrf_token() }}">
 							  <div class="form-group ">
@@ -2472,7 +2472,7 @@
 						@endif
 
 						@if($lang == 'es')
-							<h1 class="MainContact-main">contactos</h1>
+							<h1 class="MainContact-main">contáctenos</h1>
 							<form action="/contact" method="POST" class="form-horizontal MainContact-form">
 							  <input type="hidden" name="_token" value="{{ csrf_token() }}">
 							  <div class="form-group ">

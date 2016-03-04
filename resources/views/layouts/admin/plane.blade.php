@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Cyberlux admin | Dashboard</title>
+    <title>3wv admin | Dashboard</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.4 -->
     <link href="{{ asset('/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />    
@@ -66,7 +66,7 @@
         <div class="pull-right hidden-xs">
           <b>Version</b> 2.0
         </div>
-        <strong>Copyright &copy;{{ date("Y")}} cyberlux admin.</strong> All rights reserved.
+        <strong>Copyright &copy;{{ date("Y")}} 3wv admin.</strong> All rights reserved.
       </footer>
       
       <!-- Control Sidebar -->      

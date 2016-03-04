@@ -51,7 +51,14 @@
 
 	
 	$(opcMarketing).on('click', function(e){
+		$(".MainService-list-web li:nth-child(2)").removeClass('MainService-list-web-hover');
+		$(".MainService-list-web li:nth-child(3)").removeClass('MainService-list-web-hover');
+		$(".MainService-list-web li:nth-child(5)").removeClass('MainService-list-web-hover');
 		$(".MainService-list-web li:nth-child(1)").addClass('MainService-list-web-hover');
+		$("#web").hide();
+		$("#community").hide();
+		$("#design").hide();
+		$("#multimedia").hide();
 		$("#marketing").show();		
 		//$(".gallery-portfolio").children('.social').show("slow");
 	})
